@@ -11,7 +11,7 @@ jobs:
         uses: ZoeyVid/tailwindcss-update@v1.4.0 
         with:
           # path of input.css
-          # input: # default is src/input.css
+          input: src/input.css
           # path of output.css
           output: dist/output.css
           # addtional tailwind params
