@@ -1,0 +1,22 @@
+name: build-tailwind-css
+on: push
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    name: Builds Tailwind CSS files
+    steps:
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.2
+      - name: Generate Tailwind CSS
+        uses: ZoeyVid/tailwindcss-update@v1.4.0 
+        with:
+          # path of input.css
+          input: src/input.css
+          # path of output.css
+          output: dist/output.css
+          # addtional tailwind params
+          # params: # optional, default is 
+            
+
+  
+    
