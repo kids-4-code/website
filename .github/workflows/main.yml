@@ -1,0 +1,15 @@
+name: generate-tailwind-css
+  # You may pin to the exact commit or the version.
+  # uses: ZoeyVid/tailwindcss-update@a461f05e8798a9b7d64c66da134abfc4412c026d
+  uses: ZoeyVid/tailwindcss-update@v1.4.0
+  with:
+    # path of input.css
+    input: # default is src/input.css
+    # path of output.css
+    output: dist/output.css
+    # addtional tailwind params
+    params: # optional, default is 
+
+
+  
+    
