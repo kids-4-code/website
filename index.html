@@ -3,7 +3,7 @@
 <!--todo: a11y-->
 <html>
 	<head>
-		<title>Home - Kids for Code</title>
+		<title>Home | Kids for Code</title>
 		<meta charset="utf-8" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +21,7 @@
 
 	<body>
 		<nav
-			class="flex justify-between p-3 border border-gray-200 items-center"
+			class="flex justify-between p-3 border border-gray-200 items-center fixed top-0 left-0 bg-white right-0 z-50 drop-shadow-sm"
 		>
 			<a class="text-2xl font-sans font-semibold">Kids for Code</a>
 			<div
@@ -32,7 +32,11 @@
 					href="index.html"
 					>About</a
 				>
-				<a class="hover:underline decoration-primary-700">Courses</a>
+				<a
+					class="hover:underline decoration-primary-700"
+					href="#courses"
+					>Courses</a
+				>
 				<a class="hover:underline decoration-primary-700">Teachers</a>
 				<a
 					class="hover:underline decoration-primary-700"
@@ -40,6 +44,7 @@
 					>FAQ</a
 				>
 				<a
+					href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
 					class="px-3 py-1 rounded bg-primary-500 text-white transition hover:bg-primary-800"
 					>Enroll</a
 				>
@@ -136,7 +141,9 @@
 		</div>
 
 		<div class="mx-auto mb-16 md:px-32 lg:max-w-5xl">
-			<h2 class="text-3xl font-bold my-4 font-serif">Course overview</h2>
+			<h2 class="text-3xl font-bold my-4 font-serif" id="courses">
+				Course overview
+			</h2>
 
 			<h3 class="text-xl font-bold font-serif mt-4 mb-2">💻 Zoom</h3>
 			<p>
@@ -179,33 +186,80 @@
 		</div>
 		<div class="background">
 			<div class="m-auto p-16 md:px-32 lg:max-w-5xl">
+				<div class="border p-6 my-4 bg-white rounded-md drop-shadow-sm">
+					<h3 class="text-3xl font-bold font-serif mb-2">
+						2023 Summer
+					</h3>
+					<hr class="my-4" />
+					<p>
+						Classes for the 2023 Summer session will run for 8
+						weeks, from <b>Sat, July 1st</b> to
+						<b>Sun, August 20th</b>.
+					</p>
+				</div>
 				<h2 class="text-2xl font-bold font-serif my-2">Python</h2>
 				<hr />
+
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
 					<div class="bg-white border drop-shadow-sm p-6 rounded-md">
 						<h3 class="text-xl font-serif font-bold">
 							<i
 								class="fa-brands fa-python text-xl text-green-800"
 							></i>
-							Python 1
+							Python 1A
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							Sundays, 12:30-1:15pm EST | 6+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							A beginner level course aimed at children ages 6 &
+							up. It provides an gentle introduction to Python &
+							text-based coding.
 						</p>
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Python is a general purpose scripting language
+							that's popular in data science, AI, and backend
+							programming.
+						</p>
+						<p class="text-sm">
+							In Python 1A, students will learn basic Python
+							syntax & programming concepts, like variables,
+							conditional statements, data types, etc.
+						</p>
+
+						<a class="block mt-4 font-semibold underline"
+							>Learn more</a
+						>
+					</div>
+					<div class="bg-white border drop-shadow-sm p-6 rounded-md">
+						<h3 class="text-xl font-serif font-bold">
+							<i
+								class="fa-brands fa-python text-xl text-green-800"
+							></i>
+							Python 1AB
+						</h3>
+						<p class="text-sm font-light text-zinc-400">
+							Sundays, 2-2:45pm EST | 8+ y/o
+						</p>
+						<hr class="my-2" />
+						<p class="text-sm">
+							<b
+								>Python 1AB is a more advanced, faster-paced
+								version of Python 1A that covers all the content
+								in 1A as well as a few additional topics.
+							</b>
+						</p>
+						<p class="text-sm">
+							Python is a general purpose scripting language
+							that's popular in data science, AI, and backend
+							programming. In Python 1AB, students will learn
+							basic Python syntax & programming concepts, like
+							variables, conditional statements, data types, etc.
+						</p>
+						<p class="text-sm">
+							Some of the additional topics covered in Python 1AB
+							include scope, while loops, for loops, etc.
 						</p>
 
 						<a class="block mt-4 font-semibold underline"
@@ -220,22 +274,22 @@
 							Python 2
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							Sundays, 3-3:45pm EST | 8+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Python 2 builds on the material covered in Python
+							1A/1AB, taking students on a deeper journey into the
+							Python programming language. It includes crucial
+							concepts like functions, lists, string manipulation,
+							and file I/O that are essential for more complex
+							applications.
 						</p>
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Python 2 will give students a solid foundation in
+							these universal programming concepts which can then
+							be applied to many other popular programming
+							languages.
 						</p>
 
 						<a class="block mt-4 font-semibold underline"
@@ -251,25 +305,58 @@
 							<i
 								class="fa-brands fa-html5 text-xl text-[#e56027]"
 							></i>
-							Web Design 1
+							Web Design 1A
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							Saturdays, 1-1:45pm EST | 6+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Introduces students to the basic principles of web
+							development. Students will learn how to develop and
+							style basic websites using HTML & CSS.
 						</p>
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Topics covered in 1A include HTML page structure,
+							basic CSS styling, and the CSS box model. Students
+							will able to create their own static (no JavaScript)
+							website by the end of the class.
+						</p>
+
+						<a class="block mt-4 font-semibold underline"
+							>Learn more</a
+						>
+					</div>
+					<div class="bg-white border drop-shadow-sm p-6 rounded-md">
+						<h3 class="text-xl font-serif font-bold">
+							<i
+								class="fa-brands fa-html5 text-xl text-[#e56027]"
+							></i>
+							Web Design 1AB
+						</h3>
+						<p class="text-sm font-light text-zinc-400">
+							Saturdays, 2:30-3:15pm EST | 8+ y/o
+						</p>
+						<hr class="my-2" />
+						<p class="text-sm">
+							<b
+								>Python 1AB is a more advanced, faster-paced
+								version of Python 1A that covers all the content
+								in 1A as well as a few additional topics.
+							</b>
+						</p>
+						<p class="text-sm">
+							Introduces students to the basic principles of web
+							development. Students will learn to develop and
+							style basic websites using HTML & CSS.
+						</p>
+						<p class="text-sm">
+							In addition to the topics covered in 1A: HTML page
+							structure, basic CSS styling, and the CSS box model,
+							1AB will learn about more advanced CSS styling and a
+							few additional HTML tags. Students will able to
+							create their own static (no JavaScript) website by
+							the end of the class.
 						</p>
 
 						<a class="block mt-4 font-semibold underline"
@@ -282,27 +369,29 @@
 								class="fa-brands fa-js text-xl text-yellow-800"
 							></i>
 							Web Design 2
+							<span
+								class="inline-block bg-blue-50 text-sm p-1 rounded font-sans align-top"
+								>✨ new!</span
+							>
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							4-4:45pm EST | 8+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Web Design 2 is a fast paced, advanced class that
+							introduces JavaScript, a popular scripting language
+							that can be used to add functionality &
+							interactivity to websites.
 						</p>
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Students will learn the syntax, data types, &
+							control structures of JavaScript.
 						</p>
 
-						<a class="block mt-4 font-semibold underline"
+						<a
+							class="block mt-4 font-semibold underline"
+							href="courses/web-design-2.html"
 							>Learn more</a
 						>
 					</div>
@@ -318,22 +407,18 @@
 							Java 1
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							Saturdays, 7-7:45pm EST | 8+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Java 1 is an introductory course that teaches the
+							basics of programming in Java, a widely used
+							object-oriented programming language.
 						</p>
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Students will learn about variables, data types,
+							conditional statements, while loops, for loops, and
+							more.
 						</p>
 
 						<a class="block mt-4 font-semibold underline"
@@ -348,22 +433,18 @@
 							Java 2
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							Sundays, 11am-11:45am EST | 8+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Java 2 is a more advanced course that expands on the
+							knowledge gained in Java 1 to dive deeper into the
+							Java programming language. Students will continue
+							learning foundational programming skills in Java.
 						</p>
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Topics covered include functions, arrays, string
+							manipulation, and file I/O.
 						</p>
 
 						<a class="block mt-4 font-semibold underline"
@@ -382,24 +463,14 @@
 							C++ 1
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							Saturdays, 11am-11:45am | 10+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Covers basic programming concepts in C++, a
+							powerful, performant, and widely used programming
+							language.
 						</p>
-						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
-						</p>
-
 						<a class="block mt-4 font-semibold underline"
 							>Learn more</a
 						>
@@ -416,24 +487,21 @@
 								class="fa-solid fa-code text-xl text-primary-800"
 							></i>
 							Intro to Programming
+							<span
+								class="inline-block bg-blue-50 text-sm p-1 rounded font-sans align-top"
+								>✨ new!</span
+							>
 						</h3>
 						<p class="text-sm font-light text-zinc-400">
-							1-2pm EST | gr. 6 & up
+							5-5:45pm EST | 6+ y/o
 						</p>
 						<hr class="my-2" />
 						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
-						</p>
-						<p class="text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Nunc vulputate libero et velit interdum, ac
-							aliquet odio mattis. Class aptent taciti sociosqu ad
-							litora torquent per conubia nostra, per inceptos
-							himenaeos.
+							Intro to Programming is a gentle introduction to the
+							fundamental concepts of computer science. Students
+							will learn to think like a programmer and solve
+							problems using code in a fun and engaging way using
+							Scratch.
 						</p>
 
 						<a class="block mt-4 font-semibold underline"
