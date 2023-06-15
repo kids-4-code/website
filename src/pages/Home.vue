@@ -1,40 +1,42 @@
 <script>
 import CourseCard from "../components/CourseCard.vue";
 import Testimonial from "../components/Testimonial.vue";
+import Footer from "../components/Footer.vue";
+import Hero from "../components/Hero.vue";
 
 export default {
     components: {
         CourseCard,
         Testimonial,
+        Footer,
+        Hero
     }
 }
 </script>
 
 <template>
-    <div class="background w-screen min-h-[32rem] flex items-center lg:justify-start justify-center">
-        <div class="bg-white max-h-2xl p-16 m-16 max-w-4xl lg:mx-0 lg:my-24 drop-shadow-sm">
-            <h1 class="text-5xl font-semibold">
-                Learn coding with
-                <span
-                    class="font-serif underline decoration-[6px] decoration-primary-700 font-extrabold text-primary-800">free</span>,
-                <span
-                    class="font-serif underline decoration-[6px] decoration-primary-700 font-extrabold text-primary-800">virtual</span>
-            </h1>
-            <h1 class="text-5xl font-semibold">programming classes.</h1>
+    <Hero>
+        <h1 class="text-5xl font-semibold">
+            Learn coding with
+            <span
+                class="font-serif underline decoration-[6px] decoration-primary-700 font-extrabold text-primary-800">free</span>,
+            <span
+                class="font-serif underline decoration-[6px] decoration-primary-700 font-extrabold text-primary-800">virtual</span>
+        </h1>
+        <h1 class="text-5xl font-semibold">programming classes.</h1>
 
-            <div class="bg-primary-700 h-3 my-4 w-20">&nbsp;</div>
+        <div class="bg-primary-700 h-3 my-4 w-20">&nbsp;</div>
 
-            <p>
-                Kids for Code teachers are high school students who are
-                passionate about computer science. We want to teach and prepare
-                kids to become active and engaged citizens in the future, by
-                providing them access to computer science skills not taught in
-                schools.
-            </p>
-        </div>
-    </div>
+        <p>
+            Kids for Code teachers are high school students who are
+            passionate about computer science. We want to teach and prepare
+            kids to become active and engaged citizens in the future, by
+            providing them access to computer science skills not taught in
+            schools.
+        </p>
+    </Hero>
     <div class="mx-auto p-4 pb-8 md:px-32 lg:max-w-5xl">
-        <div class="p-2 mb-8 bg-primary-100 my-4 rounded-md border border-primary-400 text-[#7a3352]">
+        <div class="p-2 mb-8 bg-primary-100 my-4 rounded-md border border-primary-400 text-[#7a3352]" id="about">
             <i class="fa-solid fa-circle-info inline-block px-2"></i>
             <h3 class="inline-block">
                 Registration is now open for the 2023 Summer session!
@@ -328,7 +330,7 @@ export default {
             <h2 class="text-2xl font-bold font-serif my-2">C++</h2>
             <hr />
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
-                <CourseCard details="Saturdays, 11am-11:45am | 10+ y/o" link="courses/cpp-1">
+                <CourseCard details="Saturdays, 11am-11:45am | 10+ y/o" link="courses/cpp-1" name="C++ 1">
                     <template #icon>
                         <i class="fa-solid fa-terminal text-xl text-blue-800"></i>
                     </template>
@@ -444,37 +446,9 @@ export default {
             <li>qualification 3</li>
         </ul>
 
-        <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm">Apply here</a>
+        <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm">Apply
+            here</a>
     </div>
 
-    <div class="bg-[#fafafa]">
-        <div class="mx-auto mt-12 md:px-32 lg:max-w-5xl p-8">
-            <h3>© 2023 Kids for Code</h3>
-            <hr class="my-4 border-gray-200" />
-            <div class="grid grid-cols-3">
-                <div class="text-sm">
-                    <h4 class="font-bold">Contact</h4>
-                    <p>kidsforcodeteachers@gmail.com</p>
-                </div>
-                <div class="text-sm">
-                    <!--todo fix the alignment here-->
-                    <h4 class="font-bold">Social media & links</h4>
-                    <a><i class="fa-brands fa-youtube text-xl inline-block mx"></i></a>
-                    <a><i class="fa-brands fa-instagram text-xl inline-block mx"></i></a>
-                    <a><i class="fa-brands fa-github text-xl inline-block mx"></i></a>
-                </div>
-                <div class="text-sm">
-                    <h4 class="font-bold">Quick links</h4>
-                    <ul>
-                        <li><a class="underline">Enroll</a></li>
-                        <li><a class="underline">Apply to teach</a></li>
-                        <li><a class="underline">Course schedule</a></li>
-                        <li>
-                            <a class="underline">Frequently asked questions</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    <Footer></Footer>
 </template>
