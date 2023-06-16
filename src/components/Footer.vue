@@ -3,7 +3,7 @@
         <div class="mx-auto mt-12 md:px-32 lg:max-w-5xl p-8">
             <h3>© 2023 Kids for Code</h3>
             <hr class="my-4 border-gray-200" />
-            <div class="grid grid-cols-3">
+            <div class="grid md:grid-cols-3 gap-4">
                 <div class="text-sm">
                     <h4 class="font-bold">Contact</h4>
                     <p>kidsforcodeteachers@gmail.com</p>

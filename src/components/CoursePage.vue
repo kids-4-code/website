@@ -7,7 +7,7 @@ export default {
     },
     props: {
         name: String,
-        enrollLink: String
+        // enrollLink: String
     }
 }
 </script>
@@ -29,8 +29,9 @@ export default {
             <div class="md:basis-1/3">
                 <slot name="sidebar" />
 
-                <a :href="enrollLink" class="bg-primary-600 text-white font-bold rounded-md
-                     hover:bg-primary-800 p-4 text-lg w-full text-center inline-block my-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
+                    target="_blank" class="bg-primary-800 text-white font-bold rounded-md
+                     hover:bg-primary-600 p-4 text-lg w-full text-center inline-block my-4">
                     Enroll
                 </a>
             </div>

@@ -13,7 +13,7 @@ export default {
     <Hero>
         <h1 class="text-5xl font-semibold">Frequently asked questions</h1>
     </Hero>
-    <div class="mx-auto p-4 pb-8 md:px-32 lg:max-w-5xl">
+    <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
         <hr class="my-4" />
         <h3 class="font-serif font-bold text-lg mb-2 mt-4">
             Q: Are there any required course materials?

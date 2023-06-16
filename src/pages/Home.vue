@@ -35,8 +35,9 @@ export default {
             schools.
         </p>
     </Hero>
-    <div class="mx-auto p-4 pb-8 md:px-32 lg:max-w-5xl">
-        <div class="p-2 mb-8 bg-primary-100 my-4 rounded-md border border-primary-400 text-[#7a3352]" id="about">
+    <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
+        <div class="flex items-center p-2 gap-2 mb-8 bg-primary-100 my-4 rounded-md border border-primary-400 text-[#7a3352]"
+            id="about">
             <i class="fa-solid fa-circle-info inline-block px-2"></i>
             <h3 class="inline-block">
                 Registration is now open for the 2023 Summer session!
@@ -64,14 +65,14 @@ export default {
             to start learning!
         </p>
 
-        <hr class="my-4" />
+        <!-- <hr class="my-4" />
         <h3 class="text-primary-600 font-bold">Interested in teaching?</h3>
         <a class="underline">Apply here.</a>
-        <hr class="mt-4" />
+        <hr class="mt-4" /> -->
     </div>
-    <div class="mx-auto pt-0 md:px-32 lg:max-w-5xl">
+    <div class="mx-auto px-8 pt-0 md:px-32 lg:max-w-5xl">
         <!-- <h2 class="text-3xl font-bold mb-4">Stats</h2> -->
-        <div class="grid grid-cols-3 divide-x">
+        <div class="grid divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0">
             <div class="p-8">
                 <h1 class="text-6xl font-extrabold text-blue-700">3400+</h1>
                 <h3>lifetime students</h3>
@@ -85,12 +86,9 @@ export default {
                 <h3>teachers</h3>
             </div>
         </div>
-        <div class="grid grid-cols-2 divide-x">
-            <div class="p-8"></div>
-        </div>
     </div>
 
-    <div class="mx-auto mb-16 md:px-32 lg:max-w-5xl">
+    <div class="mx-auto p-8 mb-8 md:px-32 lg:max-w-5xl">
         <h2 class="text-3xl font-bold my-4 font-serif" id="courses">
             Course overview
         </h2>
@@ -366,7 +364,7 @@ export default {
     </div>
 
     <!--Student testimonials section-->
-    <div class="mx-auto my-16 md:px-32 lg:max-w-5xl">
+    <div class="mx-auto p-8 md:px-32 lg:max-w-5xl">
         <h2 class="text-3xl font-bold my-4 font-serif">
             What our students say
         </h2>
@@ -425,12 +423,13 @@ export default {
                     </h3>
                 </div>
 
-                <a
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
+                    target="_blank"
                     class="my-2 inline-block py-2 font-bold px-8 bg-primary-600 text-white rounded-md drop-shadow-sm">Enroll</a>
             </div>
         </div>
     </div>
-    <div class="mx-auto mt-12 md:px-32 lg:max-w-5xl">
+    <div class="mx-auto p-8 mt-12 md:px-32 lg:max-w-5xl">
         <h2 class="text-3xl font-bold my-4 font-serif">Apply to teach</h2>
         <!--todo: write new copy here-->
         <p>
