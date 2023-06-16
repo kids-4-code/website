@@ -408,11 +408,12 @@ export default {
                     </li>
                     <li>
                         View the full class schedule
-                        <a href="https://example.com" class="underline font-semibold">here↗</a>
+                        <a href="https://docs.google.com/document/d/1kX1w2TKUfz0x261wWIiBJqLF76C1rBK-011kV0qd1R4/edit?usp=sharing"
+                            class="underline font-semibold" target="_blank">here↗</a>
                     </li>
                     <li>
                         See our
-                        <a class="underline font-semibold">FAQ page</a> if you
+                        <router-link class="underline font-semibold" to="/faq">FAQ page</router-link> if you
                         have any questions
                     </li>
                 </ul>
@@ -433,16 +434,14 @@ export default {
         <h2 class="text-3xl font-bold my-4 font-serif">Apply to teach</h2>
         <!--todo: write new copy here-->
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            Teacher applications are open for the 2023 Summer session and can be filled out the form below. We are looking
+            for teachers who:
         </p>
 
         <ul class="list-disc list-inside my-4">
-            <li>qualification 1</li>
-            <li>qualification 2</li>
-            <li>qualification 3</li>
+            <li>Are willing to work with young children</li>
+            <li>Have experience in the programming languages you'd like to teach</li>
+            <li>Are responsible and able to put in a small amount of time outside of class. </li>
         </ul>
 
         <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm">Apply
