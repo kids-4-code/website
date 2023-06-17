@@ -42,37 +42,67 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p>
+                A beginner level course aimed at children ages 6 & up.
+                It provides an gentle introduction to Python &
+                text-based coding.
+            </p>
+            <p>
+                Python is a general purpose scripting language that's
+                popular in data science, AI, and backend programming.
+            </p>
+            <p class="mb-4">
+                In Python 1A, students will learn basic Python syntax &
+                programming concepts, like variables, conditional
+                statements, data types, etc.
+            </p>
+            <table class="border">
+                <tr>
+                    <th>Week</th>
+                    <th>Topic(s)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Getting started: coding languages, Repl.it setup, Hello World, printing, comments</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Data types: numbers (int & float), booleans, strings</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Variables: naming, declarations, dynamic typing, printing</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        User input & type casting
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        Math & logic operators
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        Conditionals: if & elif statements
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        Extra practice, review
+                    </td>
+                </tr>
+            </table>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
-
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>

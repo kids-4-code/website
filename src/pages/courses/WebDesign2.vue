@@ -42,37 +42,68 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p>
+                <b>New for the 2023 Summer session!</b>
+            </p>
+            <p>
+                Web Design 2 is a fast paced, advanced class that
+                introduces JavaScript, a popular scripting language that
+                can be used to add functionality & interactivity to
+                websites.
+            </p>
+            <p class="mb-4">
+                Students will learn the syntax, data types, & control
+                structures of JavaScript as well as how it can be applied to make their websites interactive, including
+                possibly creating games if time allows.
+            </p>
+            <table class="border">
+                <tr>
+                    <th>Week</th>
+                    <th>Topic(s)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Getting started: Repl.it setup, Hello World, types, operators, & comments</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Variables, conditionals, & Boolean expressions</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>While loops, for loops, functions, arrays</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        Objects, debugging, JavaScript coding conventions
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        Intro to HTML canvas, tic-tac-toe game if time allows
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        DOM manipulation
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        HTTP and forms
+                    </td>
+                </tr>
+            </table>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
 
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>

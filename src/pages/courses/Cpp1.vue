@@ -42,37 +42,60 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+
+            <p class="mb-4">
+                Covers basic programming concepts in C++, a powerful, performant, and widely used programming language.
+                Note that since C++ concepts / syntax can be more difficult to understand, we recommend young children or
+                those with no previous programming experience take one of our introductory programming classes like Python
+                1A/1AB. 
+            </p>
+            <table class="border">
+                <tr>
+                    <th>Week</th>
+                    <th>Topic(s)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Getting started: Repl.it setup, printing / Hello World</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Variables & data types: declaring variables, naming, printing, primitives vs. non-primitives</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Variable manipulation: math operators, typecasting</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>User input</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        Conditionals, pt. 1: logical operators, Booleans, if statements
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        Conditionals, pt. 2: else if, nesting, short circuiting
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        While loops, do-while loops
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        For loops, extra practice if time allows
+                    </td>
+                </tr>
+            </table>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
-
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>

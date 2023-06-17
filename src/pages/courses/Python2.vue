@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-    <CoursePage name="Web Design 2">
+    <CoursePage name="Python 2">
         <template #icon>
             <i class="fa-brands fa-python"></i>
         </template>
@@ -42,37 +42,67 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p>
+                Python 2 builds on the material covered in Python
+                1A/1AB, taking students on a deeper journey into the
+                Python programming language. It includes crucial
+                concepts like functions, lists, string manipulation, and
+                file I/O that are essential for more complex
+                applications.
+            </p>
+            <p class="mb-4">
+                Python 2 will give students a solid foundation in these
+                universal programming concepts which can then be applied
+                to many other popular programming languages.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Week</th>
+                    <th>Topic(s)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Review, random numbers</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Functions: naming conventions, parameters, syntax </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Functions continued: returning, use-cases</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        Lists: printing, modifying, adding, deleting, looping, combining, other operations
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        String manipulation: iterables, len(), indexing, slicing, f-strings, etc.
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        File I/O: reading, text processing, writing, appending
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        Extra practice, review
+                    </td>
+                </tr>
+            </table>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
-
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>

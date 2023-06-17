@@ -42,37 +42,23 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p>
+                <b>New for the 2023 Summer session!</b>
+            </p>
+            <p>
+                Intro to Programming is a gentle introduction to the
+                fundamental concepts of computer science. Students will
+                learn to think like a programmer and solve problems
+                using code in a fun and engaging way using Scratch.
+            </p>
+            <div class="flex items-center p-2 gap-2 mb-8 bg-primary-100 my-4 rounded-md border border-primary-400 text-[#7a3352]"
+                id="about">
+                <i class="fa-solid fa-circle-info inline-block px-2"></i>
+                <h3 class="inline-block">
+                    More information coming soon!
+                </h3>
+            </div>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
-
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>

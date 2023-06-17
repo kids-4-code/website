@@ -23,7 +23,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Difficulty</th>
-                    <td>Beginner</td>
+                    <td>Beginner/intermediate</td>
                 </tr>
                 <tr>
                     <th>Length</th>
@@ -42,37 +42,66 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p>
+                Java 1 is an introductory course that teaches the basics
+                of programming in Java, a widely used object-oriented
+                programming language.
+            </p>
+            <p class="mb-4">
+                Students will learn about variables, data types,
+                conditional statements, while loops, for loops, and
+                more.
+            </p>
+            <table class="border">
+                <tr>
+                    <th>Week</th>
+                    <th>Topic(s)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Getting started: Repl.it setup, printing / Hello World, comments, statements, compiling, escape
+                        sequences</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Variables & data types: declaring variables, naming, printing, primitives vs. non-primitives;
+                        Variable manipulation: math operators, typecasting</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Conditional statements: logical operators, Boolean algebra, simple if-statements, else-if
+                        statements, nesting, short-circuiting; User input w/ the Scanner class. </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        While loops, do-while loops, practice
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        For loops
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        Loops & conditionals practice
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        Review + possible additional topics if time allows
+                    </td>
+                </tr>
+            </table>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
-
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>

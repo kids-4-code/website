@@ -21,7 +21,7 @@ export default {
     <div class="mx-auto p-4 pb-8 mt-4 md:px-32 lg:max-w-6xl">
         <div class="flex flex-col md:flex-row gap-4">
             <div class="md:basis-2/3">
-                <h2 class="font-serif font-bold text-3xl">
+                <h2 class="font-serif font-bold text-3xl mb-4">
                     Course description
                 </h2>
                 <slot name="content" />

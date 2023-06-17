@@ -42,37 +42,74 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p class="text-sm">
+                <b>Python 1AB is a more advanced, faster-paced version
+                    of <router-link to="/courses/python-1A" class="underline text-primary-800">Python 1A</router-link> that
+                    covers all the
+                    content in 1A as
+                    well as a few additional topics.
+                </b>
+            </p>
+            <p class="text-sm">
+                Python is a general purpose scripting language that's
+                popular in data science, AI, and backend programming. In
+                Python 1AB, students will learn basic Python syntax &
+                programming concepts, like variables, conditional
+                statements, data types, etc.
+            </p>
+            <p class="text-sm">
+                Some of the additional topics covered in Python 1AB
+                include scope, while loops, for loops, etc.
+            </p>
+            <table class="border">
+                <tr>
+                    <th>Week</th>
+                    <th>Topic(s)</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Getting started: coding languages, Repl.it setup, Hello World, printing, comments, escape sequences,
+                        interpreting</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Data types: numbers (int & float), booleans, strings; Variables: naming, declarations, dynamic
+                        typing, printing</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>User input, type casting, math & logical operators</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        Conditionals
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>
+                        While loops: syntax, infinite loops, special cases, counting, review
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>
+                        For loops: iterables, range(), while loops vs. for loops, composition
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>
+                        Extra practice, review
+                    </td>
+                </tr>
+            </table>
         </template>
     </CoursePage>
     <Footer></Footer>
 </template>
-
-<style>
-/*I am NOT styling every single table elemtn individually */
-table {
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 0.5rem;
-}
-
-td {
-    font-weight: 200;
-}
-
-th {
-    text-align: left;
-    font-weight: 600;
-    width: 40%;
-}
-
-tr {
-    border-bottom: 1px solid #ccc;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-</style>
