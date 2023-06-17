@@ -46,13 +46,12 @@ export default {
         <h2 class="text-3xl font-bold mb-4 font-serif">About Kids for Code</h2>
         <p class="my-2">
             Kids for Code teachers are high school students who are passionate
-            about computer science. We are experienced and qualified in the
-            computer science field, with many of our teachers winning awards and
-            creating apps.
+            about computer science - many of our teachers have won awards and
+            created apps in the past.
         </p>
         <p class="my-2">
             In today’s increasingly technology-centered world, computer science
-            is an ever-expanding and practically essential skill. We want to
+            is quickly becoming a practically essential skill. We want to
             teach and prepare kids to become active and engaged citizens in the
             future, by providing them access to computer science skills not
             taught in schools.
@@ -95,44 +94,52 @@ export default {
 
         <h3 class="text-xl font-bold font-serif mt-4 mb-2">💻 Zoom</h3>
         <p>
-            Via Zoom, we host one hour classes on the weekend, typically with
-            three teachers per class. We utilize Zoom's "breakout room" feature,
-            so students or small groups of students with a niche problem can
-            receive help separate from the main class, then return to class.
+            Through our online platform, we offer interactive classes conducted via Zoom, ensuring that students can learn
+            from the comfort of their own homes. Zoom provides a dynamic virtual classroom environment, allowing for
+            real-time interaction between our expert instructors and students. Our instructors are experienced professionals
+            who are passionate about sharing their knowledge and helping students unlock their potential.
+
         </p>
 
         <h3 class="text-xl font-bold font-serif mt-4 mb-2">
             📝 Google Classroom
         </h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            To streamline the learning process and facilitate seamless communication, we utilize Google Classroom as our
+            learning management system. This platform serves as a centralized hub for course materials, assignments, and
+            discussions. Students can access resources, submit their work, and engage in collaborative learning with their
+            peers. Google Classroom fosters an organized and efficient learning environment that promotes engagement and
+            academic growth.
+
         </p>
 
         <h3 class="text-xl font-bold font-serif mt-4 mb-2">
             💎 Small class sizes
         </h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            We take pride in offering small class sizes to ensure personalized attention and effective learning outcomes. By
+            keeping our classes small, we create an environment where students can actively participate, ask questions, and
+            receive individualized feedback. Our instructors can focus on each student's progress and tailor their teaching
+            approach to meet their unique needs. Small class sizes foster a supportive and engaging atmosphere that
+            maximizes learning potential.
+
         </p>
 
         <h3 class="text-xl font-bold font-serif mt-4 mb-2">
             📚 Custom curriculum
         </h3>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            At our organization, we understand that every student is unique, and their learning journey should reflect that.
+            That's why we have developed a custom curriculum that aligns with the latest industry trends and best practices.
+            Our curriculum is carefully designed to introduce students to coding concepts progressively, building their
+            skills step by step. We emphasize hands-on projects and practical applications to reinforce theoretical
+            knowledge. Our custom curriculum ensures that students gain a comprehensive understanding of coding languages,
+            enabling them to unleash their creativity and problem-solving abilities.
+
         </p>
     </div>
     <div class="background">
-        <div class="m-auto p-16 md:px-32 lg:max-w-5xl">
+        <div class="m-auto p-4 md:px-32 lg:max-w-5xl">
             <div class="border p-6 my-4 bg-white rounded-md drop-shadow-sm">
                 <h3 class="text-3xl font-bold font-serif mb-2">2023 Summer</h3>
                 <hr class="my-4" />
@@ -441,7 +448,7 @@ export default {
         <ul class="list-disc list-inside my-4">
             <li>Are willing to work with young children</li>
             <li>Have experience in the programming languages you'd like to teach</li>
-            <li>Are responsible and able to put in a small amount of time outside of class. </li>
+            <li>Are responsible and able to put in some time outside of class. </li>
         </ul>
 
         <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm">Apply
