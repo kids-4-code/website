@@ -57,7 +57,7 @@ export default {
                 programming concepts, like variables, conditional
                 statements, data types, etc.
             </p>
-            <p class="text-sm">
+            <p class="text-sm mb-4">
                 Some of the additional topics covered in Python 1AB
                 include scope, while loops, for loops, etc.
             </p>

@@ -45,7 +45,7 @@ export default {
             <p>
                 <b>New for the 2023 Summer session!</b>
             </p>
-            <p>
+            <p class="mb-4">
                 Intro to Programming is a gentle introduction to the
                 fundamental concepts of computer science. Students will
                 learn to think like a programmer and solve problems

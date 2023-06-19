@@ -23,7 +23,5 @@ export default {
         </TeacherCard>
         <TeacherCard name="Tyler Song" position="">
         </TeacherCard>
-        <TeacherCard name="Placeholder" position="">
-        </TeacherCard>
     </div>
 </template>

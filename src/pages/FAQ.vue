@@ -87,12 +87,11 @@ export default {
             Q: Will I need a computer to take classes?
         </h3>
         <p>
-            A laptop or desktop of some kind is greatly preferred
+            A laptop or desktop computer is recommended.
             (Chromebooks are fine). Our curriculum is designed around
             <a class="font-semibold underline" href="https://repl.it" target="_blank">repl.it ↗</a>, an online code editor.
             While it does work on tablets & mobile
-            devices, it is significantly more difficult to use & not
-            recommended.
+            devices, it is significantly more difficult to use.
         </p>
 
         <hr class="my-4" />
