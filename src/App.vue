@@ -5,7 +5,10 @@ import { RouterView } from "vue-router";
 <template>
 	<nav
 		class="flex justify-between p-3 border border-gray-200 items-center fixed top-0 left-0 bg-white right-0 z-50 drop-shadow-sm">
-		<router-link class="text-2xl font-sans font-semibold" to="/">Kids for Code</router-link>
+		<div class="flex items-center gap-2">
+			<img src="./assets/logo.png" alt="logo" class="h-10">
+			<router-link class="text-2xl font-sans font-semibold" to="/">Kids for Code</router-link>
+		</div>
 		<div class="flex items-center text-xl font-serif font-medium space-x-5">
 			<router-link class=" decoration-2 decoration-primary-700 hover:text-primary-500" to="/">
 				Home
