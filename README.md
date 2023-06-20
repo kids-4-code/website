@@ -1,14 +1,16 @@
-# k4c-website
+# Kids for Code website
 
-This template should help get you started developing with Vue 3 in Vite.
+The new Kids for Code website, written using Vue.js 3 & Tailwind CSS. 
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Roadmap:
+- [x] Home page
+- [X] About page
+- [X] Teachers page
+- [X] FAQ page
+- [] Contact page
+- [] Dark mode support
+- [] Better mobile navigation?
+- [] Better logo
 
 ## Project Setup
 
