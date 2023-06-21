@@ -45,15 +45,16 @@ export default {
         <template #content>
             <!--Course description here-->
             <p>
-                <b>New for the 2023 Summer session!</b>
+                <b>New for the 2023 Summer session! Registration is open.</b>
             </p>
-            <p class="mb-4">
-                Intro to Programming is a gentle introduction to the
-                fundamental concepts of computer science. Students will
+            <p>Intro to Programming" is an immersive course tailored to kids aged 6 to 12 intended to give a gentle
+                introduction to programming.
+                Using Scratch, a beginner-friendly visual programming language, children will embark on an exciting journey
+                of creativity and problem-solving. Through hands-on projects and interactive lessons, they'll learn the
+                foundations of coding while unleashing their imagination. Students will
                 learn to think like a programmer and solve problems
-                using code in a fun and engaging way using Scratch.
-            </p>
-            <Alert text="More info coming soon!"></Alert>
+                using code in a fun and engaging way using Scratch.</p>
+            <Alert text="Full syllabus coming soon!"></Alert>
         </template>
     </CoursePage>
     <Footer></Footer>
