@@ -7,10 +7,10 @@ The new Kids for Code website, written using Vue.js 3 & Tailwind CSS.
 - [X] About page
 - [X] Teachers page
 - [X] FAQ page
-- [] Contact page
-- [] Dark mode support
-- [] Better mobile navigation?
-- [] Better logo
+- [ ] Contact page
+- [ ] Dark mode support
+- [ ] Better mobile navigation?
+- [ ] Better logo
 
 ## Project Setup
 
