@@ -10,7 +10,8 @@ import { RouterView } from "vue-router";
 			<router-link class="text-2xl font-sans font-semibold" to="/">Kids for Code</router-link>
 		</div>
 		<hr class="md:hidden my-2">
-		<div class="flex items-center text-xl font-serif font-medium  sm:space-x-5 justify-between sm:justify-start">
+		<div
+			class="flex items-center text-lg md:text-xl font-serif font-medium  sm:space-x-5 justify-between sm:justify-start">
 			<router-link class=" decoration-2 decoration-primary-700 hover:text-primary-500" to="/">
 				Home
 			</router-link>
