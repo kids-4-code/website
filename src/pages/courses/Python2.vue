@@ -50,13 +50,13 @@ export default {
                 file I/O that are essential for more complex
                 applications.
             </p>
-            <p class="mb-4">
+            <p>
                 Python 2 will give students a solid foundation in these
                 universal programming concepts which can then be applied
                 to many other popular programming languages.
             </p>
 
-            <table>
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -67,41 +67,35 @@ export default {
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>3</td>
                     <td>Functions: naming conventions, parameters, syntax </td>
                 </tr>
                 <tr>
-                    <td>4</td>
+                    <td>3</td>
                     <td>Functions continued: returning, use-cases</td>
                 </tr>
                 <tr>
-                    <td>5</td>
+                    <td>4</td>
                     <td>
                         Lists: printing, modifying, adding, deleting, looping, combining, other operations
                     </td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                    <td>5</td>
                     <td>
                         String manipulation: iterables, len(), indexing, slicing, f-strings, etc.
                     </td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>6</td>
                     <td>
                         File I/O: reading, text processing, writing, appending
                     </td>
                 </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        Extra practice, review
-                    </td>
-                </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

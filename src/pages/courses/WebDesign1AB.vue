@@ -53,7 +53,7 @@ export default {
                 development. Students will learn to develop and style
                 basic websites using HTML & CSS.
             </p>
-            <p class="mb-4">
+            <p>
                 In addition to the topics covered in 1A: HTML page
                 structure, basic CSS styling, and the CSS box model, 1AB
                 will learn about more advanced CSS styling and a few
@@ -61,7 +61,7 @@ export default {
                 own static (no JavaScript) website by the end of the
                 class.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -72,41 +72,35 @@ export default {
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>3</td>
                     <td>Basic tags, creating lists: unordered, ordered</td>
                 </tr>
                 <tr>
+                    <td>3</td>
+                    <td>Images using the &lt;img&gt; tag, CSS styling pt. 1: basic properties</td>
+                </tr>
+                <tr>
                     <td>4</td>
-                    <td>Images using the &lt;img&gt; tag</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>
-                        CSS styling pt. 1: basic properties
-                    </td>
-                </tr>
-                <tr>
-                    <td>6</td>
                     <td>
                         CSS styling pt. 2: more properties, CSS styling pt. 3: advanced styling
                     </td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>5</td>
                     <td>
                         Creating menus & navigation bars (may add CSS styling)
                     </td>
                 </tr>
                 <tr>
-                    <td>8</td>
+                    <td>6</td>
                     <td>
                         CSS classes and IDs
                     </td>
                 </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

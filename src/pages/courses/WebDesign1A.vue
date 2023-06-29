@@ -47,13 +47,13 @@ export default {
                 development. Students will learn how to develop and
                 style basic websites using HTML & CSS.
             </p>
-            <p class="mb-4">
+            <p>
                 Topics covered in 1A include HTML page structure, basic
                 CSS styling, and the CSS box model. Students will able
                 to create their own static (no JavaScript) website by
                 the end of the class.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -61,10 +61,6 @@ export default {
                 <tr>
                     <td>1</td>
                     <td>Getting started: Repl.it setup, intro to HTML/CSS</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>-</td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -92,13 +88,11 @@ export default {
                         CSS styling pt. 3: advanced styling
                     </td>
                 </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        Review + possible additional topics if time allows
-                    </td>
-                </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

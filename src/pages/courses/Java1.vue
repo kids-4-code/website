@@ -47,12 +47,12 @@ export default {
                 of programming in Java, a widely used object-oriented
                 programming language.
             </p>
-            <p class="mb-4">
+            <p>
                 Students will learn about variables, data types,
                 conditional statements, while loops, for loops, and
                 more.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -64,43 +64,37 @@ export default {
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>3</td>
                     <td>Variables & data types: declaring variables, naming, printing, primitives vs. non-primitives;
                         Variable manipulation: math operators, typecasting</td>
                 </tr>
                 <tr>
-                    <td>4</td>
+                    <td>3</td>
                     <td>Conditional statements: logical operators, Boolean algebra, simple if-statements, else-if
                         statements, nesting, short-circuiting; User input w/ the Scanner class. </td>
                 </tr>
                 <tr>
-                    <td>5</td>
+                    <td>4</td>
                     <td>
                         While loops, do-while loops, practice
                     </td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                    <td>5</td>
                     <td>
                         For loops
                     </td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>6</td>
                     <td>
                         Loops & conditionals practice
                     </td>
                 </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        Review + possible additional topics if time allows
-                    </td>
-                </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

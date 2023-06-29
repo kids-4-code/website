@@ -281,7 +281,8 @@ export default {
                         </p>
                         <p class="text-sm">
                             Students will learn the syntax, data types, & control
-                            structures of JavaScript.
+                            structures of JavaScript and apply that to making their websites more interactive and creating
+                            web games using HTML canvas.
                         </p>
                     </template>
                 </CourseCard>

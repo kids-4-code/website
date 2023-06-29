@@ -51,12 +51,12 @@ export default {
                 Python is a general purpose scripting language that's
                 popular in data science, AI, and backend programming.
             </p>
-            <p class="mb-4">
+            <p>
                 In Python 1A, students will learn basic Python syntax &
                 programming concepts, like variables, conditional
                 statements, data types, etc.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -67,41 +67,35 @@ export default {
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>3</td>
                     <td>Data types: numbers (int & float), booleans, strings</td>
                 </tr>
                 <tr>
-                    <td>4</td>
+                    <td>3</td>
                     <td>Variables: naming, declarations, dynamic typing, printing</td>
                 </tr>
                 <tr>
-                    <td>5</td>
+                    <td>4</td>
                     <td>
                         User input & type casting
                     </td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                    <td>5</td>
                     <td>
                         Math & logic operators
                     </td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>6</td>
                     <td>
                         Conditionals: if & elif statements
                     </td>
                 </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        Extra practice, review
-                    </td>
-                </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

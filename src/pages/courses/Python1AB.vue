@@ -42,7 +42,7 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
-            <p class="text-sm">
+            <p>
                 <b>Python 1AB is a more advanced, faster-paced version
                     of <router-link to="/courses/python-1A" class="underline text-primary-800">Python 1A</router-link> that
                     covers all the
@@ -50,18 +50,18 @@ export default {
                     well as a few additional topics.
                 </b>
             </p>
-            <p class="text-sm">
+            <p>
                 Python is a general purpose scripting language that's
                 popular in data science, AI, and backend programming. In
                 Python 1AB, students will learn basic Python syntax &
                 programming concepts, like variables, conditional
                 statements, data types, etc.
             </p>
-            <p class="text-sm mb-4">
+            <p>
                 Some of the additional topics covered in Python 1AB
                 include scope, while loops, for loops, etc.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -73,42 +73,36 @@ export default {
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>3</td>
                     <td>Data types: numbers (int & float), booleans, strings; Variables: naming, declarations, dynamic
                         typing, printing</td>
                 </tr>
                 <tr>
-                    <td>4</td>
+                    <td>3</td>
                     <td>User input, type casting, math & logical operators</td>
                 </tr>
                 <tr>
-                    <td>5</td>
+                    <td>4</td>
                     <td>
                         Conditionals
                     </td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                    <td>5</td>
                     <td>
                         While loops: syntax, infinite loops, special cases, counting, review
                     </td>
                 </tr>
                 <tr>
-                    <td>7</td>
+                    <td>6</td>
                     <td>
                         For loops: iterables, range(), while loops vs. for loops, composition
                     </td>
                 </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        Extra practice, review
-                    </td>
-                </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

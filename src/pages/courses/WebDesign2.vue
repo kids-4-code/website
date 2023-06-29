@@ -51,57 +51,51 @@ export default {
                 can be used to add functionality & interactivity to
                 websites.
             </p>
-            <p class="mb-4">
+            <p>
                 Students will learn the syntax, data types, & control
                 structures of JavaScript as well as how it can be applied to make their websites interactive, including
                 possibly creating games if time allows.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
                 </tr>
                 <tr>
                     <td>1</td>
-                    <td>Getting started: Repl.it setup, Hello World, types, operators, & comments</td>
+                    <td>Getting started: Repl.it setup, Hello World, types, operators, comments, variables</td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>-</td>
+                    <td>Conditionals, boolean expressions, while & for loops</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>Variables, conditionals, & Boolean expressions</td>
+                    <td>Functions, arrays, objects</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>While loops, for loops, functions, arrays</td>
+                    <td>
+                        Debugging, JavaScript coding conventions, DOM (Document Object Model)
+                    </td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>
-                        Objects, debugging, JavaScript coding conventions
+                        DOM (Document Object Model) manipulation
                     </td>
                 </tr>
                 <tr>
                     <td>6</td>
                     <td>
-                        Intro to HTML canvas, tic-tac-toe game if time allows
-                    </td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>
-                        DOM manipulation
-                    </td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        HTTP and forms
+                        Intro to HTML canvas, tic-tac-toe game (if time allows)
                     </td>
                 </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>

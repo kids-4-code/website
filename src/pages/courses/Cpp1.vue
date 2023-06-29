@@ -42,14 +42,13 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
-
-            <p class="mb-4">
+            <p>
                 Covers basic programming concepts in C++, a powerful, performant, and widely used programming language.
                 Note that since C++ concepts / syntax can be more difficult to understand, we recommend young children or
                 those with no previous programming experience take one of our introductory programming classes like Python
                 1A/1AB.
             </p>
-            <table class="border">
+            <table class="border mt-4">
                 <tr>
                     <th>Week</th>
                     <th>Topic(s)</th>
@@ -85,16 +84,14 @@ export default {
                 <tr>
                     <td>7</td>
                     <td>
-                        While loops, do-while loops
-                    </td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        For loops, extra practice if time allows
+                        While loops, do-while loops, for loops
                     </td>
                 </tr>
             </table>
+            <p class="italic my-4">
+                This syllabus represents a rough outline of our curriculum and may not match exactly what is taught in
+                class.
+            </p>
         </template>
     </CoursePage>
     <Footer></Footer>
