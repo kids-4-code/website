@@ -140,8 +140,8 @@ export default {
                 <h3 class="text-3xl font-bold font-serif mb-2">2023 Summer</h3>
                 <hr class="my-4" />
                 <p>
-                    Classes for the 2023 Summer session will run for 8 weeks,
-                    from <b>Sat, July 1st</b> to <b>Sun, August 20th</b>.
+                    Classes for the 2023 Summer session will run for <b>6 weeks</b>,
+                    from <b>Sat, 15th</b> to <b>Sun, August 20th</b>.
                 </p>
             </div>
             <h2 class="text-2xl font-bold font-serif my-2">Python</h2>
@@ -407,8 +407,8 @@ export default {
                 <h2 class="text-3xl font-bold my-4 font-serif">Register now</h2>
                 <ul class="list-disc list-inside">
                     <li>
-                        Classes for the 2023 Summer session will run from July
-                        2nd to August 21st.
+                        Classes for the 2023 Summer session will run for 6 weeks, from July
+                        15th to August 20th.
                     </li>
                     <li>
                         View the full class schedule
