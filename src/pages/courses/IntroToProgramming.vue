@@ -29,7 +29,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Length</th>
-                    <td>8 weeks, 7 sessions</td>
+                    <td>6 weeks, 6 sessions</td>
                 </tr>
                 <tr>
                     <th>Time</th>
@@ -37,7 +37,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Dates</th>
-                    <td>July 2nd, (no class July 9th), July 16th, July 23nd, July 30th, August 6th, August 13th, August 20th
+                    <td>July 16th, July 23nd, July 30th, August 6th, August 13th, August 20th
                     </td>
                 </tr>
             </table>

@@ -442,8 +442,15 @@ export default {
             <li>Are responsible and able to put in some time outside of class. </li>
         </ul>
 
-        <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm">Apply
-            here</a>
+        <div class="flex">
+            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc6Z4jJy4sGnSrbh6USwbSjLYZ-J9cwpx9Sc6KoaJQcWdTYqQ/viewform">Apply
+                here (new teachers)</a>
+            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm"
+                href="https://forms.gle/eXeE7rHgooKdXgFcA">Apply
+                here (returning teachers)</a>
+        </div>
+
     </div>
 
     <Footer></Footer>

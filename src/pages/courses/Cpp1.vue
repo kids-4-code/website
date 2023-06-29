@@ -27,7 +27,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Length</th>
-                    <td>8 weeks, 7 sessions</td>
+                    <td>6 weeks, 6 sessions</td>
                 </tr>
                 <tr>
                     <th>Time</th>
@@ -35,7 +35,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Dates</th>
-                    <td>July 1st, (no class July 8th), July 15th, July 22nd, July 29th, August 5th, August 12th, August 19th
+                    <td>July 15th, July 22nd, July 29th, August 5th, August 12th, August 19th
                     </td>
                 </tr>
             </table>
@@ -47,7 +47,7 @@ export default {
                 Covers basic programming concepts in C++, a powerful, performant, and widely used programming language.
                 Note that since C++ concepts / syntax can be more difficult to understand, we recommend young children or
                 those with no previous programming experience take one of our introductory programming classes like Python
-                1A/1AB. 
+                1A/1AB.
             </p>
             <table class="border">
                 <tr>
