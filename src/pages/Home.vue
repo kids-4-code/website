@@ -424,7 +424,7 @@ export default {
 
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
                     target="_blank"
-                    class="my-2 inline-block py-2 font-bold px-8 bg-primary-600 text-white rounded-md drop-shadow-sm">Enroll</a>
+                    class="my-2 inline-block py-2 font-bold px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm">Enroll</a>
             </div>
         </div>
     </div>
@@ -442,13 +442,13 @@ export default {
             <li>Are responsible and able to put in some time outside of class. </li>
         </ul>
 
-        <div class="flex">
-            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc6Z4jJy4sGnSrbh6USwbSjLYZ-J9cwpx9Sc6KoaJQcWdTYqQ/viewform">Apply
-                here (new teachers)</a>
-            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-600 text-white rounded-md drop-shadow-sm"
-                href="https://forms.gle/eXeE7rHgooKdXgFcA">Apply
-                here (returning teachers)</a>
+        <h3 class="text-xl font-bold my-4 font-serif">Apply</h3>
+        <div class="flex gap-2">
+            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc6Z4jJy4sGnSrbh6USwbSjLYZ-J9cwpx9Sc6KoaJQcWdTYqQ/viewform">New
+                teachers</a>
+            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm"
+                href="https://forms.gle/eXeE7rHgooKdXgFcA">Returning teachers</a>
         </div>
 
     </div>
