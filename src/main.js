@@ -7,6 +7,7 @@ import Home from "./pages/Home.vue";
 import FAQ from "./pages/FAQ.vue";
 import Courses from "./pages/Courses.vue";
 import Teachers from "./pages/Teachers.vue";
+import Donate from "./pages/Donate.vue";
 
 import Python1A from "./pages/courses/Python1A.vue";
 import Python1AB from "./pages/courses/Python1AB.vue";
@@ -32,6 +33,7 @@ const router = createRouter({
 		{ path: "/faq", component: FAQ },
 		{ path: "/courses", component: Courses },
 		{ path: "/teachers", component: Teachers },
+		{ path: "/donate", component: Donate },
 
 		// this *cannot* be the most efficient way to do this
 		// todo rewrite this

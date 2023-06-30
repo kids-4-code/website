@@ -26,7 +26,9 @@
                         <li><a class="underline"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform ">Enroll</a>
                         </li>
-                        <li><a class="underline">Apply to teach</a></li>
+                        <li><a class="underline"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc6Z4jJy4sGnSrbh6USwbSjLYZ-J9cwpx9Sc6KoaJQcWdTYqQ/viewform">Apply
+                                to teach</a></li>
                         <li><a class="underline"
                                 href="https://docs.google.com/document/d/1kX1w2TKUfz0x261wWIiBJqLF76C1rBK-011kV0qd1R4/edit?usp=sharing">Course
                                 schedule</a></li>

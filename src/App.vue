@@ -19,6 +19,8 @@ import { RouterView } from "vue-router";
 				to="/courses">Courses</router-link>
 			<router-link class=" decoration-2 decoration-primary-700 hover:text-primary-500"
 				to="/teachers">Teachers</router-link>
+			<router-link class=" decoration-2 decoration-primary-700 hover:text-primary-500"
+				to="/donate">Donate</router-link>
 			<router-link class=" decoration-2 decoration-primary-700 hover:text-primary-500" to="/faq">FAQ</router-link>
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
 				class="px-3 py-1 rounded bg-primary-800 text-white transition hover:bg-primary-600"
