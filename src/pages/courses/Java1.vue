@@ -42,6 +42,9 @@ export default {
         </template>
         <template #content>
             <!--Course description here-->
+            <p class="font-semibold">
+                Note: Java 1AB and 1A have been combined into Java 1, which aligns more closely with the
+                previous 1AB curriculum.</p>
             <p>
                 Java 1 is an introductory course that teaches the basics
                 of programming in Java, a widely used object-oriented

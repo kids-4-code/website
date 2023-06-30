@@ -97,6 +97,11 @@ export default {
 
         </p>
 
+        <img src="../assets/zoom.png" class="p-16 pb-8">
+
+        <p class="text-zinc-400 text-center">— past Zoom classes</p>
+
+
         <h3 class="text-xl font-bold font-serif mt-4 mb-2">
             📝 Google Classroom
         </h3>
@@ -274,7 +279,7 @@ export default {
                     </template>
                     <template #content>
                         <p class="text-sm">
-                            Web Design 2 is a fast paced, advanced class that
+                            Web Design 2 is a entirely new, fast paced, advanced class that
                             introduces JavaScript, a popular scripting language that
                             can be used to add functionality & interactivity to
                             websites.
@@ -297,6 +302,9 @@ export default {
                         <i class="fa-brands fa-java text-xl text-[#ec2025]"></i>
                     </template>
                     <template #content>
+                        <p class="font-semibold text-sm">
+                            Note: Java 1AB and 1A have been combined into Java 1, which aligns more closely with the
+                            previous 1AB curriculum.</p>
                         <p class="text-sm">
                             Java 1 is an introductory course that teaches the basics
                             of programming in Java, a widely used object-oriented
