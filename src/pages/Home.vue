@@ -402,7 +402,7 @@ export default {
                 didn't overload us.
             </p>
         </Testimonial>
-        <Testimonial source="Python & Web Design studen">
+        <Testimonial source="Python & Web Design student">
             <p>
                 I actually learned quite a lot!
             </p>
