@@ -12,27 +12,68 @@ export default {
         Footer,
         Hero,
         Alert
+    },
+
+    data() {
+        return {
+            shownText: ""
+        }
+    },
+
+    async mounted() {
+        const textList = ["programming classes", "web design classes", "Python classes", "JavaScript classes", "C++ classes", "Java classes"]
+
+
+        const type = async (text) => {
+
+            let letters = text.split("");
+            for (let i = 0; i < letters.length; i++) {
+                this.shownText += letters[i];
+                await delay(200)
+            }
+
+            await delay(1000)
+
+            // Now delete the text
+            for (let i = 0; i < letters.length; i++) {
+                this.shownText = this.shownText.slice(0, -1);
+                await delay(150)
+            }
+        }
+
+        while (true) {
+            for (let i = 0; i < textList.length; i++) {
+                await type(textList[i]);
+            }
+        }
+
+        function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
     }
 }
 </script>
 
 <template>
     <Hero>
-        <h1 class="text-5xl font-semibold">
-            Learn coding with
-            <span
-                class="font-serif underline decoration-[6px] decoration-primary-700 font-extrabold text-primary-800">free</span>,
-            <span
-                class="font-serif underline decoration-[6px] decoration-primary-700 font-extrabold text-primary-800">virtual</span>
+        <h1 class="text-5xl font-semibold block">
+            Free, virtual
         </h1>
-        <h1 class="text-5xl font-semibold">programming classes.</h1>
+        <div class="typing-wrapper inline-block">
+            <h1 class="text-5xl font-semibold text-primary-600" id="sentence">
+                {{ shownText }}
+            </h1><span class="cursor"></span>
+        </div>
+
 
         <div class="bg-primary-700 h-3 my-4 w-20">&nbsp;</div>
 
-        <p>
-            Kids for Code teachers are high school students who are
-            passionate about computer science. We want to teach and prepare
-            kids to become active and engaged citizens in the future, by
+        <p class="font-sans">
+            We're high school volunteers
+            passionate about <span class="underline decoration-primary-600 decoration-2 underline-offset-4">computer
+                science</span>. We want to teach and prepare
+            kids to become <span class="underline decoration-primary-600 decoration-2 underline-offset-4">active and engaged
+                citizens</span> in the future by
             providing them access to computer science skills not taught in
             schools.
         </p>
@@ -99,7 +140,7 @@ export default {
 
         <img src="../assets/zoom.png" class="p-16 pb-8">
 
-        <p class="text-zinc-400 text-center">— past Zoom classes</p>
+        <p class="text-zinc-400 text-center text-sm font-monospace">— past Zoom classes</p>
 
 
         <h3 class="text-xl font-bold font-serif mt-4 mb-2">
@@ -136,18 +177,25 @@ export default {
             skills step by step. We emphasize hands-on projects and practical applications to reinforce theoretical
             knowledge. Our custom curriculum ensures that students gain a comprehensive understanding of coding languages,
             enabling them to unleash their creativity and problem-solving abilities.
-
         </p>
+
+        <img src="../assets/slides.png" class="p-16 pb-8">
     </div>
     <div class="background">
         <div class="m-auto p-4 md:px-32 lg:max-w-5xl">
             <div class="border p-6 my-4 bg-white rounded-md drop-shadow-sm">
                 <h3 class="text-3xl font-bold font-serif mb-2">2023 Summer</h3>
                 <hr class="my-4" />
-                <p>
-                    Classes for the 2023 Summer session will run for <b>6 weeks</b>,
-                    from <b>Sat, 15th</b> to <b>Sun, August 20th</b>.
-                </p>
+                <div class="flex">
+                    <div class="py-4 w-1/2">
+                        <p class="text-sm font-monospace text-zinc-600">Session length</p>
+                        <h3 class="font-semibold font-serif text-3xl text-yellow-700">6 weeks</h3>
+                    </div>
+                    <div class="py-4 w-1/2">
+                        <p class="text-sm font-monospace text-zinc-600">Dates</p>
+                        <h3 class="font-bold font-serif text-3xl text-yellow-700">7/15 — 8/20</h3>
+                    </div>
+                </div>
             </div>
             <h2 class="text-2xl font-bold font-serif my-2">Python</h2>
             <hr />
@@ -156,7 +204,7 @@ export default {
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
                 <CourseCard details="Sundays, 12:30-1:15pm EST | 6+ y/o" link="courses/python-1A" name="Python 1A">
                     <template #icon>
-                        <i class="fa-brands fa-python text-xl text-green-800"></i>
+                        <i class="fa-brands fa-python text-xl text-green-800 "></i>
                     </template>
                     <template #content>
                         <p class="text-sm">
@@ -383,28 +431,36 @@ export default {
 
         <Testimonial source="Java and Python student">
             <p>
-                I liked how they provided us with lots of resources and
-                reviews to help aid us with the homework and understanding
-                the material.
+                I liked how they provided us with <span
+                    class="underline decoration-yellow-600 decoration-2 underline-offset-4">lots of
+                    resources and
+                    reviews</span> to help aid us with the homework and <span
+                    class="underline decoration-yellow-600 decoration-2 underline-offset-4">understanding
+                    the material.</span>
             </p>
         </Testimonial>
         <Testimonial source="Web Design, Java, and Python student">
             <p>
-                The classes are interesting and challenging. The teachers
-                are also very attentive. The amount of content is just right
-                for me to digest in the class.
+                The classes are <span class="underline decoration-yellow-600 decoration-2 underline-offset-4">interesting
+                    and
+                    challenging.</span> The teachers
+                are also very attentive. The amount of content is <span
+                    class="underline decoration-yellow-600 decoration-2 underline-offset-4">just right
+                    for me</span> to digest in the class.
             </p>
         </Testimonial>
         <Testimonial source="Python student">
             <p>
-                It taught me a lot and it gave me more knowledge. I like how
+                It <span class="underline decoration-yellow-600 decoration-2 underline-offset-4">taught me a lot and it gave
+                    me more knowledge</span>. I like how
                 you guys didn't put too much information in one topic so it
-                didn't overload us.
+                <span class="underline decoration-yellow-600 decoration-2 underline-offset-4">didn't overload us.</span>
             </p>
         </Testimonial>
         <Testimonial source="Python & Web Design student">
             <p>
-                I actually learned quite a lot!
+                I actually learned <span class="underline decoration-yellow-600 decoration-2 underline-offset-4">quite a
+                    lot!</span>
             </p>
         </Testimonial>
     </div>
@@ -464,3 +520,37 @@ export default {
 
     <Footer></Footer>
 </template>
+
+<style>
+.typing-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cursor {
+    display: inline-block;
+    width: 0.3rem;
+    height: 3rem;
+    background-color: #a64f77;
+    margin-left: 0.4rem;
+    animation: blink 0.65s linear infinite alternate;
+}
+</style>

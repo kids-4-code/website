@@ -18,7 +18,7 @@ module.exports = {
 					800: "#D8BE34",
 					700: "#DDC335",
 					600: "#E2C736",
-					500: "#E4CB42",
+					500: "#f4e225",
 				},
 				blue: {
 					800: "#2469AC",
@@ -45,6 +45,7 @@ module.exports = {
 			fontFamily: {
 				sans: ["Public Sans", "sans-serif"],
 				serif: ["IBM Plex Serif", "serif"],
+				monospace: ["IBM Plex Mono", "monospace"],
 			},
 		},
 	},

@@ -17,7 +17,7 @@ export default {
                 {{ name }} <span class="inline-block bg-blue-50 text-sm p-1 rounded font-sans align-top" v-if="new">✨
                     new!</span>
             </h3>
-            <p class="text-sm font-light text-zinc-400">
+            <p class="font-light text-zinc-400 text-sm">
                 {{ details }}
             </p>
             <hr class="my-2" />

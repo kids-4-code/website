@@ -7,6 +7,10 @@ body {
 	font-family: "Public Sans", sans-serif;
 }
 
+::selection {
+	background: hsla(51, 86%, 60%, 0.5);
+}
+
 html {
 	scroll-behavior: smooth;
 }
