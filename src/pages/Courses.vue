@@ -17,8 +17,8 @@ export default {
     </Hero>
     <div class="mx-auto p-4 pb-8 mt-4 md:px-32 lg:max-w-5xl">
 
-        <h2 class="text-3xl font-semibold font-serif mb-4 mt-12">Python</h2>
-        <hr class="my-4" />
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12">Python</h2>
+        <img src="../assets/python.png" class="p-16 pb-8">
 
         <CourseListing details="Sundays, 12:30-1:15pm EST | 6+ y/o" link="courses/python-1A" name="Python 1A">
             <template #icon>
@@ -86,8 +86,10 @@ export default {
             </template>
         </CourseListing>
 
-        <h2 class="text-3xl font-semibold font-serif mb-4 mt-12">Web Design</h2>
-        <hr class="my-4" />
+
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12">Web Design</h2>
+        <img src="../assets/web-design.png" class="p-16 pb-8">
+
 
         <CourseListing details="Saturdays, 1-1:45pm EST | 6+ y/o" link="courses/web-design-1A" name="Web Design 1A">
             <template #icon>
@@ -153,8 +155,8 @@ export default {
             </template>
         </CourseListing>
 
-        <h2 class="text-3xl font-semibold font-serif mb-4 mt-12">Java</h2>
-        <hr class="my-4" />
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12">Java</h2>
+        <img src="../assets/java.png" class="p-16 pb-8">
         <CourseListing details="Saturdays, 7-7:45pm EST | 8+ y/o" link="courses/java-1" name="Java 1">
             <template #icon>
                 <i class="fa-brands fa-java text-xl text-[#ec2025]"></i>
@@ -190,8 +192,8 @@ export default {
             </template>
         </CourseListing>
 
-        <h2 class="text-3xl font-bold font-serif mb-4 mt-12">C++</h2>
-        <hr class="my-4" />
+        <h2 class="text-4xl font-bold font-serif mb-4 mt-12">C++</h2>
+        <img src="../assets/cpp.png" class="p-16 pb-8">
         <CourseListing details="Saturdays, 11am-11:45am | 10+ y/o" link="courses/cpp-1" name="C++ 1">
             <template #icon>
                 <i class="fa-solid fa-terminal text-xl text-blue-800"></i>
@@ -206,7 +208,6 @@ export default {
 
         <!--other-->
         <h2 class="text-3xl font-bold font-serif mb-4 mt-12">Other courses</h2>
-        <hr class="my-4" />
         <CourseListing details="5-5:45pm EST | 6+ y/o" link="courses/intro-to-programming" name="Intro to Programming"
             new="true">
             <template #icon>

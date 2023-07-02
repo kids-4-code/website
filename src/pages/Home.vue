@@ -28,16 +28,16 @@ export default {
 
             let letters = text.split("");
             for (let i = 0; i < letters.length; i++) {
-                this.shownText += letters[i];
                 await delay(200)
+                this.shownText += letters[i];
             }
 
             await delay(1000)
 
             // Now delete the text
             for (let i = 0; i < letters.length; i++) {
-                this.shownText = this.shownText.slice(0, -1);
                 await delay(150)
+                this.shownText = this.shownText.slice(0, -1);
             }
         }
 
@@ -56,7 +56,7 @@ export default {
 
 <template>
     <Hero>
-        <h1 class="text-5xl font-semibold block">
+        <h1 class="text-5xl font-semibold text-zinc-600">
             Free, virtual
         </h1>
         <div class="typing-wrapper inline-block">
@@ -532,7 +532,7 @@ export default {
         opacity: 1;
     }
 
-    30% {
+    40% {
         opacity: 1;
     }
 
@@ -548,7 +548,7 @@ export default {
 .cursor {
     display: inline-block;
     width: 0.3rem;
-    height: 3rem;
+    height: 3.5rem;
     background-color: #a64f77;
     margin-left: 0.4rem;
     animation: blink 0.65s linear infinite alternate;
