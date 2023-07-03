@@ -21,8 +21,8 @@ export default {
 
         <div class="flex flex-col divide-y-2 border-t-2 border-b-2">
             <router-link to="#python" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Python</router-link>
-            <router-link to="#web-design" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Web
-                Design</router-link>
+            <router-link to="#web-design"
+                class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">HTML/CSS/JS</router-link>
             <router-link to="#java" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Java</router-link>
             <router-link to="#cpp" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">C++</router-link>
             <router-link to="#other" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Other</router-link>

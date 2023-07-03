@@ -528,7 +528,6 @@ export default {
             <li>Are responsible and able to put in some time outside of class. </li>
         </ul>
 
-        <h3 class="text-xl font-bold my-4 font-serif">Apply</h3>
         <div class="flex gap-2">
             <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSc6Z4jJy4sGnSrbh6USwbSjLYZ-J9cwpx9Sc6KoaJQcWdTYqQ/viewform">New
