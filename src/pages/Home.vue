@@ -65,23 +65,43 @@ export default {
                     {{ shownText }}
                 </h1><span class="cursor"></span>
             </div>
-            <!-- <div class=" h-3">&nbsp;</div> -->
         </div>
 
 
         <div class="bg-primary-700 h-3 my-4 w-20 rounded-sm">&nbsp;</div>
 
-        <div class="rounded-lg border p-2 px-4 flex md:mr-48 flex-col sm:flex-row items-center sm:gap-6 gap-0">
+        <div class="rounded-lg border p-2 px-4 flex lg:mr-48 flex-col sm:flex-row items-center sm:gap-6 gap-0">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
                 target="_blank"
-                class="my-2 inline-block py-2 font-bold font-sans px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm">Sign
+                class="gradient my-2 inline-block py-2 font-bold font-sans px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm ring-offset-2 ring-2 ring-primary-400">Sign
                 up free!</a>
             <p class="font-medium font-serif  text-zinc-500">July 15th — August 20th</p>
         </div>
     </Hero>
     <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
-        <Alert text="Registration is now open for the 2023 Summer session!"></Alert>
+
+        <div
+            class="ring ring-primary-100 ring-offset-4 p-8 md:p-16 lg:mt-8 mb-16 rounded-md bg-zinc-100 font-monospace text-zinc-600">
+            <ul class="list-outside arrow-list text-lg">
+                <li class="font-bold pl-2 underline decoration-primary-600 decoration-2 underline-offset-4">
+                    Coding is more important
+                    than ever in the 21st century.
+                </li>
+                <li class="pl-2">
+                    We're a group of high school volunteers <span class="font-medium">passionate about computer
+                        science.</span>
+                </li>
+                <li class="pl-2"> Our goal is to equip kids with the knowledge & skills they need to succeed in a world
+                    where technology
+                    is
+                    more crucial than ever, <span class="font-medium">for free.</span><span
+                        class="blink font-bold text-primary-600">|</span></li>
+            </ul>
+        </div>
         <h2 class="text-3xl font-bold mb-4 font-serif">About Kids for Code</h2>
+
+
+
         <p class="my-2">
             Kids for Code teachers are high school students who are passionate
             about computer science - many of our teachers have won awards and
@@ -553,5 +573,13 @@ export default {
     background-color: #a64f77;
     margin-left: 0.4rem;
     animation: blink 0.65s linear infinite alternate;
+}
+
+.blink {
+    animation: blink 0.65s linear infinite alternate;
+}
+
+.arrow-list {
+    list-style-type: "⇒";
 }
 </style>
