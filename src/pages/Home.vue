@@ -70,7 +70,7 @@ export default {
 
         <div class="bg-primary-700 h-3 my-4 w-20 rounded-sm">&nbsp;</div>
 
-        <div class="rounded-lg border p-2 px-4 flex lg:mr-48 flex-col md:flex-row items-center sm:gap-6 gap-0">
+        <div class="rounded-lg border p-2 px-4 flex lg:mr-48 flex-col md:flex-row items-center sm:gap-6 gap-4">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
                 target="_blank"
                 class="gradient my-2 inline-block py-2 font-bold font-sans px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm ring-offset-2 ring-2 ring-primary-400">Sign
