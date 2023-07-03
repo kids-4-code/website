@@ -57,8 +57,12 @@ const router = createRouter({
 	],
 	scrollBehavior(to, from, savedPosition) {
 		// always scroll to top
-
-		if (savedPosition) {
+		if (to.hash) {
+			return {
+				el: to.hash,
+				top: 75,
+			};
+		} else if (savedPosition) {
 			return savedPosition;
 		} else {
 			document

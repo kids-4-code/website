@@ -2,7 +2,7 @@
 import CourseCard from "../components/CourseCard.vue";
 import Testimonial from "../components/Testimonial.vue";
 import Footer from "../components/Footer.vue";
-import Hero from "../components/Hero.vue";
+import HomePgHero from "../components/HomePgHero.vue";
 import Alert from "../components/Alert.vue";
 
 export default {
@@ -10,7 +10,7 @@ export default {
         CourseCard,
         Testimonial,
         Footer,
-        Hero,
+        HomePgHero,
         Alert,
     },
 
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <template>
-    <Hero>
+    <HomePgHero>
         <h1 class="text-5xl font-semibold text-zinc-600">
             Free, virtual
         </h1>
@@ -77,17 +77,17 @@ export default {
                 up free!</a>
             <p class="font-medium font-serif  text-zinc-500">July 15th — August 20th</p>
         </div>
-    </Hero>
+    </HomePgHero>
     <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
 
         <div
             class="ring ring-primary-100 ring-offset-4 p-8 md:p-16 lg:mt-8 mb-16 rounded-md bg-zinc-100 font-monospace text-zinc-600">
             <ul class="list-outside arrow-list text-lg">
-                <li class="font-bold pl-2 underline decoration-primary-600 decoration-2 underline-offset-4">
+                <li class="font-bold pl-2 underline decoration-primary-600 decoration-2 underline-offset-4 mb-4">
                     Coding is more important
                     than ever in the 21st century.
                 </li>
-                <li class="pl-2">
+                <li class="pl-2 mb-4">
                     We're a group of high school volunteers <span class="font-medium">passionate about computer
                         science.</span>
                 </li>

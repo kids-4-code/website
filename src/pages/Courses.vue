@@ -17,7 +17,18 @@ export default {
     </Hero>
     <div class="mx-auto p-4 pb-8 mt-4 md:px-32 lg:max-w-5xl">
 
-        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12">Python</h2>
+        <h2 class="text-3xl font-semibold font-serif mb-4 mt-12">🌐 Languages</h2>
+
+        <div class="flex flex-col divide-y-2 border-t-2 border-b-2">
+            <router-link to="#python" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Python</router-link>
+            <router-link to="#web-design" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Web
+                Design</router-link>
+            <router-link to="#java" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Java</router-link>
+            <router-link to="#cpp" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">C++</router-link>
+            <router-link to="#other" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Other</router-link>
+        </div>
+
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12" id="python">Python</h2>
         <img src="../assets/python.png" class="p-16 pb-8">
 
         <CourseListing details="Sundays, 12:30-1:15pm EST | 6+ y/o" link="courses/python-1A" name="Python 1A">
@@ -87,7 +98,7 @@ export default {
         </CourseListing>
 
 
-        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12">Web Design</h2>
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12" id="web-design">Web Design</h2>
         <img src="../assets/web-design.png" class="p-16 pb-8">
 
 
@@ -155,7 +166,7 @@ export default {
             </template>
         </CourseListing>
 
-        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12">Java</h2>
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12" id="java">Java</h2>
         <img src="../assets/java.png" class="p-16 pb-8">
         <CourseListing details="Saturdays, 7-7:45pm EST | 8+ y/o" link="courses/java-1" name="Java 1">
             <template #icon>
@@ -192,7 +203,7 @@ export default {
             </template>
         </CourseListing>
 
-        <h2 class="text-4xl font-bold font-serif mb-4 mt-12">C++</h2>
+        <h2 class="text-4xl font-bold font-serif mb-4 mt-12" id="cpp">C++</h2>
         <img src="../assets/cpp.png" class="p-16 pb-8">
         <CourseListing details="Saturdays, 11am-11:45am | 10+ y/o" link="courses/cpp-1" name="C++ 1">
             <template #icon>
@@ -207,7 +218,7 @@ export default {
         </CourseListing>
 
         <!--other-->
-        <h2 class="text-3xl font-bold font-serif mb-4 mt-12">Other courses</h2>
+        <h2 class="text-3xl font-bold font-serif mb-4 mt-12" id="other">Other courses</h2>
         <CourseListing details="5-5:45pm EST | 6+ y/o" link="courses/intro-to-programming" name="Intro to Programming"
             new="true">
             <template #icon>
