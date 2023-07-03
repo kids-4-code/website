@@ -11,12 +11,12 @@ export default {
         Testimonial,
         Footer,
         Hero,
-        Alert
+        Alert,
     },
 
     data() {
         return {
-            shownText: ""
+            shownText: "",
         }
     },
 
@@ -59,24 +59,25 @@ export default {
         <h1 class="text-5xl font-semibold text-zinc-600">
             Free, virtual
         </h1>
-        <div class="typing-wrapper inline-block">
-            <h1 class="text-5xl font-semibold text-primary-600" id="sentence">
-                {{ shownText }}
-            </h1><span class="cursor"></span>
+        <div class="flex flex-col justify-start h-[6rem] md:h-fit">
+            <div class="typing-wrapper">
+                <h1 class="text-5xl font-semibold text-primary-600" id="sentence">
+                    {{ shownText }}
+                </h1><span class="cursor"></span>
+            </div>
+            <!-- <div class=" h-3">&nbsp;</div> -->
         </div>
 
 
-        <div class="bg-primary-700 h-3 my-4 w-20">&nbsp;</div>
+        <div class="bg-primary-700 h-3 my-4 w-20 rounded-sm">&nbsp;</div>
 
-        <p class="font-sans">
-            <span class="font-bold">We're high school volunteers
-                passionate about computer
-                science</span>. We want to teach and prepare
-            kids to becomeactive and engaged
-            citizensin the future by
-            providing them access to computer science skills not taught in
-            schools.
-        </p>
+        <div class="rounded-lg border p-2 px-4 flex md:mr-48 flex-col sm:flex-row items-center sm:gap-6 gap-0">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
+                target="_blank"
+                class="my-2 inline-block py-2 font-bold font-sans px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm">Sign
+                up free!</a>
+            <p class="font-medium font-serif  text-zinc-500">July 15th — August 20th</p>
+        </div>
     </Hero>
     <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
         <Alert text="Registration is now open for the 2023 Summer session!"></Alert>
@@ -138,7 +139,7 @@ export default {
 
         </p>
 
-        <img src="../assets/zoom.png" class="p-16 pb-8">
+        <img src="../assets/zoom.png" class="p-8 md:p-16 pb-8">
 
         <p class="text-zinc-400 text-center text-sm font-monospace">— past Zoom classes</p>
 
@@ -179,7 +180,7 @@ export default {
             enabling them to unleash their creativity and problem-solving abilities.
         </p>
 
-        <img src="../assets/slides.png" class="p-16 pb-8">
+        <img src="../assets/slides.png" class="p-8 md:p-16 pb-8">
     </div>
     <div class="background">
         <div class="m-auto p-4 md:px-32 lg:max-w-5xl">

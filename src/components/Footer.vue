@@ -35,6 +35,9 @@
                         <li>
                             <router-link class="underline" to="/faq">Frequently asked questions</router-link>
                         </li>
+                        <li>
+                            <router-link class="underline" to="/donate">Donate to Kids for Code</router-link>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -55,6 +55,17 @@ const router = createRouter({
 
 		{ path: "/courses/cpp-1", component: Cpp1 },
 	],
+	scrollBehavior(to, from, savedPosition) {
+		// always scroll to top
+
+		if (savedPosition) {
+			return savedPosition;
+		} else {
+			document
+				.getElementById("app")
+				.scrollIntoView({ behavior: "smooth" });
+		}
+	},
 });
 
 const app = createApp(App);
