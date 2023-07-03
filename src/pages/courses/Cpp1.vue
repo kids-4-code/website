@@ -13,7 +13,7 @@ export default {
 <template>
     <CoursePage name="C++ 1">
         <template #icon>
-            <i class="fa-solid fa-terminal"></i>
+            <i class="fa-solid fa-terminal text-blue-800"></i>
         </template>
         <template #sidebar>
             <table class="border">

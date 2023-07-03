@@ -69,11 +69,11 @@ export default {
         <div class="bg-primary-700 h-3 my-4 w-20">&nbsp;</div>
 
         <p class="font-sans">
-            We're high school volunteers
-            passionate about <span class="underline decoration-primary-600 decoration-2 underline-offset-4">computer
+            <span class="font-bold">We're high school volunteers
+                passionate about computer
                 science</span>. We want to teach and prepare
-            kids to become <span class="underline decoration-primary-600 decoration-2 underline-offset-4">active and engaged
-                citizens</span> in the future by
+            kids to becomeactive and engaged
+            citizensin the future by
             providing them access to computer science skills not taught in
             schools.
         </p>

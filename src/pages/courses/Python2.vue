@@ -13,7 +13,7 @@ export default {
 <template>
     <CoursePage name="Python 2">
         <template #icon>
-            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-python text-green-800"></i>
         </template>
         <template #sidebar>
             <table class="border">

@@ -13,7 +13,7 @@ export default {
 <template>
     <CoursePage name="Web Design 2">
         <template #icon>
-            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-js text-yellow-800"></i>
         </template>
         <template #sidebar>
             <table class="border">

@@ -13,7 +13,7 @@ export default {
 <template>
     <CoursePage name="Java 1">
         <template #icon>
-            <i class="fa-brands fa-java"></i>
+            <i class="fa-brands fa-java text-[#ec2025]"></i>
         </template>
         <template #sidebar>
             <table class="border">

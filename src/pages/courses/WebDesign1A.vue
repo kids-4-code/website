@@ -13,7 +13,7 @@ export default {
 <template>
     <CoursePage name="Web Design 1A">
         <template #icon>
-            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-html5 text-[#e56027]"></i>
         </template>
         <template #sidebar>
             <table class="border">
