@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-    <CoursePage name="Intro to Programming text-primary-800">
+    <CoursePage name="Intro to Programming">
         <template #icon>
             <i class="fa-solid fa-code"></i>
         </template>

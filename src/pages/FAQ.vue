@@ -11,7 +11,7 @@ export default {
 
 <template>
     <Hero>
-        <h1 class="text-5xl font-semibold">Frequently asked questions</h1>
+        <h1 class="text-5xl font-semibold">FAQ</h1>
     </Hero>
     <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
         <hr class="my-4" />
@@ -105,7 +105,7 @@ export default {
         </p>
         <hr class="my-4" />
         <p class="font-semibold">
-            If you still have any more questions not answered here, feel
+            If you still have any more questions that weren't answered here, feel
             free to contact us at kidsforcodeteam@gmail.com
         </p>
     </div>
