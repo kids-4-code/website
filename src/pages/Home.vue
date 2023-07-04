@@ -62,8 +62,8 @@ export default {
         <div class="flex flex-col justify-start h-[6rem] sm:h-fit sm:min-w-[36rem]">
             <div class="typing-wrapper">
                 <h1 class="text-5xl font-semibold text-primary-600" id="sentence">
-                    {{ shownText }}
-                </h1><span class="cursor"></span>
+                    {{ shownText }}<span class="cursor"></span>
+                </h1>
             </div>
         </div>
 
@@ -567,10 +567,12 @@ export default {
 
 .cursor {
     display: inline-block;
-    width: 0.3rem;
-    height: 3.5rem;
+    width: 0.35rem;
+    border-radius: 0.125rem;
+    height: 3rem;
     background-color: #a64f77;
     margin-left: 0.4rem;
+    margin-bottom: -0.2rem;
     animation: blink 0.65s linear infinite alternate;
 }
 
