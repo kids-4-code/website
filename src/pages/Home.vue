@@ -342,7 +342,7 @@ export default {
                     </template>
 
                 </CourseCard>
-                <CourseCard details="4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2" new="true">
+                <CourseCard details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2" new="true">
                     <template #icon>
                         <i class="fa-brands fa-js text-xl text-yellow-800"></i>
                     </template>
