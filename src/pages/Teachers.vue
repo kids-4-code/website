@@ -29,6 +29,7 @@ export default {
         </TeacherCard>
         <TeacherCard name="Anil Trevor" position="Secretary">
         </TeacherCard>
+        <TeacherCard name="Derek Zhang" position="Team Lead, Python"></TeacherCard>
         <TeacherCard name="Joanne Li" position="Team Lead, Python"></TeacherCard>
         <TeacherCard name="Kevin Xue" position="Team Lead, Web Design">
         </TeacherCard>
