@@ -75,7 +75,7 @@ export default {
                 target="_blank"
                 class="gradient my-2 inline-block py-2 font-bold font-sans px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm ring-offset-2 ring-2 ring-primary-400">Sign
                 up free!</a>
-            <p class="font-medium font-serif  text-zinc-500">July 15th — August 20th</p>
+            <p class="font-medium font-serif  text-zinc-500">Signups open until July 15th</p>
         </div>
     </HomePgHero>
     <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
@@ -342,7 +342,8 @@ export default {
                     </template>
 
                 </CourseCard>
-                <CourseCard details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2" new="true">
+                <CourseCard details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2"
+                    new="true">
                     <template #icon>
                         <i class="fa-brands fa-js text-xl text-yellow-800"></i>
                     </template>
