@@ -25,10 +25,6 @@ export default {
         </TeacherCard>
         <TeacherCard name="Aanya Kapoor" position="Secretary">
         </TeacherCard>
-        <TeacherCard name="Albert Gao" position="Secretary">
-        </TeacherCard>
-        <TeacherCard name="Anil Trevor" position="Secretary">
-        </TeacherCard>
         <TeacherCard name="Derek Zhang" position="Team Lead, Python"></TeacherCard>
         <TeacherCard name="Joanne Li" position="Team Lead, Python"></TeacherCard>
         <TeacherCard name="Kevin Xue" position="Team Lead, Web Design">
@@ -39,7 +35,10 @@ export default {
         <TeacherCard name="Max Shawer" position="Team Lead, Java"></TeacherCard>
         <TeacherCard name="Digonto Chatterjee" position="Team Lead, C++"></TeacherCard>
         <TeacherCard name="Sudiksha Purohit" position="Team Lead, C++"></TeacherCard>
-
+        <TeacherCard name="Albert Gao" position="Team Lead, Intro to Programming">
+        </TeacherCard>
+        <TeacherCard name="Anil Trevor" position="Team Lead, Intro to Programming">
+        </TeacherCard>
 
     </div>
 </template>
