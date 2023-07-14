@@ -31,7 +31,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Time</th>
-                    <td>Saturdays, 2:30-3:15pm Eastern</td>
+                    <td>Saturdays, 1:00-1:45pm Eastern</td>
                 </tr>
                 <tr>
                     <th>Dates</th>
