@@ -21,7 +21,7 @@ export default {
         </TeacherCard>
         <TeacherCard name="Ishaan Samantray" position="President" imagePath="ishaan.png">
         </TeacherCard>
-        <TeacherCard name="Tyler Song" position="Vice President" imagePath="tyler.jpg">
+        <TeacherCard name="Tyler Song" position="Vice President">
         </TeacherCard>
         <TeacherCard name="Aanya Kapoor" position="Secretary">
         </TeacherCard>
