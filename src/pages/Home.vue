@@ -6,6 +6,7 @@ import HomePgHero from "../components/HomePgHero.vue";
 import Alert from "../components/Alert.vue";
 
 export default {
+
     components: {
         CourseCard,
         Testimonial,
