@@ -205,7 +205,7 @@ export default {
     </div>
     <div class="background">
         <div class="m-auto p-4 md:px-32 lg:max-w-5xl">
-            <div class="border p-6 my-4 bg-white rounded-md drop-shadow-sm">
+            <div class="border p-6 pb-0 my-4 bg-white rounded-md drop-shadow-sm">
                 <h3 class="text-3xl font-bold font-serif mb-2">2023 Summer</h3>
                 <hr class="my-4" />
                 <div class="flex">
@@ -218,6 +218,9 @@ export default {
                         <h3 class="font-bold font-serif text-3xl text-yellow-700">7/15 — 8/20</h3>
                     </div>
                 </div>
+                <Alert
+                    text="Registration has now closed for the 2023 Summer Session. Please email us at kidsforcodeteam@gmail.com if you would still like to enroll.">
+                </Alert>
             </div>
             <h2 class="text-2xl font-bold font-serif my-2">Python</h2>
             <hr />
@@ -508,11 +511,12 @@ export default {
                         have any questions
                     </li>
                 </ul>
-                <Alert text="Registration is now open for the 2023 Summer session!"></Alert>
+                <Alert
+                    text="Registration has now closed for the 2023 Summer Session. Please email us at kidsforcodeteam@gmail.com if you would still like to enroll.">
+                </Alert>
 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
-                    target="_blank"
-                    class="my-2 inline-block py-2 font-bold px-8 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm">Enroll</a>
+                <a target="_blank"
+                    class="my-2 inline-block py-2 font-bold px-8 bg-zinc-200 text-zinc-500 rounded-md drop-shadow-sm">Enroll</a>
             </div>
         </div>
     </div>
@@ -520,7 +524,7 @@ export default {
         <h2 class="text-3xl font-bold my-4 font-serif">Apply to teach</h2>
         <!--todo: write new copy here-->
         <p>
-            Teacher applications are open for the 2023 Summer session and can be filled out the form below. We are looking
+            Apply to teach for Kids for Code! We are looking
             for teachers who:
         </p>
 
@@ -530,11 +534,14 @@ export default {
             <li>Are responsible and able to put in some time outside of class. </li>
         </ul>
 
+        <Alert
+            text="Registration has now closed for the 2023 Summer Session. Please email us at kidsforcodeteam@gmail.com if you would still like to enroll.">
+        </Alert>
+
         <div class="flex gap-2">
-            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSc6Z4jJy4sGnSrbh6USwbSjLYZ-J9cwpx9Sc6KoaJQcWdTYqQ/viewform">New
+            <a class="my-2 font-bold inline-block py-2 px-6 bg-zinc-200 text-zinc-500 rounded-md drop-shadow-sm">New
                 teachers</a>
-            <a class="my-2 font-bold inline-block py-2 px-6 bg-primary-700 hover:bg-primary-500 text-white rounded-md drop-shadow-sm"
+            <a class="my-2 font-bold inline-block py-2 px-6 bg-zinc-200 text-zinc-500  rounded-md drop-shadow-sm"
                 href="https://forms.gle/eXeE7rHgooKdXgFcA">Returning teachers</a>
         </div>
 
