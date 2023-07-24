@@ -1,9 +1,11 @@
 <script>
 import Hero from "../components/Hero.vue";
+import Navbar from "../components/Navbar.vue";
 
 export default {
     components: {
-        Hero
+        Hero,
+        Navbar
     },
     props: {
         name: String,
@@ -13,6 +15,7 @@ export default {
 </script>
 
 <template>
+    <Navbar></Navbar>
     <Hero>
         <h1 class="text-5xl font-semibold">
             <slot name="icon"></slot> {{ name }}
@@ -29,11 +32,11 @@ export default {
             <div class="md:basis-1/3">
                 <slot name="sidebar" />
 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
+                <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGXa26ecBIs3v1CBOTWYi4kmnTKoXxhtXm7u59acVcSbQppA/viewform"
                     target="_blank" class="bg-primary-800 text-white font-bold rounded-md
                      hover:bg-primary-600 p-4 text-lg w-full text-center inline-block my-4">
                     Enroll
-                </a>
+                </a> -->
             </div>
         </div>
     </div>

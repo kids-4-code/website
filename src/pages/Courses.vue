@@ -2,24 +2,29 @@
 import Hero from "../components/Hero.vue";
 import CourseListing from "../components/CourseListing.vue";
 import Footer from "../components/Footer.vue";
+import Navbar from "../components/Navbar.vue";
 export default {
     components: {
         Hero,
         Footer,
+        Navbar,
         CourseListing
     }
 }
 </script>
 
 <template>
+    <Navbar></Navbar>
     <Hero>
         <h1 class="text-5xl font-semibold">Course offerings</h1>
     </Hero>
     <div class="mx-auto p-4 pb-8 mt-4 md:px-32 lg:max-w-5xl">
 
-        <h2 class="text-3xl font-semibold font-serif mb-4 mt-12">🌐 Languages</h2>
+        <h2 class="text-3xl font-semibold font-serif mb-4 mt-12">🌐 Quick links</h2>
 
         <div class="flex flex-col divide-y-2 border-t-2 border-b-2">
+            <router-link to="#in-person" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">In-person
+                programs</router-link>
             <router-link to="#python" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Python</router-link>
             <router-link to="#web-design"
                 class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">HTML/CSS/JS</router-link>
@@ -27,6 +32,24 @@ export default {
             <router-link to="#cpp" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">C++</router-link>
             <router-link to="#other" class="py-2 px-2 font-monospace font-regular hover:bg-zinc-50">Other</router-link>
         </div>
+
+        <h2 class="text-4xl font-semibold font-serif mb-4 mt-12" id="in-person">In-person programs</h2>
+        <CourseListing details="August 14th-15th, Potomac MD | 8+ y/o" link="courses/summer-camp" name="Summer Camp 2023">
+            <template #icon>
+                <i class="fa-solid fa-umbrella-beach text-primary-800"></i>
+            </template>
+            <template #content>
+                <p class="text-sm">
+                    Our first ever in-person program, hosted at the Potomac Community Recreation Center in Potomac, MD. 2
+                    days of STEM activities from engineering to computer science. Explore 3D printing, robotics, game
+                    development, and more! Open to students 8 and up.
+                </p>
+                <p class="text-sm">
+                    If you don't live in the D.C. area, stay tuned for more updates from us in the future about more
+                    in-person programs near you!
+                </p>
+            </template>
+        </CourseListing>
 
         <h2 class="text-4xl font-semibold font-serif mb-4 mt-12" id="python">Python</h2>
         <img src="../assets/python.png" class="p-16 pb-8">
@@ -148,7 +171,8 @@ export default {
             </template>
 
         </CourseListing>
-        <CourseListing details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2" new="true">
+        <CourseListing details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2"
+            new="true">
             <template #icon>
                 <i class="fa-brands fa-js text-xl text-yellow-800"></i>
             </template>

@@ -24,6 +24,8 @@ import Cpp1 from "./pages/courses/Cpp1.vue";
 
 import IntroToProgramming from "./pages/courses/IntroToProgramming.vue";
 
+import SummerCamp from "./pages/courses/SummerCamp.vue";
+
 import { createRouter, createWebHashHistory } from "vue-router";
 
 const router = createRouter({
@@ -98,6 +100,11 @@ const router = createRouter({
 			path: "/courses/cpp-1",
 			component: Cpp1,
 			name: "C++ 1 | Kids for Code",
+		},
+		{
+			path: "/courses/summer-camp",
+			component: SummerCamp,
+			name: "Summer Camp | Kids for Code",
 		},
 	],
 	scrollBehavior(to, from, savedPosition) {

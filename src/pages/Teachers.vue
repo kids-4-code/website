@@ -2,16 +2,19 @@
 import Hero from "../components/Hero.vue";
 import Footer from "../components/Footer.vue";
 import TeacherCard from "../components/TeacherCard.vue";
+import Navbar from "../components/Navbar.vue";
 export default {
     components: {
         Hero,
         Footer,
-        TeacherCard
+        TeacherCard,
+        Navbar
     }
 }
 </script>
 
 <template>
+    <Navbar></Navbar>
     <Hero>
         <h1 class="text-5xl font-semibold">Staff</h1>
     </Hero>
@@ -41,4 +44,5 @@ export default {
         </TeacherCard>
 
     </div>
+    <Footer></Footer>
 </template>

@@ -37,10 +37,6 @@ module.exports = {
 					500: "#43A03A",
 					400: "#49A640",
 				},
-				dark: {
-					DEFAULT: "##404040",
-				},
-				light: "#fafafa",
 			},
 			fontFamily: {
 				sans: ["Public Sans", "sans-serif"],
@@ -50,4 +46,5 @@ module.exports = {
 		},
 	},
 	plugins: [],
+	darkMode: "class",
 };

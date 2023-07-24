@@ -1,15 +1,18 @@
 <script>
 import Hero from "../components/Hero.vue";
 import Footer from "../components/Footer.vue";
+import Navbar from "../components/Navbar.vue";
 export default {
     components: {
         Hero,
         Footer,
+        Navbar
     }
 }
 </script>
 
 <template>
+    <Navbar></Navbar>
     <Hero>
         <h1 class="text-5xl font-semibold">Donate</h1>
     </Hero>

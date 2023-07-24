@@ -4,6 +4,7 @@ import Testimonial from "../components/Testimonial.vue";
 import Footer from "../components/Footer.vue";
 import HomePgHero from "../components/HomePgHero.vue";
 import Alert from "../components/Alert.vue";
+import Navbar from "../components/Navbar.vue";
 
 export default {
 
@@ -13,6 +14,7 @@ export default {
         Footer,
         HomePgHero,
         Alert,
+        Navbar
     },
 
     data() {
@@ -56,6 +58,7 @@ export default {
 </script>
 
 <template>
+    <Navbar></Navbar>
     <HomePgHero>
         <h1 class="text-5xl font-semibold text-zinc-600">
             Free, virtual
@@ -132,8 +135,8 @@ export default {
         <!-- <h2 class="text-3xl font-bold mb-4">Stats</h2> -->
         <div class="grid divide-y lg:grid-cols-3 lg:divide-x lg:divide-y-0">
             <div class="p-8">
-                <h1 class="text-6xl font-extrabold text-blue-700">3400+</h1>
-                <h3>lifetime students</h3>
+                <h1 class="text-6xl font-extrabold text-blue-700">4000+</h1>
+                <h3>lifetime signups</h3>
             </div>
             <div class="p-8">
                 <h1 class="text-6xl font-extrabold text-yellow-700">11</h1>
