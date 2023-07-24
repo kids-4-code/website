@@ -86,8 +86,7 @@ export default {
 
             <h3 class="font-serif font-bold text-2xl my-4 mt-16">💻 Activities</h3>
             We'll be offering multiple activities that campgoers will be able to choose from:
-            <div class="grid grid-cols-1"></div>
-            <div class="flex my-4 rounded-md p-6 gap-8 border items-center">
+            <div class="flex my-4 rounded-md p-6 gap-8 border items-center justify-around">
                 <i class="fa-solid fa-cubes text-violet-700 float-left text-5xl"></i>
                 <div>
                     <p class="font-bold">
@@ -157,7 +156,8 @@ export default {
                     </p>
                     <p>
                         Step into the world of AI-driven image generation with cutting-edge tools like Stable Diffusion.
-                        Students can bring their artistic ideas to life by creating stunning images based on text prompts
+                        Students can bring their artistic ideas to life by creating stunning images based on text
+                        prompts
                         and learning
                         useful tricks to enhance their creations.
                     </p>
@@ -171,7 +171,7 @@ export default {
                     </p>
                 </div>
             </div>
-            <div class="flex my-4 rounded-md p-6 gap-8 border items-center">
+            <div class="flex my-4 rounded-md p-6 gap-8 border items-center ">
                 <i class="fa-solid fa-star text-fuchsia-700 float-left text-5xl"></i>
                 <div>
                     <p class="font-bold">
@@ -180,7 +180,7 @@ export default {
                     <p>Lego station, board games station, drawing stations, & Nintendo Switch</p>
                 </div>
             </div>
-            <div class="flex my-4 rounded-md p-6 gap-8 border items-center">
+            <div class="flex my-4 rounded-md p-6 gap-8 border items-center ">
                 <i class="fa-solid fa-basketball text-teal-700 float-left text-5xl"></i>
                 <div>
                     <p class="font-bold">

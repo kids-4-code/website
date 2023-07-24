@@ -34,7 +34,8 @@ export default {
         </div>
 
         <h2 class="text-4xl font-semibold font-serif mb-4 mt-12" id="in-person">In-person programs</h2>
-        <CourseListing details="August 14th-15th, Potomac MD | 8+ y/o" link="courses/summer-camp" name="Summer Camp 2023">
+        <CourseListing details="August 14th-15th, Potomac MD | 8+ y/o" link="courses/summer-camp" name="Summer Camp 2023"
+            new="true">
             <template #icon>
                 <i class="fa-solid fa-umbrella-beach text-primary-800"></i>
             </template>
