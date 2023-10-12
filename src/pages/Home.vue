@@ -75,11 +75,10 @@ export default {
         <div class="bg-primary-700 h-3 my-4 w-20 rounded-sm">&nbsp;</div>
 
         <div class="rounded-lg border p-2 px-4 flex lg:mr-48 flex-col md:flex-row items-center sm:gap-6 gap-4">
-            <a target="_blank"
-                class="disabled gradient my-2 inline-block py-2 font-bold font-sans px-8 bg-zinc-200 text-zinc-500 rounded-md drop-shadow-sm">Registration
-                has closed.</a>
-            <p class="font-medium font-serif  text-zinc-500">Stay tuned for info on our next
-                session!</p>
+            <a target="_blank" href="https://forms.gle/wG3N9ghZEiaNEs8C7"
+                class="gradient my-2 inline-block py-2 font-bold font-sans px-8 bg-primary-800 text-white hover:bg-primary-600 rounded-md drop-shadow-sm">Enroll
+                now</a>
+            <p class="font-medium font-serif  text-zinc-700">Register by November 2nd</p>
         </div>
     </HomePgHero>
     <div class="mx-auto p-8 pb-8 md:px-32 lg:max-w-5xl">
@@ -208,22 +207,19 @@ export default {
     </div>
     <div class="background">
         <div class="m-auto p-4 md:px-32 lg:max-w-5xl">
-            <div class="border p-6 pb-0 my-4 bg-white rounded-md drop-shadow-sm">
-                <h3 class="text-3xl font-bold font-serif mb-2">2023 Summer</h3>
-                <hr class="my-4" />
+            <div class="border p-6 pb-2 my-4 bg-white rounded-md drop-shadow-sm">
+                <h3 class="text-3xl font-bold font-serif mb-2">2023 Fall</h3>
+                <hr class="my-2" />
                 <div class="flex">
                     <div class="py-4 w-1/2">
                         <p class="text-sm font-monospace text-zinc-600">Session length</p>
-                        <h3 class="font-semibold font-serif text-3xl text-yellow-700">6 weeks</h3>
+                        <h3 class="font-semibold font-serif text-3xl text-primary-700">6 weeks</h3>
                     </div>
                     <div class="py-4 w-1/2">
                         <p class="text-sm font-monospace text-zinc-600">Dates</p>
-                        <h3 class="font-bold font-serif text-3xl text-yellow-700">7/15 — 8/20</h3>
+                        <h3 class="font-bold font-serif text-3xl text-primary-700">11/4 — 12/10</h3>
                     </div>
                 </div>
-                <Alert
-                    text="Registration has now closed for the 2023 Summer Session. Please email us at kidsforcodeteam@gmail.com if you would still like to enroll.">
-                </Alert>
             </div>
             <h2 class="text-2xl font-bold font-serif my-2">Python</h2>
             <hr />
@@ -349,8 +345,7 @@ export default {
                     </template>
 
                 </CourseCard>
-                <CourseCard details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2"
-                    new="true">
+                <CourseCard details="Saturdays, 4-4:45pm EST | 8+ y/o" link="courses/web-design-2" name="Web Design 2">
                     <template #icon>
                         <i class="fa-brands fa-js text-xl text-yellow-800"></i>
                     </template>
@@ -434,8 +429,7 @@ export default {
             <h2 class="text-2xl font-bold font-serif my-2">Other courses</h2>
             <hr />
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
-                <CourseCard details="5-5:45pm EST | 6+ y/o" link="courses/intro-to-programming" name="Intro to Programming"
-                    new="true">
+                <CourseCard details="5-5:45pm EST | 6+ y/o" link="courses/intro-to-programming" name="Intro to Programming">
                     <template #icon>
                         <i class="fa-solid fa-code text-xl text-primary-800"></i>
                     </template>
@@ -500,12 +494,12 @@ export default {
                 <h2 class="text-3xl font-bold my-4 font-serif">Register now</h2>
                 <ul class="list-disc list-inside">
                     <li>
-                        Classes for the 2023 Summer session will run for 6 weeks, from July
-                        15th to August 20th.
+                        Classes for the 2023 Fall session will run for 6 weeks, from November
+                        4th to December 10th.
                     </li>
                     <li>
                         View the full class schedule
-                        <a href="https://docs.google.com/document/d/1kX1w2TKUfz0x261wWIiBJqLF76C1rBK-011kV0qd1R4/edit?usp=sharing"
+                        <a href="https://docs.google.com/document/d/1huzk0H_hHlBQGjwtpUHJW69NEOTLXnGU-IDYiEknbbE/edit?usp=sharing"
                             class="underline font-semibold" target="_blank">here↗</a>
                     </li>
                     <li>
@@ -514,12 +508,9 @@ export default {
                         have any questions
                     </li>
                 </ul>
-                <Alert
-                    text="Registration has now closed for the 2023 Summer Session. Please email us at kidsforcodeteam@gmail.com if you would still like to enroll.">
-                </Alert>
 
-                <a target="_blank"
-                    class="my-2 inline-block py-2 font-bold px-8 bg-zinc-200 text-zinc-500 rounded-md drop-shadow-sm">Enroll</a>
+                <a target="_blank" href="https://forms.gle/4R9id7gANkCaU3oG6"
+                    class="my-2 inline-block py-2 font-bold px-8 bg-primary-800 hover:bg-primary-600 text-white rounded-md drop-shadow-sm">Enroll</a>
             </div>
         </div>
     </div>
@@ -537,15 +528,10 @@ export default {
             <li>Are responsible and able to put in some time outside of class. </li>
         </ul>
 
-        <Alert
-            text="Registration has now closed for the 2023 Summer Session. Please email us at kidsforcodeteam@gmail.com if you would still like to enroll.">
-        </Alert>
-
         <div class="flex gap-2">
-            <a class="my-2 font-bold inline-block py-2 px-6 bg-zinc-200 text-zinc-500 rounded-md drop-shadow-sm">New
-                teachers</a>
-            <a class="my-2 font-bold inline-block py-2 px-6 bg-zinc-200 text-zinc-500  rounded-md drop-shadow-sm"
-                href="https://forms.gle/eXeE7rHgooKdXgFcA">Returning teachers</a>
+            <a class="my-2 inline-block py-2 font-bold px-8 bg-primary-800 hover:bg-primary-600 text-white rounded-md drop-shadow-sm"
+                href="https://forms.gle/Znrfhm7o1KvcNAzz8" target="_blank">Apply
+                now</a>
         </div>
 
     </div>

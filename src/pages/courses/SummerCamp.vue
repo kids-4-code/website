@@ -43,6 +43,10 @@ export default {
             </a>
         </template>
         <template #content>
+            <Alert
+                text="Summer program registration has closed - please stay tuned for information from us on next year's program!">
+            </Alert>
+
             <p>
                 Hi Kids for Code families & students!</p>
 

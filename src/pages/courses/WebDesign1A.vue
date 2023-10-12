@@ -35,7 +35,7 @@ export default {
                 </tr>
                 <tr>
                     <th>Dates</th>
-                    <td>July 15th, July 22nd, July 29th, August 5th, August 12th, August 19th
+                    <td>November 4th, November 11th, November 18th, November 25th, December 2nd, December 9th
                     </td>
                 </tr>
             </table>
