@@ -482,8 +482,10 @@ export default {
         </Testimonial>
         <Testimonial source="Python & Web Design student">
             <p>
-                I actually learned <span class="underline decoration-yellow-600 decoration-2 underline-offset-4">quite a
-                    lot!</span>
+                All of you are super nice and patient! Your classes were <span
+                    class="underline decoration-yellow-600 decoration-2 underline-offset-4">clear to understand and the
+                    homework was fun!</span> Thank
+                you!
             </p>
         </Testimonial>
     </div>
