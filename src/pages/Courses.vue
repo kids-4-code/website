@@ -243,7 +243,8 @@ export default {
 
         <!--other-->
         <h2 class="text-3xl font-bold font-serif mb-4 mt-12" id="other">Other courses</h2>
-        <CourseListing details="5-5:45pm EST | 6+ y/o" link="courses/intro-to-programming" name="Intro to Programming">
+        <CourseListing details="Sundays, 5-5:45pm EST | 6+ y/o" link="courses/intro-to-programming"
+            name="Intro to Programming">
             <template #icon>
                 <i class="fa-solid fa-code text-xl text-primary-800"></i>
             </template>
