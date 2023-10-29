@@ -26,7 +26,9 @@ export default {
         </TeacherCard>
         <TeacherCard name="Aanya Kapoor" position="Secretary">
         </TeacherCard>
-        <TeacherCard name="Derek Zhang" position="Team Lead, Python"></TeacherCard>
+        <TeacherCard name="Haressh Nair" position="Secretary">
+        </TeacherCard>
+        <TeacherCard name="Ved Roychowdhury" position="Team Lead, Python"></TeacherCard>
         <TeacherCard name="Joanne Li" position="Team Lead, Python"></TeacherCard>
         <TeacherCard name="Kevin Xue" position="Team Lead, Web Design">
         </TeacherCard>
@@ -36,9 +38,9 @@ export default {
         <TeacherCard name="Max Shawer" position="Team Lead, Java" imagePath="maxwell.jpg"></TeacherCard>
         <TeacherCard name="Digonto Chatterjee" position="Team Lead, C++"></TeacherCard>
         <TeacherCard name="Sudiksha Purohit" position="Team Lead, C++" imagePath="sudiksha.jpg"></TeacherCard>
-        <TeacherCard name="Albert Gao" position="Team Lead, Intro to Programming" imagePath="albert.png">
+        <TeacherCard name="Kevin Xue" position="Team Lead, Intro to Programming" imagePath="albert.png">
         </TeacherCard>
-        <TeacherCard name="Anil Trevor" position="Team Lead, Intro to Programming">
+        <TeacherCard name="Grant Kim" position="Team Lead, Intro to Programming">
         </TeacherCard>
 
     </div>
