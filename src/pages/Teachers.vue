@@ -36,6 +36,7 @@ export default {
         </TeacherCard>
         <TeacherCard name="Michael James" position="Team Lead, Java"></TeacherCard>
         <TeacherCard name="Max Shawer" position="Team Lead, Java" imagePath="maxwell.jpg"></TeacherCard>
+        <TeacherCard name="Aayan Shehzad" position="Team Lead, Java"></TeacherCard>
         <TeacherCard name="Digonto Chatterjee" position="Team Lead, C++"></TeacherCard>
         <TeacherCard name="Sudiksha Purohit" position="Team Lead, C++" imagePath="sudiksha.jpg"></TeacherCard>
         <TeacherCard name="Kevin Xue" position="Team Lead, Intro to Programming" imagePath="albert.png">
