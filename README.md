@@ -1,5 +1,11 @@
-# Nuxt 3 Minimal Starter
+# kids4code.org
 The new Kids for Code website, written using Nuxt.js & Tailwind CSS.
+
+Roadmap: 
+- [ ] Dark mode support 
+- [ ] Coding resources?
+- [ ] Translations
+- [ ] Blog?
 
 ## Setup
 
