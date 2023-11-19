@@ -295,7 +295,7 @@ useHead({
                             be notified when registration for our next
                             session opens.</p>
 
-                        <div class="mt-3 border border-gray-200 rounded flex p-2 items-center gap-4"><a
+                        <div class="mt-3 border border-gray-200 rounded flex max-sm:flex-col p-2 items-center gap-4"><a
                                 href="https://forms.gle/gEKdeV6FUZYroRiV8"
                                 class="font-sans font-semibold text-lg bg-sky-600 text-white hover:bg-sky-700 transition-colors px-4 py-1 rounded">
                                 Get updates</a>

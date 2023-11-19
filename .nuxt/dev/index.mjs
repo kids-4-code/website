@@ -127,6 +127,9 @@ const _inlineRuntimeConfig = {
       },
       "navigation": {
         "fields": [
+          "layout",
+          "layout",
+          "layout",
           "layout"
         ]
       },
@@ -177,6 +180,12 @@ const _inlineRuntimeConfig = {
           1
         ]
       }
+    },
+    "gtag": {
+      "id": "G-GJ6MQFJZ1V",
+      "config": {},
+      "initialConsent": true,
+      "loadingStrategy": "defer"
     }
   },
   "mdc": {
@@ -251,6 +260,9 @@ const _inlineRuntimeConfig = {
     },
     "navigation": {
       "fields": [
+        "layout",
+        "layout",
+        "layout",
         "layout"
       ]
     },

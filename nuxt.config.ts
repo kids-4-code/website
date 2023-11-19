@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	css: ["~/assets/css/tailwind.css", "~/assets/css/fonts.css"],
-	modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content"],
+	modules: ["@nuxtjs/tailwindcss", "nuxt-icon", "@nuxt/content", "nuxt-gtag"],
 	content: {
 		documentDriven: true,
 	},
@@ -10,5 +10,8 @@ export default defineNuxtConfig({
 		head: {
 			titleTemplate: "%s - Kids for Code",
 		},
+	},
+	gtag: {
+		id: "G-GJ6MQFJZ1V",
 	},
 });
