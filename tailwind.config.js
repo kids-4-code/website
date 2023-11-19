@@ -1,50 +1,42 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: ["./index.html", "./src/**/*.vue"],
+export default {
+	content: ["./pages/**/*.vue", "./content/**/*.md"],
 	theme: {
+		fontFamily: {
+			sans: ["Clash Grotesk"],
+			serif: ["Sentient"],
+			body: ["General Sans"],
+		},
 		extend: {
 			colors: {
-				primary: {
-					800: "#9e426c",
-					700: "#A24972",
-					600: "#A64F77",
-					500: "#AE5C81",
-					400: "#BD7696",
-					300: "#CC90AB",
-					200: "#D49DB5",
-					100: "#DBA9BF",
+				brand: {
+					50: "hsl(327, 60%, 97%)",
+					100: "hsl(325, 63%, 95%)",
+					200: "hsl(325, 65%, 90%)",
+					300: "hsl(327, 68%, 82%)",
+					400: "hsl(328, 66%, 70%)",
+					500: "hsl(330, 62%, 60%)",
+					600: "hsl(332, 55%, 55%)",
+					700: "hsl(334, 60%, 42%)",
+					800: "hsl(335, 57%, 35%)",
+					900: "hsl(335, 54%, 30%)",
+					950: "hsl(335, 63%, 17%)",
 				},
-				yellow: {
-					800: "#D8BE34",
-					700: "#DDC335",
-					600: "#E2C736",
-					500: "#f4e225",
+				accent: {
+					50: "hsl(54, 83%, 95%)",
+					100: "hsl(55, 90%, 88%)",
+					200: "hsl(53, 90%, 77%)",
+					300: "hsl(51, 90%, 65%)",
+					400: "hsl(48, 88%, 53%)",
+					500: "hsl(46, 86%, 47%)",
+					600: "hsl(41, 88%, 40%)",
+					700: "hsl(36, 85%, 33%)",
+					800: "hsl(32, 74%, 29%)",
+					900: "hsl(28, 66%, 26%)",
+					950: "hsl(26, 78%, 14%)",
 				},
-				blue: {
-					800: "#2469AC",
-					700: "#266EB5",
-					600: "#2873BD",
-					500: "#2D77C0",
-					400: "#327BC2",
-					300: "#377FC5",
-					200: "#3C82C7",
-					100: "#4689CC",
-				},
-				green: {
-					800: "#327E2A",
-					700: "#378B2E",
-					600: "#3C9933",
-					500: "#43A03A",
-					400: "#49A640",
-				},
-			},
-			fontFamily: {
-				sans: ["Public Sans", "sans-serif"],
-				serif: ["IBM Plex Serif", "serif"],
-				monospace: ["IBM Plex Mono", "monospace"],
 			},
 		},
 	},
 	plugins: [],
-	darkMode: "class",
 };

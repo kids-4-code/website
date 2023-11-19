@@ -1,31 +1,74 @@
-# Kids for Code website
+# Nuxt 3 Minimal Starter
+The new Kids for Code website, written using Nuxt.js & Tailwind CSS.
 
-The new Kids for Code website, written using Vue.js 3 & Tailwind CSS. 
+## Setup
 
-## Roadmap:
-- [x] Home page
-- [X] About page
-- [X] Teachers page
-- [X] FAQ page
-- [ ] Contact page
-- [ ] Dark mode support
-- [ ] Better mobile navigation?
-- [ ] Better logo
+Make sure to install the dependencies:
 
-## Project Setup
-
-```sh
+```bash
+# npm
 npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-### Compile and Hot-Reload for Development
+## Development Server
 
-```sh
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-### Compile and Minify for Production
+## Production
 
-```sh
+Build the application for production:
+
+```bash
+# npm
 npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

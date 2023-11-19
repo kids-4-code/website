@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+	@apply font-body;
+	@apply text-gray-700;
+}
