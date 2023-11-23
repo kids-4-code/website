@@ -2,6 +2,8 @@
 The new Kids for Code website, written using Nuxt.js & Tailwind CSS.
 
 Roadmap: 
+- [x] Basic website
+- [x] Time zones adapt to local time
 - [ ] Dark mode support 
 - [ ] Coding resources?
 - [ ] Translations

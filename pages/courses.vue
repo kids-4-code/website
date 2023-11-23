@@ -258,11 +258,6 @@ useHead({
               <p class="text-sm">Introduces students to the basic principles of web development. Students will learn how
                 to develop and style basic websites using HTML & CSS.
               </p>
-              <p class="text-sm">In addition to the topics covered in 1A: HTML page structure, basic CSS styling, and
-                the
-                CSS box model, 1AB will learn about more advanced CSS styling and a few additional HTML tags. Students
-                will able to create their own static (no JavaScript) website by the end of the class.
-              </p>
             </template>
             <template #link>
               <NuxtLink to="courses/web-design-1ab"
@@ -432,11 +427,6 @@ useHead({
                 give a gentle introduction to computer science. Using Scratch, a beginner-friendly visual programming
                 language,
                 children will embark on an exciting journey of creativity and problem-solving.
-              </p>
-              <p class="text-sm">Through hands-on projects
-                and interactive lessons, they'll learn the foundations of coding while unleashing their imagination.
-                Students will learn to think like a programmer and solve problems using code in a fun and engaging way
-                using Scratch.
               </p>
             </template>
             <template #link>

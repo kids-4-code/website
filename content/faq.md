@@ -31,9 +31,8 @@ If you do think you're ready to take a more advanced class & know all the materi
 
 ---
 
-#### Q: Can I sign up for classes even if I haven't taken the previous ones?
-We don't enforce prerequisites — however we do recommend that you take previous classes before signing up for more advanced ones (for example, we'd reccomend taking Python 1 before you take Python 2).
-If you do think you're ready to take a more advanced class & know all the material from the previous ones, feel free to go ahead and sign up!
+#### Q: Is it possible to switch classes after the first class?
+Yes, you can switch classes at any time - just email us at the address at the bottom of this page. We'll need your student's name, the class they're currently enrolled in, and the class they'd like to switch into.
 
 ---
 
@@ -43,7 +42,7 @@ Parents don't need to be present during classes.
 ---
 
 #### Q: Will I need a computer to take classes?
-A laptop or desktop computer is recommended. (Chromebooks are fine). Our curriculum is designed around [repl.it ↗](https://replit.com), an online code editor. While it does work on tablets & mobile devices, it is significantly more difficult to use.
+A laptop or desktop computer is recommended. (Chromebooks are fine). Our curriculum is designed around [repl.it ↗](https://replit.com), an online code editor. While it does work on tablets & mobile devices (e.g. phones or iPads), it's significantly more difficult to use.
 
 ---
 
