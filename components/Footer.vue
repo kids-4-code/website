@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16 w-full bg-gray-50 border-t border-gray-200 p-4 pb-8">
-    <div class="lg:w-1/2 mx-auto">
+    <div class="lg:w-2/3 mx-auto">
       <h3 class="font-sans font-semibold text-xl text-gray-600 my-2">Kids for Code</h3>
       <hr class="my-2 mb-4">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">

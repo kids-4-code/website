@@ -9,7 +9,7 @@ useHead({
         <!--Hero-->
         <div class="pt-16 flex flex-col items-center text-center gap-2 w-6xl mx-2">
             <div class="mb-2">
-                <h3 class="font-sans font-semibold text-gray-300">Fall 2023 Session</h3>
+                <h3 class="font-sans font-semibold text-gray-300">Winter 2024 Session</h3>
                 <h1 class="font-serif text-4xl md:text-5xl text-gray-700 font-semibold">Online coding classes,</h1>
                 <h1 class="font-serif text-4xl md:text-5xl text-brand-600 font-semibold mb-0">100% free.</h1>
             </div>
@@ -36,7 +36,16 @@ useHead({
             <div class="circuit-bg"></div>
         </div>
         <!--Courses-->
-        <div class="flex flex-col items-center text-center gap-2 w-6xl mt-24 mx-2">
+        <div class="relative flex flex-col items-center text-center gap-2 w-6xl mt-32 pb-32 lg:pb-48 mx-2 overflow-hidden">
+            <div class="max-md:hidden absolute width-0 height-0">
+                <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[14vw]">
+                </div>
+                <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[24vw]"></div>
+            </div>
+
+
+
+
 
             <!--Icon-->
             <div class="flex items-center bg-emerald-50 rounded-xl p-2 drop-shadow-light">
@@ -46,7 +55,7 @@ useHead({
 
             <div class="mt-4 py-4 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl">
                 <div
-                    class="grid grid-cols-2 md:grid-cols-4 p-6 gap-4 border-dashed border-2 border-gray-300 rounded-xl min-h-52">
+                    class=" grid grid-cols-2 md:grid-cols-4 p-6 gap-4 bg-white border-dashed border-2 border-gray-300 rounded-xl min-h-52">
                     <div
                         class="flex flex-col justify-between p-4 border-gray-300 bg-emerald-50 border shadow-md rounded-md text-left">
                         <div>
@@ -59,7 +68,8 @@ useHead({
                                 Visit</NuxtLink>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-between p-4 border-gray-300 border shadow-md rounded-md text-left">
+                    <div
+                        class="flex flex-col justify-between p-4 border-gray-300 bg-white border shadow-md rounded-md text-left">
                         <div>
                             <Icon name="tabler:brand-python" class="text-4xl text-emerald-500"></Icon>
                             <h3 class="font-semibold text-gray-700 text-lg mt-2">Python 1A</h3>
@@ -73,7 +83,8 @@ useHead({
                             </NuxtLink>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-between p-4 border-gray-300 border shadow-md rounded-md text-left">
+                    <div
+                        class="flex flex-col justify-between p-4 border-gray-300 border bg-white shadow-md rounded-md text-left">
                         <div>
                             <Icon name="tabler:brand-html5" class="text-4xl text-amber-500"></Icon>
                             <h3 class="font-semibold text-gray-700 text-lg mt-2">Web Design 1AB</h3>
@@ -86,7 +97,8 @@ useHead({
                             </NuxtLink>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-between p-4 border-gray-300 border shadow-md rounded-md text-left">
+                    <div
+                        class="flex flex-col justify-between p-4 border-gray-300 border bg-white shadow-md rounded-md text-left">
                         <div>
                             <Icon name="tabler:code-circle" class="text-4xl text-purple-500"></Icon>
                             <h3 class="font-semibold text-gray-700 text-lg mt-2">Intro to Programming</h3>
@@ -127,7 +139,13 @@ useHead({
         </div>
 
         <!--Classroom-->
-        <div class="flex flex-col items-center text-center gap-2 mt-16 mx-2">
+        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 pb-32 lg:pb-48 mx-2">
+
+            <div class="max-md:hidden absolute width-0 height-0">
+                <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F9F0F5] top-[18vw]"></div>
+                <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F9F0F5] top-[28vw]"></div>
+            </div>
+
             <!--Icon-->
             <div class="flex items-center bg-brand-100 rounded-xl p-2 drop-shadow-light">
                 <img src="/images/icons/classroom.png" class="w-20">
@@ -140,18 +158,21 @@ useHead({
                         <h3 class="font-semibold text-lg font-serif text-gray-700"> Zoom meetings every weekend</h3>
                         <p class="">All of our classes are run
                             virtually through Zoom and go for around 45m
-                            to an hour. Students have the opportunity to stay after class to ask questions & get additional
+                            to an hour. Students have the opportunity to stay after class to ask questions & get
+                            additional
                             help with understanding the material.</p>
                     </div>
                     <div class="text-left">
-                        <h3 class="font-semibold text-lg font-serif text-gray-700">Google Classroom & HW assignments</h3>
+                        <h3 class="font-semibold text-lg font-serif text-gray-700">Google Classroom & HW assignments
+                        </h3>
                         <p class="">Each class, students will receive a project-based homework
                             assignment to complete by the
                             next week’s class to solidify their knowledge.</p>
                     </div>
                     <div class="text-left">
                         <h3 class="font-semibold text-lg font-serif text-gray-700">Ask questions</h3>
-                        <p class="">We have multiple ways for students to ask questions, including their respective Google
+                        <p class="">We have multiple ways for students to ask questions, including their respective
+                            Google
                             Classrooms,
                             our community Discord server, and through email.</p>
                     </div>
@@ -180,9 +201,11 @@ useHead({
 
                         <div class="w-11/12">
                             <p class="font-medium mb-2">
-                                The classes are <span class="underline decoration-brand-400 decoration-2">interesting and
+                                The classes are <span class="underline decoration-brand-400 decoration-2">interesting
+                                    and
                                     challenging.</span> The teachers are also very attentive. The
-                                amount of content is <span class="underline decoration-brand-400 decoration-2">just right
+                                amount of content is <span class="underline decoration-brand-400 decoration-2">just
+                                    right
                                     for me to digest</span> in the class.
                             </p>
                             <p>- Web, Java, and Python student</p>
@@ -193,7 +216,8 @@ useHead({
 
                         <div class="w-11/12">
                             <p class="font-medium mb-2">
-                                It <span class="underline decoration-brand-400 decoration-2">taught me a lot and it gave me
+                                It <span class="underline decoration-brand-400 decoration-2">taught me a lot and it gave
+                                    me
                                     more knowledge</span>. I like how you guys didn't put too much
                                 information in one topic so it didn't overload us.
                             </p>
@@ -206,7 +230,8 @@ useHead({
                         <div class="w-11/12">
                             <p class="font-medium mb-2">
                                 All of you are super nice and patient! Your classes were <span
-                                    class="underline decoration-brand-400 decoration-2">clear to understand</span> and the
+                                    class="underline decoration-brand-400 decoration-2">clear to understand</span> and
+                                the
                                 homework was fun! Thank you!
                             </p>
                             <p>- Web & Python student</p>
@@ -217,8 +242,108 @@ useHead({
             </div>
         </div>
 
+        <!--Enroll-->
+        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 pt-16 pb-32 lg:pb-48">
+            <div class="max-md:hidden absolute width-0 height-0">
+                <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F0F9FF] top-[8vw]"></div>
+                <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F0F9FF] top-[20vw]"></div>
+            </div>
+            <div class="flex items-center bg-sky-100 rounded-xl p-2 drop-shadow-light">
+                <img src="/images/icons/check.png" class="w-20">
+            </div>
+            <h2 class="text-5xl text-gray-700 font-semibold font-serif my-4 mb-8">Enroll</h2>
+            <div
+                class="w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl p-6 bg-white border-dashed border-2 border-gray-300 rounded-xl">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 bg shadow-sm border-gray-200 gap-8 text-left border p-6 py-8 rounded-xl text-gray-700 z-0">
+                    <div class="z-10">
+                        <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
+                        <h1 class="text-4xl font-serif font-semibold">Winter 2024</h1>
+                        <p class="text-sm md:w-2/3 block mt-1">Start learning coding with us beginning February 2024!</p>
+                        <a href="https://forms.gle/gEKdeV6FUZYroRiV8" target="_blank">
+                            <span
+                                class="bg-sky-600 inline-block mt-2 font-sans font-semibold text-md text-white transition-colors px-4 py-1 rounded">
+                                Get updates
+                            </span>
+                        </a>
+                    </div>
+                    <div class="z-10 grid grid-rows-2 gap-4 rounded-xl">
+                        <div class="p-4 border border-gray-200 bg-white rounded-lg">
+                            <span class="flex items-center  ">
+                                <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
+                                <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
+                            </span>
+                            <p class="text-gray-700 text-xl font-sans">February 10th - March 17th</p>
+                        </div>
+                        <div class="p-4 border border-gray-200 bg-white rounded-lg">
+                            <span class="flex items-center">
+                                <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
+                                <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Cost</span>
+                            </span>
+                            <p class="text-gray-700 text-xl font-sans">$0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-left py-4 my-4 mx-2 md:mx-6 grid md:grid-cols-2 gap-6 border-t border-b border-gray-200">
+                    <div>
+                        <span class="flex items-center mb-1">
+                            <Icon name="tabler:language" class="text-md text-blue-700"></Icon>
+                            <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Language</span>
+                        </span>
+                        <p class="text-gray-700 text-xl font-sans">English</p>
+                    </div>
+                    <div>
+                        <span class="flex items-center mb-1">
+                            <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
+                            <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
+                        </span>
+                        <p class="text-gray-700 text-xl font-sans">February 8th</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 p-6 pt-16 gap-6 w-10/12 md:w-9/12 lg:w-8/12 max-w-3xl">
+                <div class="text-left">
+                    <h3 class="font-serif text-3xl font-semibold text-gray-700">Class schedule</h3>
+                    <p class="mt-2 mb-4">
+                        View our full class schedule including dates & meeting times.
+                    </p>
+
+                    <a class="font-sans font-semibold text-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors px-4 py-1 rounded"
+                        href="https://docs.google.com/document/d/1huzk0H_hHlBQGjwtpUHJW69NEOTLXnGU-IDYiEknbbE/edit?usp=sharing"
+                        target="_blank">
+                        <span>
+                            View</span>
+                    </a>
+
+                </div>
+                <div class="text-left">
+                    <h3 class="font-serif text-3xl font-semibold text-gray-700">Apply to teach</h3>
+                    <p class="mt-2 mb-4">
+                        Sign up to join our team of computer science teachers & gain experience in working with children
+                        of
+                        all ages. <b>Check back spring 2024 for applications for our next session!</b>
+                    </p>
+
+                    <!-- <a class="font-sans font-semibold text-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors px-4 py-1 rounded"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdr9njG4bNeAiwvznxu2-Jy3w4NO8XT5mXpL-3n7NyKcDwIcA/viewform"
+                        target="_blank">
+                        <span>
+                            Apply</span>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
         <!--About-->
-        <div class="flex flex-col items-center text-center gap-2 w-6xl mt-16">
+        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 w-6xl pb-32 lg:pb-64">
+            <div class="max-md:hidden absolute width-0 height-0">
+                <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[8vw]"></div>
+                <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[14vw]"></div>
+                <!-- <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[18vw]"></div> -->
+            </div>
             <div class="flex items-center bg-accent-100 rounded-xl p-2 drop-shadow-light">
                 <img src="/images/icons/about.png" class="w-20">
             </div>
@@ -228,7 +353,8 @@ useHead({
                         Montgomery County,
                         Maryland.</span> Since
                     then, we've
-                    expanded to include teachers from across Maryland & the DMV area and developed more than a dozen unique
+                    expanded to include teachers from across Maryland & the DMV area and developed more than a dozen
+                    unique
                     courses featuring
                     custom curriculum designed specifically for young learners. Over our past 6 sessions, <span
                         class="font-medium">we've taught
@@ -250,7 +376,8 @@ useHead({
 
                 <p class="mb-2">By introducing computer science to children at an early age, we are
                     <span class="font-medium">setting them
-                        up for a brighter future - a future that they can code themselves - and shaping a generation to be
+                        up for a brighter future - a future that they can code themselves - and shaping a generation to
+                        be
                         passionate and innovative.</span>
                 </p>
             </div>
@@ -260,9 +387,12 @@ useHead({
                 <div class="text-left">
                     <h3 class="font-serif text-2xl font-semibold text-gray-700">Meet our teachers</h3>
                     <p class="mb-4">View our list of teachers & leadership members.</p>
-                    <span
-                        class=" font-sans font-semibold text-md text-white bg-accent-400 hover:bg-accent-500 transition-colors px-4 py-1 rounded">
-                        Teachers & staff</span>
+                    <NuxtLink to="/teachers">
+                        <span
+                            class=" font-sans font-semibold text-md text-white bg-accent-400 hover:bg-accent-500 transition-colors px-4 py-1 rounded">
+                            Teachers & staff</span>
+                    </NuxtLink>
+
                 </div>
                 <div class="text-left">
                     <h3 class="font-serif text-2xl font-semibold text-gray-700">Further questions?</h3>
@@ -272,71 +402,15 @@ useHead({
                         <span>
                             Email us</span></a>
                 </div>
-
-
-            </div>
-        </div>
-
-        <!--Enroll-->
-        <div class="flex flex-col items-center text-center gap-2 mt-24">
-            <div class="flex items-center bg-sky-100 rounded-xl p-2 drop-shadow-light">
-                <img src="/images/icons/check.png" class="w-20">
-            </div>
-            <h2 class="text-5xl text-gray-700 font-semibold font-serif my-4 mb-8">Enroll</h2>
-            <div
-                class="grid grid-cols-1 md:grid-cols-2 p-6 gap-6 border-dashed border-2 border-gray-300 rounded-xl md:py-12 w-10/12 md:w-9/12 lg:w-8/12 max-w-4xl">
-                <div class="flex items-center"><img src="/images/graphics/signup.png"></div>
-                <div class="text-left flex items-center">
-                    <div>
-                        <h3 class="font-serif text-3xl font-semibold text-gray-700">Fall 2023</h3>
-                        <p> <span class="font-medium">Registration has now ended. If you would still like to join, please
-                                reach out
-                                to us through email & we'll do our best to help.</span> Otherwise, you can sign up below to
-                            be notified when registration for our next
-                            session opens.</p>
-
-                        <div class="mt-3 border border-gray-200 rounded flex max-sm:flex-col p-2 items-center gap-4"><a
-                                href="https://forms.gle/gEKdeV6FUZYroRiV8"
-                                class="font-sans font-semibold text-lg bg-sky-600 text-white hover:bg-sky-700 transition-colors px-4 py-1 rounded">
-                                Get updates</a>
-                            <p class="text-sm">Receive email updates from K4C!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 p-6 pt-16 gap-6 w-10/12 md:w-9/12 lg:w-8/12 max-w-3xl">
-                <div class="text-left">
-                    <h3 class="font-serif text-3xl font-semibold text-gray-700">Class schedule</h3>
-                    <p class="mt-2 mb-4">
-                        View our full class schedule including dates & meeting times.
-                    </p>
-
-                    <a class="font-sans font-semibold text-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors px-4 py-1 rounded"
-                        href="https://docs.google.com/document/d/1huzk0H_hHlBQGjwtpUHJW69NEOTLXnGU-IDYiEknbbE/edit?usp=sharing"
-                        target="_blank">
-                        <span>
-                            View</span>
-                    </a>
-
-                </div>
-                <div class="text-left">
-                    <h3 class="font-serif text-3xl font-semibold text-gray-700">Apply to teach</h3>
-                    <p class="mt-2 mb-4">
-                        Sign up to join our team of computer science teachers & gain experience in working with children of
-                        all ages. <b>Check back spring 2024 for applications for our next session!</b>
-                    </p>
-
-                    <!-- <a class="font-sans font-semibold text-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors px-4 py-1 rounded"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdr9njG4bNeAiwvznxu2-Jy3w4NO8XT5mXpL-3n7NyKcDwIcA/viewform"
-                        target="_blank">
-                        <span>
-                            Apply</span>
-                    </a> -->
-                </div>
             </div>
         </div>
     </NuxtLayout>
 </template>
 
-<style></style>
+<style scoped>
+.bg {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("/images/graphics/enroll-graphic.png");
+}
+</style>

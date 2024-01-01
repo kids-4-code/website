@@ -18,6 +18,7 @@
 
 
 <style>
+/* Headers */
 .article-container h1,
 .article-container h2,
 .article-container h3,
@@ -32,11 +33,11 @@
 }
 
 .article-container h2 {
-  @apply text-2xl;
+  @apply text-2xl mt-4;
 }
 
 .article-container h3 {
-  @apply text-xl;
+  @apply text-xl mt-2;
 }
 
 .article-container h4 {
@@ -47,8 +48,16 @@
   @apply text-base font-semibold;
 }
 
-.article-container p {
+/* Text & main content*/
+.article-container p,
+strong,
+li {
   @apply font-body text-gray-600 mb-2;
+}
+
+.article-container strong {
+  @apply font-semibold;
+  ;
 }
 
 .article-container hr {
@@ -58,6 +67,13 @@
 .article-container img {
   @apply rounded-lg;
 }
+
+/* Lists */
+.article-container ul {
+  @apply list-disc list-inside;
+}
+
+/* Tables */
 
 .article-container tr,
 .article-container th,

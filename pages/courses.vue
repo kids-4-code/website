@@ -21,7 +21,7 @@ useHead({
 
       <!--Additional info-->
       <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl gap-6 mt-8 md:mt-16 ">
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl gap-6 mt-8 md:mt-16 ">
         <div class="flex flex-col justify-between text-left border border-gray-300 shadow-md rounded-md p-6">
           <div>
             <Icon name="tabler:clock-hour-4" class="text-4xl text-sky-500"></Icon>
@@ -60,7 +60,7 @@ useHead({
 
     <!--Courses-->
     <div class="flex flex-col items-center mt-16 gap-16">
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
         <h3 class="font-serif font-semibold text-4xl text-gray-700 col-span-full">All courses</h3>
         <hr class="my-2 col-span-full">
         <NuxtLink to="/courses#python">
@@ -95,9 +95,9 @@ useHead({
         </NuxtLink>
         <hr class="my-2 col-span-full">
       </div>
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl" id="python">
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="python">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Python</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
           <CourseCard class="bg-emerald-50">
             <template #icon>
               <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
@@ -197,9 +197,9 @@ useHead({
           </CourseCard>
         </div>
       </div>
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl" id="web">
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="web">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Web development</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
           <CourseCard class="bg-amber-50">
             <template #icon>
               <Icon name="tabler:brand-html5" class="text-4xl text-amber-600 mb-2"></Icon>
@@ -293,9 +293,9 @@ useHead({
           </CourseCard>
         </div>
       </div>
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl" id="java">
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Java</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
           <CourseCard class="bg-red-50">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
@@ -363,9 +363,9 @@ useHead({
           </CourseCard>
         </div>
       </div>
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl" id="cpp">
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="cpp">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">C++</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
           <CourseCard class="bg-sky-50">
             <template #icon>
               <Icon name="tabler:brand-cpp" class="text-4xl text-sky-600 mb-2"></Icon>
@@ -409,9 +409,9 @@ useHead({
           </CourseCard>
         </div>
       </div>
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-4xl" id="other-courses">
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="other-courses">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Other courses</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
           <CourseCard>
             <template #icon>
               <Icon name="tabler:device-imac" class="text-4xl text-purple-600 mb-2"></Icon>
