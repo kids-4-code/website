@@ -39,12 +39,9 @@ const colorVariants = {
     <img :src="icon" class="w-16 mb-2 drop-shadow-sm">
     <h1 class="text-4xl font-serif font-semibold">{{ name }}</h1>
     <p class="text-sm md:w-2/3 block mt-1">{{ description }}</p>
-    <a href="https://forms.gle/gEKdeV6FUZYroRiV8" target="_blank">
-      <div :class="colorVariants[props.color]"
-        class="inline-block mt-2 font-sans font-semibold text-md text-white transition-colors px-4 py-1 rounded">
-        Get updates
-      </div>
-    </a>
+
+    <LinkButton class="mt-4" :color="props.color" to="https://forms.gle/gEKdeV6FUZYroRiV8">Get updates</LinkButton>
+
   </div>
 </template>
 

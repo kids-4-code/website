@@ -2,6 +2,7 @@
 layout: course
 title: Web Design 2
 ---
+
 ::course-header
 ---
 name: Web Design 2
@@ -14,8 +15,8 @@ color: amber
 
 ::course-details
 ---
-time: Saturdays 4:00pm - 5:00pm EST
-dates: 11/4, 11/11, 11/18, 11/25, 12/2, 12/9
+time: Sat. 2:00pm - 3:00pm ET
+dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Advanced
 ages: ages 10 & up
 ---
@@ -35,4 +36,7 @@ Students will learn the syntax, data types, & control structures of JavaScript a
 | 4    | Debugging, JavaScript coding conventions, DOM (Document Object Model)              |
 | 5    | DOM (Document Object Model) manipulation                                           |
 | 6    | Intro to HTML canvas, tic-tac-toe game (if time allows)                            |
+::
+
+::certificate-notice
 ::

@@ -1,6 +1,18 @@
 <template>
   <div>
     <nav>
+      <!--Banner-->
+      <!-- <NuxtLink to="/apply">
+        <div
+          class="w-full border-b border-b-brand-400 bg-brand-50 hover:bg-brand-100 transition-colors flex p-3 place-content-center items-center gap-2 ">
+          <p class="text-brand-700 text-sm font-medium font-sans">Applications are now open! Sign up to teach for our
+            Winter
+            2024
+            session!</p>
+          <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
+        </div>
+      </NuxtLink> -->
+
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between px-4 py-4">
           <div class="flex sm:items-center gap-x-4 gap-y-3 max-sm:flex-col w-full">
@@ -8,6 +20,7 @@
               <div class="flex items-center gap-4">
                 <img src="/logo.svg" class="h-7">
                 <span class="font-sans font-semibold text-xl text-brand-600">Kids for Code</span>
+
               </div>
             </NuxtLink>
 

@@ -14,8 +14,8 @@ color: amber
 
 ::course-details
 ---
-time: Saturdays 2:30pm - 3:15pm EST
-dates: 11/4, 11/11, 11/18, 11/25, 12/2, 12/9
+time: Sat. 1:00pm - 1:45pm ET
+dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Intermediate
 ages: ages 8 & up
 ---
@@ -38,4 +38,7 @@ In addition to the topics covered in 1A: HTML page structure, basic CSS styling,
 | 4    | CSS styling pt. 2: more properties, CSS styling pt. 3: advanced styling |
 | 5    | Creating menus & navigation bars (may add CSS styling)                  |
 | 6    | CSS classes and IDs                                                     |
+::
+
+::certificate-notice
 ::

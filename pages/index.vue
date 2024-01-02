@@ -17,43 +17,68 @@ useHead({
                 learn for free!
             </p>
             <div class="flex gap-2 mt-2">
-                <span class="flex items-center">
-                    <NuxtLink to="https://forms.gle/gEKdeV6FUZYroRiV8"
-                        class="font-sans font-semibold text-md text-white bg-brand-600 hover:bg-brand-700 transition-colors px-4 py-1 rounded">
-                        Get updates</NuxtLink>
-                </span>
-                <NuxtLink class="flex items-center " to="/courses">
-                    <span
-                        class="font-sans font-semibold text-md border-gray-300 border-2 text-gray-500 hover:bg-gray-100 transition-colors px-4 py-1 rounded">
-                        Explore courses</span>
-                </NuxtLink>
+                <LinkButton to="https://forms.gle/gEKdeV6FUZYroRiV8" color="brand">Get updates</LinkButton>
             </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
 
-            <!--Background-->
-            <!-- <img src="/images/circuit-bg.png" class="absolute h-1/2 top-[28rem] md:top-[24rem] z-20"> -->
-            <div class="circuit-bg"></div>
+            <NuxtLink to="apply"
+                class=" hover:bg-brand-50 border-brand-400 transition-colors border-2 py-1.5 px-4 rounded-full mt-10 flex text-sm items-center">
+                <p class="font-sans text-brand-600 font-medium">
+                    Enrollment opening soon - check out new classes for winter 2024!
+                </p>
+                <Icon class="ml-2 text-xl text-brand-600" name="tabler:arrow-right"></Icon>
+            </NuxtLink>
+        </div>
+        <div
+            class="py-6 lg:px-48 xl:px-72 mt-20 w-full border-y-2 border-y-gray-200 grid-flow-col grid auto-cols-fr gap-y-8 max-sm:grid-rows-2">
+            <div class="text-center">
+                <h1 class="font-serif font-bold text-brand-500 text-4xl">
+                    5000+
+                </h1>
+                <p class="font-body font-medium text-gray-400">
+                    students taught
+                </p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-serif font-bold text-brand-500 text-4xl">
+                    100+
+                </h1>
+                <p class="font-body font-medium text-gray-400">
+                    teachers
+                </p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-serif font-bold text-brand-500 text-4xl">
+                    13
+                </h1>
+                <p class="font-body font-medium text-gray-400">
+                    courses
+                </p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-serif font-bold text-brand-500 text-4xl">
+                    9.5/10
+                </h1>
+                <p class="font-body font-medium text-gray-400">
+                    avg. rating
+                </p>
+            </div>
         </div>
         <!--Courses-->
-        <div class="relative flex flex-col items-center text-center gap-2 w-6xl mt-32 pb-32 lg:pb-48 mx-2 overflow-hidden">
+        <div class="relative flex flex-col items-center text-center gap-2 mt-24 pb-32 lg:pb-48 mx-2 overflow-hidden">
             <div class="max-md:hidden absolute width-0 height-0">
-                <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[14vw]">
+                <div class="relative -rotate-[10deg] -z-20 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[14vw]">
                 </div>
-                <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[24vw]"></div>
+                <div class="relative rotate-[10deg] -z-20 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[24vw]"></div>
             </div>
-
-
-
-
-
             <!--Icon-->
             <div class="flex items-center bg-emerald-50 rounded-xl p-2 drop-shadow-light">
                 <img src="/images/icons/book.png" class="w-20">
             </div>
             <h1 class="font-serif text-5xl text-gray-700 font-semibold my-4">Courses</h1>
 
-            <div class="mt-4 py-4 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl">
+            <div class="z-10 mt-4 py-4 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl">
                 <div
                     class=" grid grid-cols-2 md:grid-cols-4 p-6 gap-4 bg-white border-dashed border-2 border-gray-300 rounded-xl min-h-52">
                     <div
@@ -63,9 +88,10 @@ useHead({
                             <h3 class="font-semibold text-gray-700 text-xl mt-2">Featured courses</h3>
                             <p class="text-gray-500 text-sm mb-4">Explore our full
                                 course catalog using the link below.</p>
-                            <NuxtLink to="/courses"
+                            <!-- <NuxtLink to="/courses"
                                 class="font-sans font-semibold text-md text-emerald-500 border-emerald-400 border-2 hover:bg-emerald-100 transition-colors px-4 py-1 rounded">
-                                Visit</NuxtLink>
+                                Visit</NuxtLink> -->
+                            <LinkButton ghost to="/courses" color="emerald">Visit</LinkButton>
                         </div>
                     </div>
                     <div
@@ -113,15 +139,13 @@ useHead({
                             </NuxtLink>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
             <div class="mt-6 md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-3xl flex max-sm:flex-col items-center gap-16 p-6">
                 <div class="text-left">
                     <h2 class="text-3xl text-gray-700 font-semibold font-serif">Explore all courses</h2>
-                    <p class="text-gray-500 mt-2 mb-4"><span class="font-medium">View our full course listings
+                    <p class="mt-2 mb-4"><span class="font-medium">View our full course listings
                             below.
                         </span><br>
                         Still have
@@ -130,9 +154,7 @@ useHead({
                         reach out to us
                         <i>kidsforcodeteam@gmail.com</i> and we'll do our best to answer them!
                     </p>
-                    <NuxtLink to="/courses"
-                        class="font-sans font-semibold text-lg bg-emerald-500 text-white hover:bg-emerald-600 transition-colors px-4 py-1 rounded">
-                        Course catalog</NuxtLink>
+                    <LinkButton color="emerald" to="/courses">Course catalog</LinkButton>
                 </div>
                 <img src="/images/graphics/languages.png" class="w-4/5 sm:w-3/5 md:w-2/5">
             </div>
@@ -151,7 +173,8 @@ useHead({
                 <img src="/images/icons/classroom.png" class="w-20">
             </div>
             <h1 class="font-serif text-5xl text-gray-700 font-semibold my-4 mb-8">In the classroom</h1>
-            <div class="flex flex-col md:flex-row  md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl items-center gap-12">
+            <div
+                class="z-10 flex flex-col md:flex-row  md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl items-center gap-12">
                 <img src="/images/graphics/zoom.png" class="w-3/4 md:w-1/2">
                 <div class="flex flex-col gap-4">
                     <div class="text-left">
@@ -259,13 +282,11 @@ useHead({
                     <div class="z-10">
                         <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
                         <h1 class="text-4xl font-serif font-semibold">Winter 2024</h1>
-                        <p class="text-sm md:w-2/3 block mt-1">Start learning coding with us beginning February 2024!</p>
-                        <a href="https://forms.gle/gEKdeV6FUZYroRiV8" target="_blank">
-                            <span
-                                class="bg-sky-600 inline-block mt-2 font-sans font-semibold text-md text-white transition-colors px-4 py-1 rounded">
-                                Get updates
-                            </span>
-                        </a>
+                        <p class="text-sm md:w-2/3 block mt-1">Registration opening soon - sign up for our email list to get
+                            updates!</p>
+
+                        <LinkButton class="mt-4" to="https://forms.gle/gEKdeV6FUZYroRiV8" color="sky">Get updates
+                        </LinkButton>
                     </div>
                     <div class="z-10 grid grid-rows-2 gap-4 rounded-xl">
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
@@ -273,7 +294,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">February 10th - March 17th</p>
+                            <p class="text-gray-700 text-xl font-sans">March 2nd - March 14th</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -297,7 +318,7 @@ useHead({
                             <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
                             <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
                         </span>
-                        <p class="text-gray-700 text-xl font-sans">February 8th</p>
+                        <p class="text-gray-700 text-xl font-sans">-</p>
                     </div>
 
                 </div>
@@ -311,12 +332,7 @@ useHead({
                         View our full class schedule including dates & meeting times.
                     </p>
 
-                    <a class="font-sans font-semibold text-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors px-4 py-1 rounded"
-                        href="https://docs.google.com/document/d/1huzk0H_hHlBQGjwtpUHJW69NEOTLXnGU-IDYiEknbbE/edit?usp=sharing"
-                        target="_blank">
-                        <span>
-                            View</span>
-                    </a>
+                    <LinkButton disabled>Coming soon</LinkButton>
 
                 </div>
                 <div class="text-left">
@@ -324,21 +340,16 @@ useHead({
                     <p class="mt-2 mb-4">
                         Sign up to join our team of computer science teachers & gain experience in working with children
                         of
-                        all ages. <b>Check back spring 2024 for applications for our next session!</b>
+                        all ages.
                     </p>
 
-                    <!-- <a class="font-sans font-semibold text-lg text-white bg-sky-600 hover:bg-sky-700 transition-colors px-4 py-1 rounded"
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdr9njG4bNeAiwvznxu2-Jy3w4NO8XT5mXpL-3n7NyKcDwIcA/viewform"
-                        target="_blank">
-                        <span>
-                            Apply</span>
-                    </a> -->
+                    <LinkButton color="sky" to="/apply">Learn more</LinkButton>
                 </div>
             </div>
         </div>
 
         <!--About-->
-        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 w-6xl pb-32 lg:pb-64">
+        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 w-6xl pb-32 xl:pb-64">
             <div class="max-md:hidden absolute width-0 height-0">
                 <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[8vw]"></div>
                 <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[14vw]"></div>
@@ -348,7 +359,7 @@ useHead({
                 <img src="/images/icons/about.png" class="w-20">
             </div>
             <h1 class="font-serif text-5xl text-gray-700 font-semibold my-4 mb-8">About us</h1>
-            <div class="md:columns-2 gap-6 md:py-12 w-10/12 md:w-9/12 lg:w-8/12 max-w-4xl text-left">
+            <div class="z-10 md:columns-2 gap-6 md:py-12 w-10/12 md:w-9/12 lg:w-8/12 max-w-4xl text-left">
                 <p class="mb-2"><span class="font-medium">Kids for Code was founded during in 2020 by students in
                         Montgomery County,
                         Maryland.</span> Since
@@ -387,20 +398,13 @@ useHead({
                 <div class="text-left">
                     <h3 class="font-serif text-2xl font-semibold text-gray-700">Meet our teachers</h3>
                     <p class="mb-4">View our list of teachers & leadership members.</p>
-                    <NuxtLink to="/teachers">
-                        <span
-                            class=" font-sans font-semibold text-md text-white bg-accent-400 hover:bg-accent-500 transition-colors px-4 py-1 rounded">
-                            Teachers & staff</span>
-                    </NuxtLink>
+                    <LinkButton to="/teachers" color="accent">Learn more</LinkButton>
 
                 </div>
                 <div class="text-left">
                     <h3 class="font-serif text-2xl font-semibold text-gray-700">Further questions?</h3>
                     <p class="mb-4">Reach out to us at kidsforcodeteam@gmail.com</p>
-                    <a href="mailto:kidsforcodeteam@gmail.com"
-                        class="font-sans font-semibold text-md border-accent-300 border-2 text-accent-500 hover:bg-accent-100 transition-colors px-4 py-1 rounded">
-                        <span>
-                            Email us</span></a>
+                    <LinkButton to="mailto:kidsforcodeteam@gmail.com" color="accent" ghost>Email us</LinkButton>
                 </div>
             </div>
         </div>

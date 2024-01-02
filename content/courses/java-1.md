@@ -14,9 +14,8 @@ color: red
 
 ::course-details
 ---
-time: Saturdays 7:00pm - 7:45pm EST
-duration: 45 minutes
-dates: 11/4, 11/11, 11/18, 11/25, 12/2, 12/9
+time: Sat. 4:15pm - 5:00pm ET
+dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Beginner
 ages: ages 8 & up
 ---
@@ -39,4 +38,7 @@ Students will learn about variables, data types, conditional statements, while l
 | 4    | While loops, do-while loops, practice                                                                                                                             |
 | 5    | For loops                                                                                                                                                         |
 | 6    | Loops & conditionals practice                                                                                                                                     |
+::
+
+::certificate-notice
 ::

@@ -2,7 +2,7 @@
 layout: course
 title: Java 2
 ---
----
+
 ::course-header
 ---
 name: Java 2
@@ -15,8 +15,8 @@ color: red
 
 ::course-details
 ---
-time: Sunday 11:00am - 11:45am EST
-dates: 11/5, 11/12, 11/19, 11/26, 12/3, 12/10
+time: Sat. 5:15pm - 6:00pm ET
+dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Intermediate
 ages: ages 8 & up
 ---
@@ -37,4 +37,7 @@ Topics covered include functions, arrays, string manipulation, and file I/O.
 | 4    | Arrays pt. 1: creating arrays, indexing, traversal   |
 | 5    | Arrays pt. 2: array manipulation, copying, resizing  |
 | 6    | String manipulation objects                          |
+::
+
+::certificate-notice
 ::

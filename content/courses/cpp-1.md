@@ -15,8 +15,8 @@ color: sky
 
 ::course-details
 ---
-time: Sat. 11:00am - 11:45am EST
-dates: 11/4, 11/11, 11/18, 11/25, 12/2, 12/9
+time: Sat. 11:00am - 11:45am ET
+dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Intermediate
 ages: 8+
 ---
@@ -39,6 +39,7 @@ Note that since C++ concepts / syntax can be more difficult to understand, we re
 | 7    | While loops, do-while loops, for loops                                                       |
 ::
 
-
+::certificate-notice
+::
 
 

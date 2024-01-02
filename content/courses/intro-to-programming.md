@@ -15,8 +15,8 @@ color: purple
 
 ::course-details
 ---
-time: Sundays 5:00pm - 5:45pm EST
-dates: 11/5, 11/12, 11/19, 11/26, 12/3, 12/10
+time: Sundays 5:00pm - 5:45pm ET
+dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Beginner
 ages: ages 6+
 ---
@@ -32,4 +32,7 @@ Students will learn to think like a programmer and solve problems using code in 
 
 #syllabus
 Full syllabus coming soon!
+::
+
+::certificate-notice
 ::

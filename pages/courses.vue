@@ -22,28 +22,29 @@ useHead({
       <!--Additional info-->
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl gap-6 mt-8 md:mt-16 ">
-        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-md rounded-md p-6">
+        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:clock-hour-4" class="text-4xl text-sky-500"></Icon>
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Class schedule</h3>
             <p class="text-sm">See class dates & times.</p>
           </div>
           <div class="mt-2">
-            <a href="https://docs.google.com/document/d/1huzk0H_hHlBQGjwtpUHJW69NEOTLXnGU-IDYiEknbbE/edit?usp=sharing"
+            <a href="https://docs.google.com/document/d/14NUJ00GCcFt_nCjutOQwPJfqDptpoW36A9W7_N6VmEs/edit?usp=sharing"
               class="text-gray-600 text-sm underline font-medium">
               <h5>View schedule ↗</h5>
             </a>
           </div>
         </div>
-        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-md rounded-md p-6">
+        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:calendar-time" class="text-4xl text-brand-500"></Icon>
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Session info</h3>
-            <p class="text-sm">Our 2023 Fall session will run for 6 weeks, with 6 classes in total. Classes will start
-              November 4th and end December 10th.</p>
+            <p class="text-sm">Our 2024 Winter session will run for 7 weeks in total, with one week off for spring break.
+              Classes will start
+              March 2nd and end April 14th.</p>
           </div>
         </div>
-        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-md rounded-md p-6">
+        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:help-hexagon" class="text-4xl text-rose-500"></Icon>
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">FAQ</h3>
@@ -127,7 +128,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Python 1A</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sundays 12:30-1:15pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 11:00-11:45am ET</p>
             </template>
             <template #description>
               <p class="text-sm">A beginner level course aimed at children ages 6 & up. Provides a gentle introduction
@@ -141,9 +142,7 @@ useHead({
                 statements, data types, etc.</p>
             </template>
             <template #link>
-              <NuxtLink to="courses/python-1a"
-                class="font-sans font-semibold text-md text-emerald-500 border-emerald-400 border-2 hover:bg-emerald-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/python-1a" color="emerald">Learn more</LinkButton>
             </template>
           </CourseCard>
           <CourseCard>
@@ -154,7 +153,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Python 1AB</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sundays 2:00pm-2:45pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 12:00-12:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm font-medium">Python 1AB is a more advanced, faster-paced version of Python 1A that
@@ -167,9 +166,7 @@ useHead({
                 statements, data types, etc.</p>
             </template>
             <template #link>
-              <NuxtLink to="courses/python-1ab"
-                class="font-sans font-semibold text-md text-emerald-500 border-emerald-400 border-2 hover:bg-emerald-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/python-1ab" color="emerald">Learn more</LinkButton>
             </template>
           </CourseCard>
           <CourseCard>
@@ -180,7 +177,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Python 2</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sundays 3:00pm-3:45pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 1:00-1:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Python 2 builds on the material covered in Python 1A/1AB, taking students on a
@@ -190,9 +187,48 @@ useHead({
 
             </template>
             <template #link>
-              <NuxtLink to="courses/python-2"
-                class="font-sans font-semibold text-md text-emerald-500 border-emerald-400 border-2 hover:bg-emerald-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/python-2" color="emerald">Learn more</LinkButton>
+            </template>
+          </CourseCard>
+
+          <CourseCard new badge-color="emerald">
+            <template #icon>
+              <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">Python 3</h3>
+            </template>
+            <template #details>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 2:00-2:45pm ET</p>
+            </template>
+            <template #description>
+              <p class="text-sm">Python 3 provides an in-depth overview of object-oriented programming & data structures,
+                and completes students' study of the fundamental concepts they will need to effectively write Python code.
+              </p>
+            </template>
+            <template #link>
+              <LinkButton to="courses/python-3" color="emerald">Learn more</LinkButton>
+            </template>
+          </CourseCard>
+
+          <CourseCard new badge-color="emerald">
+            <template #icon>
+              <Icon name="tabler:topology-ring" class="text-4xl text-emerald-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">Intro to Machine Learning
+              </h3>
+            </template>
+            <template #details>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 3:00-4:00pm ET </p>
+            </template>
+            <template #description>
+              <p class="text-sm">More information coming soon!
+              </p>
+
+            </template>
+            <template #link>
+              <LinkButton disabled to="courses/intro-to-ml" color="emerald">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>
@@ -223,7 +259,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 1A</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Saturdays 1:00-1:45pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 12:00-12:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Introduces students to the basic principles of web development. Students will learn how
@@ -234,9 +270,7 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/web-design-1a"
-                class="font-sans font-semibold text-md text-amber-500 border-amber-400 border-2 hover:bg-amber-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/web-design-1a" color="amber">Learn more</LinkButton>
             </template>
           </CourseCard>
           <CourseCard>
@@ -247,7 +281,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 1AB</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Saturdays 2:30-3:15pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 1:00-1:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm font-medium">Web Design 1AB is a more advanced, faster-paced version of Web Design 1A
@@ -260,9 +294,7 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/web-design-1ab"
-                class="font-sans font-semibold text-md text-amber-500 border-amber-400 border-2 hover:bg-amber-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/web-design-1ab" color="amber"> Learn more</LinkButton>
             </template>
           </CourseCard>
           <CourseCard>
@@ -273,7 +305,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 2</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Saturdays 4:00-5:00pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 2:00-3:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Web Design 2 is a fast paced, advanced class that introduces JavaScript, a
@@ -286,9 +318,7 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/web-design-2"
-                class="font-sans font-semibold text-md text-amber-500 border-amber-400 border-2 hover:bg-amber-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/web-design-2" color="amber">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>
@@ -318,7 +348,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Java 1</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Saturdays 7:00-7:45pm Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 4:15-5:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Java 1 is an introductory course that teaches the basics of programming in Java, a
@@ -331,9 +361,7 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/java-1"
-                class="font-sans font-semibold text-md text-red-500 border-red-400 border-2 hover:bg-red-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/java-1" color="red">Learn more</LinkButton>
             </template>
           </CourseCard>
           <CourseCard>
@@ -344,7 +372,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Java 2</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sundays 11:00-11:45am Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 5:15-6:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Java 2 is a more advanced course that expands on the knowledge gained in Java 1 to dive
@@ -356,9 +384,28 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/java-2"
-                class="font-sans font-semibold text-md text-red-500 border-red-400 border-2 hover:bg-red-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/java-2" color="red">Learn more</LinkButton>
+            </template>
+          </CourseCard>
+          <CourseCard new badge-color="red">
+            <template #icon>
+              <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">Java 3</h3>
+            </template>
+            <template #details>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 7:00-7:45pm ET</p>
+            </template>
+            <template #description>
+              <p class="text-sm">Our highest-level Java course; intended for interested students that are ready to take
+                their understanding to the next level by exploring the finer details of object-oriented programming in
+                Java.
+              </p>
+              <p class="text-sm">Students will explore recursion, 2D arrays, OOP concepts, and more.</p>
+            </template>
+            <template #link>
+              <LinkButton to="courses/java-3" color="red">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>
@@ -390,7 +437,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">C++ 1</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Saturdays 11:00-11:45am Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 11:00-11:45am ET</p>
             </template>
             <template #description>
               <p class="text-sm">Covers basic programming concepts in C++, a powerful, performant, and widely used
@@ -402,9 +449,7 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/cpp-1"
-                class="font-sans font-semibold text-md text-sky-500 border-sky-400 border-2 hover:bg-sky-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/cpp-1" color="sky">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>
@@ -420,7 +465,7 @@ useHead({
               <h3 class="text-xl font-semibold font-serif text-gray-700">Intro to Programming</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sundays 5:00-5:45am Eastern</p>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 5:00-5:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Intro to Programming is an new course tailored to kids aged 6 to 12 intended to
@@ -430,9 +475,7 @@ useHead({
               </p>
             </template>
             <template #link>
-              <NuxtLink to="courses/intro-to-programming"
-                class="font-sans font-semibold text-md text-purple-500 border-purple-400 border-2 hover:bg-purple-100 transition-colors px-4 py-1 rounded">
-                Learn more</NuxtLink>
+              <LinkButton to="courses/intro-to-programming" color="purple">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>

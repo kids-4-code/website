@@ -14,8 +14,8 @@ color: amber
 
 ::course-details
 ---
-time: Saturdays 1:00pm - 1:45pm EST
-dates: 11/4, 11/11, 11/18, 11/25, 12/2, 12/9
+time: Sat. 12:00pm - 12:45pm ET
+dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Beginner
 ages: ages 6 & up
 ---
@@ -34,4 +34,7 @@ Topics covered in 1A include HTML page structure, basic CSS styling, and the CSS
 | 5    | CSS styling pt. 1: basic properties                         |
 | 6    | CSS styling pt. 2: more properties                          |
 | 7    | CSS styling pt. 3: advanced styling                         |
+::
+
+::certificate-notice
 ::

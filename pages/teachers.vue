@@ -1,47 +1,59 @@
 <script setup lang="ts">
 useHead({
-  title: "Teachers & staff",
+  title: "Members",
 })
 </script>
 
 <template>
   <NuxtLayout>
-    <div>
+    <div class="flex flex-col items-center">
 
-      <div class="flex flex-col items-center text-center gap-2 mt-16">
+      <div class="w-11/12 md:w-9/12 lg:w-7/12 grid grid-cols-1 xl:grid-cols-3 gap-6 mt-16 mx-32 ">
         <!--Icon-->
-        <div class="flex items-center bg-violet-50 rounded-xl p-1 drop-shadow-light">
-          <img src="/images/icons/teachers.png" class="w-20">
-        </div>
-        <h1 class="font-serif text-4xl lg:text-5xl text-gray-700 font-semibold my-4 mb-8">Teachers & staff</h1>
-
-        <div class="divide-y divide-gray-200 w-11/12 md:w-10/12 lg:w-9/12 flex flex-col">
-          <div class="flex justify-center">
-            <TeacherCard name="Ishaan Samantray" title="President"></TeacherCard>
-            <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
-
+        <div>
+          <div class="bg-violet-50 rounded-xl p-1 w-20 drop-shadow-light">
+            <img src="/images/icons/teachers.png" class="w-20">
           </div>
-          <div class="flex justify-center">
-            <TeacherCard name="Aanya Kapoor" title="Outreach Manager"></TeacherCard>
-            <TeacherCard name="Haressh Nair" title="Secretary"></TeacherCard>
-            <TeacherCard name="Luke Mehta" title="Finance Manager"></TeacherCard>
-          </div>
-          <div class="grid grid-cols-2 lg:grid-cols-4 mx-auto max-w-4xl">
-            <TeacherCard name="Bryan Yung" title="Team Lead, Python"></TeacherCard>
-            <TeacherCard name="Ved Roychowdhury" title="Team Lead, Python"></TeacherCard>
-            <TeacherCard name="Siddhant Shah" title="Team Lead, HTML"></TeacherCard>
-            <TeacherCard name="Albert Gao" title="Team Lead, HTML"></TeacherCard>
-            <TeacherCard name="Digonto Chatterjee" title="Team Lead, C++"></TeacherCard>
-            <TeacherCard name="Sudiksha Purohit" title="Team Lead, C++"></TeacherCard>
-            <TeacherCard name="Kevin Xue" title="Team Lead, Intro to Programming"></TeacherCard>
-            <TeacherCard name="Grant Kim" title="Team Lead, Intro to Programming"></TeacherCard>
-            <TeacherCard name="Michael James" title="Team Lead, Java"></TeacherCard>
-            <TeacherCard name="Maxwell Shawer" title="Team Lead, Java"></TeacherCard>
-            <TeacherCard name="Aayan Shezhad" title="Team Lead, Java"></TeacherCard>
+          <h1 class="font-serif text-4xl lg:text-5xl text-gray-700 font-semibold my-4 mb-8">Members</h1>
+          <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
+            <Icon name="tabler:school" class="text-4xl text-purple-600 mb-2"></Icon>
+            <h3 class="font-serif font-semibold text-gray-700">Interested in joining our team?</h3>
+            <p class="text-gray-600 text-sm">Gain experience teaching, work with younger students, receive volunteer
+              hours, and
+              more!</p>
+            <LinkButton class="mt-4" to="/apply" color="purple">Learn more</LinkButton>
           </div>
         </div>
-
+        <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
+          <TeacherCard name="Ishaan Samantray" title="Co-president"></TeacherCard>
+          <TeacherCard name="Tyler Song" title="Co-president"></TeacherCard>
+          <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
+            <Icon name="tabler:alert-triangle" class=" text-4xl text-purple-600 mb-2"></Icon>
+            <h3 class="font-serif font-semibold text-gray-700">Under construction</h3>
+            <p class="text-gray-600 text-sm">Please check later for updated leadership once our next session starts!</p>
+          </div>
+        </div>
+        <!-- <div>
+          <h2 class="font-semibold text-gray-700 font-serif text-3xl mt-6">Teachers</h2>
+          <table class="font-body mt-2 text-left table-auto text-gray-600 w-full border-y-2 border-y-gray-200">
+            <thead>
+              <tr>
+                <th class="font-medium">Teacher</th>
+                <th class="font-medium">Classes</th>
+                <th class="font-medium">Grade</th>
+              </tr>
+            <tbody>
+              <tr>
+                <td>Digonto Chatterjee</td>
+                <td>Java, Python, C++, ITP</td>
+                <td>12</td>
+              </tr>
+            </tbody>
+            </thead>
+          </table>
+        </div> -->
       </div>
+
     </div>
   </NuxtLayout>
 </template>

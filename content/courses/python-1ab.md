@@ -14,8 +14,8 @@ color: emerald
 
 ::course-details
 ---
-time: Sundays 2:00pm - 2:45pm EST
-dates: 11/5, 11/12, 11/19, 11/26, 12/3, 12/10
+time: Sundays 12:00pm - 12:45pm ET
+dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Intermediate
 ages: ages 8 & up
 ---
@@ -39,4 +39,6 @@ Some of the additional topics covered in Python 1AB include scope, while loops, 
 | 4    | Conditionals                                                                                                      |
 | 5    | While loops: syntax, infinite loops, special cases, counting, review                                              |
 | 6    | For loops: iterables, range(), while loops vs. for loops, composition                                             |
+::
+::certificate-notice
 ::

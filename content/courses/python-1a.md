@@ -15,8 +15,8 @@ color: emerald
 
 ::course-details
 ---
-time: Sundays 12:30pm - 1:15pm EST
-dates: 11/5, 11/12, 11/19, 11/26, 12/3, 12/10
+time: Sun. 11:00am - 11:45pm ET
+dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Beginner
 ages: ages 6 & up
 ---
@@ -40,4 +40,7 @@ In Python 1A, students will learn basic Python syntax & programming concepts, li
 | 4    | User input & type casting                                                         |
 | 5    | Math & logic operators                                                            |
 | 6    | Conditionals: if & elif statements                                                |
+::
+
+::certificate-notice
 ::

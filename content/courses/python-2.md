@@ -14,8 +14,8 @@ color: emerald
 
 ::course-details
 ---
-time: Sundays 3:00pm - 3:45pm EST
-dates: 11/5, 11/12, 11/19, 11/26, 12/3, 12/10
+time: Sun. 1:00pm - 1:45pm ET
+dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Intermediate
 ages: ages 8 & up
 ---
@@ -36,4 +36,7 @@ In addition, a solid foundation in these universal programming concepts can then
 | 4    | Lists: printing, modifying, adding, deleting, looping, combining, other operations |
 | 5    | String manipulation: iterables, len(), indexing, slicing, f-strings, etc.          |
 | 6    | File I/O: reading, text processing, writing, appending                             |
+::
+
+::certificate-notice
 ::
