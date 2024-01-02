@@ -33,7 +33,8 @@ useHead({
         <div
             class="py-6 lg:px-48 xl:px-72 mt-20 w-full border-y-2 border-y-gray-200 grid-flow-col grid auto-cols-fr gap-y-8 max-sm:grid-rows-2">
             <div class="text-center">
-                <h1 class="font-serif font-bold text-brand-600 text-4xl">
+                <h1
+                    class="px-2 py-1 rounded-md bg-brand-50 border-2 border-brand-200 inline-block font-serif font-bold text-brand-600 text-4xl">
                     5000+
                 </h1>
                 <p class="font-body font-medium text-gray-400">
@@ -41,7 +42,8 @@ useHead({
                 </p>
             </div>
             <div class="text-center">
-                <h1 class="font-serif font-bold text-accent-500 text-4xl">
+                <h1
+                    class=" px-2 py-1 rounded-md bg-accent-50 inline-block border-2 border-amber-200 font-serif font-bold text-accent-500 text-4xl">
                     100+
                 </h1>
                 <p class="font-body font-medium text-gray-400">
@@ -49,7 +51,8 @@ useHead({
                 </p>
             </div>
             <div class="text-center">
-                <h1 class="font-serif font-bold text-emerald-500 text-4xl">
+                <h1
+                    class="  px-2 py-1 rounded-md bg-emerald-50  border-2 border-emerald-200 inline-block font-serif font-bold text-emerald-500 text-4xl">
                     13
                 </h1>
                 <p class="font-body font-medium text-gray-400">
@@ -57,7 +60,8 @@ useHead({
                 </p>
             </div>
             <div class="text-center">
-                <h1 class="font-serif font-bold text-sky-600 text-4xl">
+                <h1
+                    class=" px-2 py-1 rounded-md bg-sky-50 border-2 border-sky-200 inline-block font-serif font-bold text-sky-600 text-4xl">
                     9.5/10
                 </h1>
                 <p class="font-body font-medium text-gray-400">
