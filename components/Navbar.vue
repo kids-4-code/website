@@ -2,16 +2,15 @@
   <div>
     <nav>
       <!--Banner-->
-      <!-- <NuxtLink to="/apply">
+      <NuxtLink to="/courses">
         <div
           class="w-full border-b border-b-brand-400 bg-brand-50 hover:bg-brand-100 transition-colors flex p-3 place-content-center items-center gap-2 ">
-          <p class="text-brand-700 text-sm font-medium font-sans">Applications are now open! Sign up to teach for our
-            Winter
-            2024
-            session!</p>
+          <p class="text-brand-600 text-sm font-medium font-sans">Enrollment opening soon - check out our 3 new
+            classes
+            for winter 2024!</p>
           <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
         </div>
-      </NuxtLink> -->
+      </NuxtLink>
 
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between px-4 py-4">
