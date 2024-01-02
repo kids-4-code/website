@@ -336,7 +336,9 @@ useHead({
                         View our full class schedule including dates & meeting times.
                     </p>
 
-                    <LinkButton disabled>Coming soon</LinkButton>
+                    <LinkButton
+                        to="https://docs.google.com/document/d/14NUJ00GCcFt_nCjutOQwPJfqDptpoW36A9W7_N6VmEs/edit?usp=sharing"
+                        color="sky">View</LinkButton>
 
                 </div>
                 <div class="text-left">
