@@ -25,8 +25,9 @@ useHead({
           </div>
         </div>
         <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
-          <TeacherCard name="Ishaan Samantray" title="Co-president"></TeacherCard>
-          <TeacherCard name="Tyler Song" title="Co-president"></TeacherCard>
+          <TeacherCard name="Ishaan Samantray" title="President"></TeacherCard>
+          <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
+          <TeacherCard name="Aanya Kapoor" title="Secretary"></TeacherCard>
           <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
             <Icon name="tabler:alert-triangle" class=" text-4xl text-purple-600 mb-2"></Icon>
             <h3 class="font-serif font-semibold text-gray-700">Under construction</h3>
