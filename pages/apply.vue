@@ -16,7 +16,23 @@
               </p>
               <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1 mt-4">Application process</h3>
               <p>
-                More info coming soon!
+                Application Process: - Winter 2024 - Kids for Code
+
+                Thank you for your interest in joining Kids for Code as a teacher for the Winter 2024 session! We're excited to learn more about you and your passion for coding education. Please follow the detailed application process outlined below:
+                Application Deadline:
+                Deadline For Teachers: Friday, February 16th
+                Deadline For Team Lead, Web Developer, Curriculum Developer, Finance Director, Outreach Director: February 7th
+                Winter 2024 Schedule:
+                Check the Winter 2024 schedule here: Winter 2024 Schedule
+                Interview and Decision:
+                If your application is shortlisted, we will contact you for an interview.
+                Decisions will be announced 2-3 days after the application deadline.
+
+                We appreciate your interest in Kids for Code and look forward to potentially welcoming you to our team! If you have any questions, please feel free to reach out to us at kidsforcodeteam@gmail.com.
+
+                Thank you,
+                Kids for Code Team
+
               </p>
             </div>
             <div>
