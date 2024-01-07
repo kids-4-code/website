@@ -297,7 +297,10 @@
                 <li>Should have prior experience handling money.</li>
                 <li>Demonstrates a skill for accounting, and tracking expenditures.</li>
               </ul>
-              <LinkButton to="https://forms.gle/Xp2yvkWow1TenD7t7">Apply by 2/7</LinkButton>
+              <div class="mt-6">
+                <LinkButton to="https://forms.gle/Xp2yvkWow1TenD7t7">Apply by 2/7</LinkButton>
+              </div>
+
 
             </div>
           </div>
