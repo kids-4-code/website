@@ -212,7 +212,7 @@
 
                 </ul>
                 <div class="mt-6">
-                  <LinkButton to="https://forms.gle/qXVaXaFFdDgr7VPh9">Apply</LinkButton>
+                  <LinkButton to="https://forms.gle/Tb2ixPnhepUxpgKY7">Apply</LinkButton>
                 </div>
               </div>
 
@@ -239,7 +239,7 @@
                   <li>Demonstrates a skill for accounting, and tracking expenditures.</li>
                 </ul>
                 <div class="mt-6">
-                  <LinkButton to="https://forms.gle/qXVaXaFFdDgr7VPh9">Apply</LinkButton>
+                  <LinkButton to="https://forms.gle/j3FzxWjxems9Kgio6">Apply</LinkButton>
                 </div>
               </div>
             </div>
