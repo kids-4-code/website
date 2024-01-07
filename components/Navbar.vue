@@ -2,12 +2,11 @@
   <div>
     <nav>
       <!--Banner-->
-      <NuxtLink to="/courses">
+      <NuxtLink to="/apply">
         <div
           class="w-full border-b border-b-brand-400 bg-brand-50 hover:bg-brand-100 transition-colors flex p-3 place-content-center items-center gap-2 ">
-          <p class="text-brand-600 text-sm font-medium font-sans">Enrollment opening soon - check out our 3 new
-            classes
-            for winter 2024!</p>
+          <p class="text-brand-600 text-sm font-medium font-sans">Apply for leadership & other positions for our
+            Winter 2024 session.</p>
           <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
         </div>
       </NuxtLink>
