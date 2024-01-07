@@ -10,7 +10,7 @@
         <div class="px-6">
           <div class="grid grid-cols-2 gap-4">
             <div>
-              <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1">About</h3>
+          
               <p>
                 More info coming soon!
               </p>
