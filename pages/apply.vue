@@ -205,6 +205,34 @@
                 <LinkButton to="https://forms.gle/ZyyS26jSqfPkRyCQA">Apply by 2/7</LinkButton>
               </div>
             </div>
+<<<<<<< HEAD
+=======
+            <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
+              <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
+                <Icon name="tabler:school" class="text-3xl text-gray-700"></Icon>
+                <h3 class="text-xl font-serif font-semibold text-gray-700">Outreach Director</h3>
+              </div>
+              <hr class="mt-2 mx-2">
+              <div class="p-2">
+                <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+                <ul class="text-sm list-disc list-inside">
+                  <li>Expanding our reach and impact within the community.</li>
+                  <li>This role involves developing and implementing strategies to engage with schools, parents, and
+                    potential
+                    partners.</li>
+                  <li>The Outreach Director is responsible for creating and maintaining relationships with teachers and
+                    promoting awareness of our coding programs.</li>
+                  <li>Must have prior experience in communication (emailing &amp; calling).
+                    Must have some advertising experience.</li>
+                  <li>Be able to write professional emails to parents, teachers, and students and communicate with partner
+                    organizations.</li>
+
+                </ul>
+                <div class="mt-6">
+                  <LinkButton to="https://forms.gle/Tb2ixPnhepUxpgKY7">Apply</LinkButton>
+                </div>
+              </div>
+>>>>>>> a21aebdaf3c002f7ebdca6787759d794e36c858a
 
           </div>
           <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
@@ -238,6 +266,7 @@
               <div class="mt-6">
                 <LinkButton to="https://forms.gle/qXVaXaFFdDgr7VPh9">Apply by 2/7</LinkButton>
               </div>
+<<<<<<< HEAD
             </div>
 
           </div>
@@ -291,6 +320,27 @@
               </ul>
               <div class="mt-6">
                 <LinkButton to="https://forms.gle/qXVaXaFFdDgr7VPh9">Apply by 2/7</LinkButton>
+=======
+              <hr class="mt-2 mx-2">
+              <div class="p-2">
+                <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+                <ul class="text-sm list-disc list-inside">
+                  <li>Oversee the finances of the organization.</li>
+                  <li>Responsibilities include budgeting, financial planning, and ensuring the efficient use of resources.
+                  </li>
+                  <li>The Finance Director works closely with the leadership team to make informed financial decisions
+                    that
+                    align with the nonprofit's mission and goals.</li>
+                  <li>Responsibilities include paying for Zoom &amp; other subscriptions, managing advertising funds, and
+                    organizing fundraisers.
+                  </li>
+                  <li>Should have prior experience handling money.</li>
+                  <li>Demonstrates a skill for accounting, and tracking expenditures.</li>
+                </ul>
+                <div class="mt-6">
+                  <LinkButton to="https://forms.gle/j3FzxWjxems9Kgio6">Apply</LinkButton>
+                </div>
+>>>>>>> a21aebdaf3c002f7ebdca6787759d794e36c858a
               </div>
             </div>
           </div>
