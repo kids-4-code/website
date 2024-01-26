@@ -2,12 +2,12 @@
   <div>
     <nav>
       <!--Banner-->
-      <NuxtLink to="/apply">
+      <NuxtLink to="https://forms.gle/5Y4uYof4SmQaSqKt9">
         <div
           class="w-full border-b border-b-brand-400 bg-brand-50 hover:bg-brand-100 transition-colors flex p-3 place-content-center items-center gap-2 ">
-          <p class="text-brand-600 text-sm font-medium font-sans">Apply for leadership & other positions for our
-            Winter 2024 session.</p>
-          <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
+          <p class="text-brand-600 text-sm font-medium font-sans">Register for our free Winter 2024 session!
+            <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
+          </p>
         </div>
       </NuxtLink>
 
@@ -29,11 +29,7 @@
               <NuxtLink class="font-sans font-semibold text-gray-700 text-lg" to="/courses">Courses</NuxtLink>
               <NuxtLink class="font-sans font-semibold text-gray-700 text-lg" to="/teachers">Teachers</NuxtLink>
               <NuxtLink class="font-sans font-semibold text-gray-700 text-lg" to="/faq">FAQ</NuxtLink>
-              <!-- <NuxtLink
-                class="sm:hidden font-sans font-semibold text-md text-white bg-brand-600 hover:bg-brand-700 transition-colors px-4 py-1 rounded"
-                to="https://forms.gle/gEKdeV6FUZYroRiV8">
-                Get updates
-              </NuxtLink> -->
+              <LinkButton newTab to="https://forms.gle/gEKdeV6FUZYroRiV8" class="sm:hidden">Enroll</LinkButton>
             </div>
           </div>
           <!-- <NuxtLink
@@ -41,6 +37,7 @@
             to="https://docs.google.com/forms/d/e/1FAIpQLScVIzbv6MLP1QS4PsYrjepCMQaHOhfr8F8W6S_QYBJKDtwwQA/viewform">
             Updates
           </NuxtLink> -->
+          <LinkButton newTab class="max-sm:hidden" to="https://forms.gle/5Y4uYof4SmQaSqKt9">Enroll</LinkButton>
         </div>
       </div>
     </nav>

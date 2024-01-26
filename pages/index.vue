@@ -17,7 +17,7 @@ useHead({
                 learn for free!
             </p>
             <div class="flex gap-2 mt-2">
-                <LinkButton to="https://forms.gle/gEKdeV6FUZYroRiV8" color="brand">Get updates</LinkButton>
+                <LinkButton to="https://forms.gle/5Y4uYof4SmQaSqKt9" color="brand">Enroll</LinkButton>
             </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
@@ -25,7 +25,7 @@ useHead({
             <NuxtLink to="apply"
                 class=" hover:bg-brand-50 border-brand-400 transition-colors border-2 py-1.5 px-4 rounded-full mt-10 flex text-sm items-center">
                 <p class="font-sans text-brand-600 font-medium">
-                    Enrollment opening soon - check out new classes for winter 2024!
+                    Closing soon - apply for leadership positions and more!
                 </p>
                 <Icon class="ml-2 text-xl text-brand-600" name="tabler:arrow-right"></Icon>
             </NuxtLink>
@@ -289,7 +289,7 @@ useHead({
                         <p class="text-sm md:w-2/3 block mt-1">Registration opening soon - sign up for our email list to get
                             updates!</p>
 
-                        <LinkButton class="mt-4" to="https://forms.gle/gEKdeV6FUZYroRiV8" color="sky">Get updates
+                        <LinkButton class="mt-4" to="https://forms.gle/5Y4uYof4SmQaSqKt9" color="sky">Enroll
                         </LinkButton>
                     </div>
                     <div class="z-10 grid grid-rows-2 gap-4 rounded-xl">
