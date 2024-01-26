@@ -223,12 +223,14 @@ useHead({
               <p class="text-sm text-gray-400 font-body font-medium">Sun. 3:00-4:00pm ET </p>
             </template>
             <template #description>
-              <p class="text-sm">More information coming soon!
+              <p class="text-sm">An introductory machine learning course using Python with a strong focus on practical
+                applications. Students will learn the fundamentals of machine learning using widely-used libraries like
+                PyTorch & sklearn.
               </p>
 
             </template>
             <template #link>
-              <LinkButton disabled to="courses/intro-to-ml" color="emerald">Learn more</LinkButton>
+              <LinkButton to="courses/intro-to-ml" color="emerald">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>

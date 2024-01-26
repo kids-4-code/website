@@ -298,7 +298,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">March 2nd - March 14th</p>
+                            <p class="text-gray-700 text-xl font-sans">March 2nd - April 14th</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -322,7 +322,7 @@ useHead({
                             <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
                             <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
                         </span>
-                        <p class="text-gray-700 text-xl font-sans">-</p>
+                        <p class="text-gray-700 text-xl font-sans">February 29th</p>
                     </div>
 
                 </div>
