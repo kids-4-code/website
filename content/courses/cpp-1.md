@@ -15,7 +15,8 @@ color: sky
 
 ::course-details
 ---
-time: Sat. 11:00am - 11:45am ET
+time: 2024-03-02T11:00
+duration: 45
 dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Intermediate
 ages: 8+

@@ -14,7 +14,8 @@ color: emerald
 
 ::course-details
 ---
-time: Sundays 12:00pm - 12:45pm ET
+time: 2024-03-03T12:00
+duration: 45
 dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Intermediate
 ages: ages 8 & up

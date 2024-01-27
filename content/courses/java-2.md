@@ -15,7 +15,8 @@ color: red
 
 ::course-details
 ---
-time: Sat. 5:15pm - 6:00pm ET
+time: 2024-03-02T17:15
+duration: 45
 dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Intermediate
 ages: ages 8 & up

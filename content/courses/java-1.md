@@ -14,7 +14,8 @@ color: red
 
 ::course-details
 ---
-time: Sat. 4:15pm - 5:00pm ET
+time: 2024-03-02T16:15
+duration: 45
 dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Beginner
 ages: ages 8 & up

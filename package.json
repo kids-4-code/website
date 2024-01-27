@@ -19,6 +19,7 @@
     "postcss": "^8.4.31"
   },
   "dependencies": {
-    "@nuxt/content": "^2.8.5"
+    "@nuxt/content": "^2.8.5",
+    "luxon": "^3.4.4"
   }
 }

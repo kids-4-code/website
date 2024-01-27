@@ -15,7 +15,8 @@ color: purple
 
 ::course-details
 ---
-time: Sundays 5:00pm - 5:45pm ET
+time: 2024-03-03T17:00
+duration: 45
 dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Beginner
 ages: ages 6+

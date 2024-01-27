@@ -15,7 +15,8 @@ color: amber
 
 ::course-details
 ---
-time: Sat. 2:00pm - 3:00pm ET
+time: 2024-03-02T14:00
+duration: 60
 dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
 level: Advanced
 ages: ages 10 & up

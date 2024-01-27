@@ -15,7 +15,8 @@ color: emerald
 
 ::course-details
 ---
-time: Sun. 3:00pm - 4:00pm ET
+time: 2024-03-03T15:00
+duration: 60
 dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
 level: Advanced
 ages: 10+
