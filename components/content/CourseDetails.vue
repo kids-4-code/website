@@ -74,9 +74,10 @@ dates = dates.map((d) => {
     <div>
       <span class="flex items-center">
         <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Time ({{ start.toLocal().zoneName.replace("_",
-          " ")
-        }})</span>
+        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Time <span
+            class="text-gray-400 font-normal">(timezone converted to
+            {{ start.toLocal().zoneName.replace("_", " ")
+            }}) </span></span>
       </span>
       <div>
         <p class="text-gray-700 text-xl font-sans mb-0">{{ formattedTime }}</p>
