@@ -28,11 +28,32 @@ useHead({
           <TeacherCard name="Ishaan Samantray" title="President"></TeacherCard>
           <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
           <TeacherCard name="Aanya Kapoor" title="Secretary"></TeacherCard>
-          <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
+          <TeacherCard name="Zaria Naqvi" title="Team Lead, ITP"></TeacherCard>
+          <TeacherCard name="Siddhant Shah" title="Team Lead, Python"></TeacherCard>
+          <TeacherCard name="Bryan Yung" title="Team Lead, Python"></TeacherCard>
+          <TeacherCard name="Michael James" title="Team Lead, Java"></TeacherCard>
+          <TeacherCard name="Max Shawer" title="Team Lead, Java"></TeacherCard>
+          <TeacherCard name="Aayan Shehzad" title="Team Lead, Web"></TeacherCard>
+          <TeacherCard name="Lavanya Ravi" title="Team Lead, Web"></TeacherCard>
+          <TeacherCard name="Harish Chandran" title="Team Lead, C++"></TeacherCard>
+          <TeacherCard name="Andy Xiong" title="Curriculum Developer"></TeacherCard>
+          <TeacherCard name="Ved Roychowdhury" title="Outreach Director"></TeacherCard>
+          <TeacherCard name="Jonathan Cai" title="Instructor"></TeacherCard>
+          <TeacherCard name="Ahana Samantray" title="Instructor"></TeacherCard>
+          <TeacherCard name="Albert Gao" title="Instructor"></TeacherCard>
+          <TeacherCard name="Kevin Xue" title="Instructor"></TeacherCard>
+          <TeacherCard name="Michael James" title="Instructor"></TeacherCard>
+          <TeacherCard name="Zaria Naqvi" title="Instructor"></TeacherCard>
+          <TeacherCard name="Luke Mehta" title="Instructor"></TeacherCard>
+          <TeacherCard name="Aayan Shehzad" title="Instructor"></TeacherCard>
+          <TeacherCard name="Rushil Gaddam" title="Instructor"></TeacherCard>
+
+
+          <!-- <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
             <Icon name="tabler:alert-triangle" class=" text-4xl text-purple-600 mb-2"></Icon>
             <h3 class="font-serif font-semibold text-gray-700">Under construction</h3>
             <p class="text-gray-600 text-sm">Please check later for updated leadership once our next session starts!</p>
-          </div>
+          </div> -->
         </div>
         <!-- <div>
           <h2 class="font-semibold text-gray-700 font-serif text-3xl mt-6">Teachers</h2>
