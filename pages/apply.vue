@@ -20,10 +20,10 @@
 
               </p>
               <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1 mt-4">Application</h3>
-              <p class="mb-4">Please see the below link for descriptions of each open position as well as additional
-                information on our
-                hiring process.</p>
-              <LinkButton
+              <p class="mb-4 font-medium">Our application for the Winter 2024 session has closed. Please check back later
+                for our next
+                session!</p>
+              <LinkButton disabled
                 to="https://docs.google.com/document/d/1K8CO0-p6a1Hu-uCH7QhMlVefCTKB_SyOyVhjTMqZl8M/edit?usp=sharing">
                 Application info
               </LinkButton>
@@ -53,35 +53,33 @@
                     <Icon name="tabler:calendar-time" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications open</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">January 4th, 2024</p>
+                  <p class="text-gray-700 text-xl font-body">—</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-check" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications close</span>
                   </span>
                   <p class="text-gray-700 text-xl font-body">
-                    February
-                    7th,
-                    2024</p>
+                    —</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-code" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Training and orientation</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">February 26th - March 1st, 2024</p>
+                  <p class="text-gray-700 text-xl font-body">—</p>
                 </div>
                 <hr class="border my-2 border-gray-200">
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes start</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">March 2nd, 2024</p>
+                  <p class="text-gray-700 text-xl font-body">—</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes end</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">April 14th, 2024</p>
+                  <p class="text-gray-700 text-xl font-body">—</p>
                 </div>
               </div>
             </div>
@@ -127,7 +125,7 @@
           </div> -->
 
         </div>
-        <hr class="mt-6 mb-4">
+        <!-- <hr class="mt-6 mb-4">
         <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-4">Open positions</h3>
         <div class="grid grid-cols-2 gap-4">
           <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
@@ -305,7 +303,7 @@
             </div>
           </div>
 
-        </div>
+        </div> -->
       </div>
     </div>
 

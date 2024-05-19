@@ -9,26 +9,26 @@ useHead({
         <!--Hero-->
         <div class="pt-16 flex flex-col items-center text-center gap-2 w-6xl mx-2">
             <div class="mb-2">
-                <h3 class="font-sans font-semibold text-gray-300">Winter 2024 Session</h3>
+                <h3 class="font-sans font-semibold text-gray-300">Summer 2024 Session</h3>
                 <h1 class="font-serif text-4xl md:text-5xl text-gray-700 font-semibold">Online coding classes,</h1>
                 <h1 class="font-serif text-4xl md:text-5xl text-brand-600 font-semibold mb-0">100% free.</h1>
             </div>
             <p class="text-gray-500 text-sm">We're a group of student volunteers passionate about coding. <br>Join us to
                 learn for free!
             </p>
-            <div class="flex gap-2 mt-2">
-                <LinkButton to="https://forms.gle/5Y4uYof4SmQaSqKt9" color="brand">Enroll</LinkButton>
-            </div>
+            <!-- <div class="flex gap-2 mt-2">
+                <LinkButton to="https://forms.gle/5Y4uYof4SmQaSqKt9" color="brand" >Enroll</LinkButton>
+            </div> -->
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
 
-            <NuxtLink to="apply"
+            <!-- <NuxtLink to="apply"
                 class=" hover:bg-brand-50 border-brand-400 transition-colors border-2 py-1.5 px-4 rounded-full mt-10 flex text-sm items-center">
                 <p class="font-sans text-brand-600 font-medium">
                     Closing soon - apply for leadership positions and more!
                 </p>
                 <Icon class="ml-2 text-xl text-brand-600" name="tabler:arrow-right"></Icon>
-            </NuxtLink>
+            </NuxtLink> -->
         </div>
         <div
             class="py-6 lg:px-48 xl:px-72 mt-20 w-full border-y-2 border-y-gray-200 grid-flow-col grid auto-cols-fr gap-y-8 max-sm:grid-rows-2">
@@ -285,11 +285,11 @@ useHead({
                     class="grid grid-cols-1 md:grid-cols-2 bg shadow-sm border-gray-200 gap-8 text-left border p-6 py-8 rounded-xl text-gray-700 z-0">
                     <div class="z-10">
                         <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
-                        <h1 class="text-4xl font-serif font-semibold">Winter 2024</h1>
+                        <h1 class="text-4xl font-serif font-semibold">Summer 2024</h1>
                         <p class="text-sm md:w-2/3 block mt-1">Registration opening soon - sign up for our email list to get
                             updates!</p>
 
-                        <LinkButton class="mt-4" to="https://forms.gle/5Y4uYof4SmQaSqKt9" color="sky">Enroll
+                        <LinkButton class="mt-4" to="https://forms.gle/p769hWPxMrw8hDrU6" color="sky">Get updates
                         </LinkButton>
                     </div>
                     <div class="z-10 grid grid-rows-2 gap-4 rounded-xl">
@@ -298,7 +298,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">March 2nd - April 14th</p>
+                            <p class="text-gray-700 text-xl font-sans">-</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -322,7 +322,7 @@ useHead({
                             <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
                             <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
                         </span>
-                        <p class="text-gray-700 text-xl font-sans">February 29th</p>
+                        <p class="text-gray-700 text-xl font-sans">-</p>
                     </div>
 
                 </div>
@@ -336,7 +336,7 @@ useHead({
                         View our full class schedule including dates & meeting times.
                     </p>
 
-                    <LinkButton
+                    <LinkButton disabled
                         to="https://docs.google.com/document/d/14NUJ00GCcFt_nCjutOQwPJfqDptpoW36A9W7_N6VmEs/edit?usp=sharing"
                         color="sky">View</LinkButton>
 

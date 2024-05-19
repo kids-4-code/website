@@ -28,20 +28,17 @@ useHead({
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Class schedule</h3>
             <p class="text-sm">See class dates & times.</p>
           </div>
-          <div class="mt-2">
-            <a href="https://docs.google.com/document/d/14NUJ00GCcFt_nCjutOQwPJfqDptpoW36A9W7_N6VmEs/edit?usp=sharing"
-              class="text-gray-600 text-sm underline font-medium">
-              <h5>View schedule ↗</h5>
-            </a>
+          <div class="mt-4">
+            <LinkButton disabled to="" color="sky">View schedule
+            </LinkButton>
           </div>
+
         </div>
         <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:calendar-time" class="text-4xl text-brand-500"></Icon>
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Session info</h3>
-            <p class="text-sm">Our 2024 Winter session will run for 7 weeks in total, with one week off for spring break.
-              Classes will start
-              March 2nd and end April 14th.</p>
+            <p class="text-sm">More information about our summer 2024 session will be coming soon!</p>
           </div>
         </div>
         <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
@@ -50,10 +47,9 @@ useHead({
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">FAQ</h3>
             <p class="text-sm">Get answers to frequently asked questions about our classes & more!</p>
           </div>
-          <div class="mt-2">
-            <NuxtLink to="faq" class="text-gray-600 text-sm underline font-medium">
-              <h5>Visit now</h5>
-            </NuxtLink>
+          <div class="mt-4">
+            <LinkButton newTab to="/faq" color="red">View
+            </LinkButton>
           </div>
         </div>
       </div>
@@ -389,7 +385,7 @@ useHead({
               <LinkButton to="courses/java-2" color="red">Learn more</LinkButton>
             </template>
           </CourseCard>
-          <CourseCard new badge-color="red">
+          <!-- <CourseCard new badge-color="red">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
             </template>
@@ -409,7 +405,7 @@ useHead({
             <template #link>
               <LinkButton to="courses/java-3" color="red">Learn more</LinkButton>
             </template>
-          </CourseCard>
+          </CourseCard> -->
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="cpp">

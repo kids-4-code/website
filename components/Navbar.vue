@@ -2,18 +2,18 @@
   <div>
     <nav>
       <!--Banner-->
-      <NuxtLink to="https://forms.gle/5Y4uYof4SmQaSqKt9">
+      <!-- <NuxtLink to="https://forms.gle/5Y4uYof4SmQaSqKt9">
         <div
           class="w-full border-b border-b-brand-400 bg-brand-50 hover:bg-brand-100 transition-colors flex p-3 place-content-center items-center gap-2 ">
           <p class="text-brand-600 text-sm font-medium font-sans">Register for our free Winter 2024 session!
             <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
           </p>
         </div>
-      </NuxtLink>
+      </NuxtLink> -->
 
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between px-4 py-4">
-          <div class="flex sm:items-center gap-x-4 gap-y-3 max-sm:flex-col w-full">
+          <div class="flex sm:items-center gap-x-4 gap-y-3 max-sm:flex-col">
             <NuxtLink to="/">
               <div class="flex items-center gap-4">
                 <img src="/logo.svg" class="h-7">
@@ -37,7 +37,7 @@
             to="https://docs.google.com/forms/d/e/1FAIpQLScVIzbv6MLP1QS4PsYrjepCMQaHOhfr8F8W6S_QYBJKDtwwQA/viewform">
             Updates
           </NuxtLink> -->
-          <LinkButton newTab class="max-sm:hidden" to="https://forms.gle/5Y4uYof4SmQaSqKt9">Enroll</LinkButton>
+          <LinkButton newTab ghost class="max-sm:hidden" to="https://forms.gle/p769hWPxMrw8hDrU6">Get updates</LinkButton>
         </div>
       </div>
     </nav>
