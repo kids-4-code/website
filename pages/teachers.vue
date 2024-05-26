@@ -25,7 +25,7 @@ useHead({
           </div>
         </div>
         <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
-          <TeacherCard icon="/ishaans name=" Ishaan Samantray" title="President"></TeacherCard>
+          <!-- <TeacherCard icon="/ishaans name=" Ishaan Samantray" title="President"></TeacherCard>
           <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
           <TeacherCard name="Aanya Kapoor" title="Secretary"></TeacherCard>
           <TeacherCard name="Ashley Kundi" title="Secretary"></TeacherCard>
@@ -47,7 +47,7 @@ useHead({
           <TeacherCard name="Zaria Naqvi" title="Instructor"></TeacherCard>
           <TeacherCard name="Luke Mehta" title="Instructor"></TeacherCard>
           <TeacherCard name="Aayan Shehzad" title="Instructor"></TeacherCard>
-          <TeacherCard name="Rushil Gaddam" title="Instructor"></TeacherCard>
+          <TeacherCard name="Rushil Gaddam" title="Instructor"></TeacherCard> -->
 
 
           <!-- <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
