@@ -25,7 +25,7 @@ useHead({
           </div>
         </div>
         <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
-          <TeacherCard name="Ishaan Samantray" title="President"></TeacherCard>
+          <TeacherCard icon=/ishaans name="Ishaan Samantray" title="President"></TeacherCard>
           <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
           <TeacherCard name="Aanya Kapoor" title="Secretary"></TeacherCard>
           <TeacherCard name="Zaria Naqvi" title="Team Lead, ITP"></TeacherCard>
