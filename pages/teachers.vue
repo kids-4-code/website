@@ -28,6 +28,7 @@ useHead({
           <TeacherCard icon=/ishaans name="Ishaan Samantray" title="President"></TeacherCard>
           <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
           <TeacherCard name="Aanya Kapoor" title="Secretary"></TeacherCard>
+          <TeacherCard name="Ashley Kundi" title="Secretary"></TeacherCard>
           <TeacherCard name="Zaria Naqvi" title="Team Lead, ITP"></TeacherCard>
           <TeacherCard name="Siddhant Shah" title="Team Lead, Python"></TeacherCard>
           <TeacherCard name="Bryan Yung" title="Team Lead, Python"></TeacherCard>
