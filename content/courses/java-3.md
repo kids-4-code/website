@@ -25,7 +25,7 @@ ages: ages 10 & up
 
 ::course-descrip
 
-**We will not be offering Java 3 in the Winter 2024 session due to limited interest. Please check back this summer for our next session!**
+**We will not be offering Java 3 in the Summer 2024 session due to limited interest. Please check back next session!**
 
 Java 3 is our highest-level Java course and is intended for students who have a firm grasp on the material covered in our previous two courses and are ready to take their understanding to the next level. It’s designed to cover a wide range of different topics, from commonly used algorithms to object-oriented programming to debugging skills. Students may find this class slightly more difficult & conceptual than Java 1 and Java 2.
 

@@ -8,7 +8,7 @@ title: Web Design 2
 name: Web Design 2
 background: /images/graphics/web-graphic.png
 icon: /images/icons/js.png
-description: A more advanced, faster-paced version of Web Design 1A that covers all the content in 1A as well as a few additional topics.
+description: A fast-paced, advanced class that introduces JavaScript and how it can be used to add functionality & interactivity to websites.
 color: amber
 ---
 ::
@@ -17,7 +17,7 @@ color: amber
 ---
 time: 2024-03-02T14:00
 duration: 60
-dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
+dates: 7/6, 7/13, 7/20, 7/27, 8/3, 8/10
 level: Advanced
 ages: ages 10 & up
 ---

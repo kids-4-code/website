@@ -15,9 +15,9 @@ color: sky
 
 ::course-details
 ---
-time: 2024-03-02T11:00
+time: 2024-07-06T11:00
 duration: 45
-dates: 3/2, 3/9, 3/16, 3/23, 4/6, 4/13
+dates: 7/6, 7/13, 7/20, 7/27, 8/3, 8/10
 level: Intermediate
 ages: 8+
 ---

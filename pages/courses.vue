@@ -29,7 +29,9 @@ useHead({
             <p class="text-sm">See class dates & times.</p>
           </div>
           <div class="mt-4">
-            <LinkButton disabled to="" color="sky">View schedule
+            <LinkButton
+              to="https://docs.google.com/document/d/e/2PACX-1vTEOxLdYB49eK2jF-uSSznAAJRYKgWKeZMh-7IeLndB9CCY9iBfrPhYNnv54Ms_BAMSXze00b8gCfWm/pub"
+              color="sky">View schedule
             </LinkButton>
           </div>
 
@@ -38,7 +40,8 @@ useHead({
           <div>
             <Icon name="tabler:calendar-time" class="text-4xl text-brand-500"></Icon>
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Session info</h3>
-            <p class="text-sm">More information about our summer 2024 session will be coming soon!</p>
+            <p class="text-sm">Our Summer 2024 session will run for 6 weeks, with a class every week. It will start on
+              July 6th and end on August 11th.</p>
           </div>
         </div>
         <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
@@ -187,27 +190,7 @@ useHead({
             </template>
           </CourseCard>
 
-          <CourseCard new badge-color="emerald">
-            <template #icon>
-              <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
-            </template>
-            <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Python 3</h3>
-            </template>
-            <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 2:00-2:45pm ET</p>
-            </template>
-            <template #description>
-              <p class="text-sm">Python 3 provides an in-depth overview of object-oriented programming & data structures,
-                and completes students' study of the fundamental concepts they will need to effectively write Python code.
-              </p>
-            </template>
-            <template #link>
-              <LinkButton to="courses/python-3" color="emerald">Learn more</LinkButton>
-            </template>
-          </CourseCard>
-
-          <CourseCard new badge-color="emerald">
+          <CourseCard>
             <template #icon>
               <Icon name="tabler:topology-ring" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
@@ -220,13 +203,36 @@ useHead({
             </template>
             <template #description>
               <p class="text-sm">An introductory machine learning course using Python with a strong focus on practical
-                applications. Students will learn the fundamentals of machine learning using widely-used libraries like
+                applications. Students will learn the fundamentals of machine learning through widely-used libraries
+                like
                 PyTorch & sklearn.
               </p>
 
             </template>
             <template #link>
               <LinkButton to="courses/intro-to-ml" color="emerald">Learn more</LinkButton>
+            </template>
+          </CourseCard>
+
+          <CourseCard new badge-color="emerald">
+            <template #icon>
+              <Icon name="tabler:device-gamepad-2" class="text-4xl text-emerald-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">Game Programming with Python
+              </h3>
+            </template>
+            <template #details>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 4:00-4:45pm ET </p>
+            </template>
+            <template #description>
+              <p class="text-sm">An engaging introduction to coding with Python through game development, using the
+                CMU-developed Exploring Programming with Python curriculum.
+              </p>
+
+            </template>
+            <template #link>
+              <LinkButton to="courses/game-programming-with-python" color="emerald">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>
@@ -297,7 +303,7 @@ useHead({
           </CourseCard>
           <CourseCard>
             <template #icon>
-              <Icon name="tabler:brand-html5" class="text-4xl text-amber-600 mb-2"></Icon>
+              <Icon name="tabler:brand-javascript" class="text-4xl text-amber-600 mb-2"></Icon>
             </template>
             <template #title>
               <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 2</h3>
@@ -319,6 +325,28 @@ useHead({
               <LinkButton to="courses/web-design-2" color="amber">Learn more</LinkButton>
             </template>
           </CourseCard>
+          <CourseCard new badge-color="amber">
+            <template #icon>
+              <Icon name="tabler:text-resize" class="text-4xl text-amber-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 3</h3>
+            </template>
+            <template #details>
+              <p class="text-sm text-gray-400 font-body font-medium">Sat. 3:00-4:00pm ET</p>
+            </template>
+            <template #description>
+              <p class="text-sm">A project-based course that focuses on creating fully-featured, professional websites
+                using HTML, CSS, and JavaScript.
+              </p>
+              <p class="text-sm">Students will apply their web development skills to build a website with responsive
+                layout, interactive elements, a navigation bar, and more.
+              </p>
+            </template>
+            <template #link>
+              <LinkButton to="courses/web-design-3" color="amber">Learn more</LinkButton>
+            </template>
+          </CourseCard>
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
@@ -333,7 +361,8 @@ useHead({
             </template>
             <template #description>
               <p class="text-sm">
-                Java is a versatile, object-oriented programming language developed by Oracle - it's popular in enterprise
+                Java is a versatile, object-oriented programming language developed by Oracle - it's popular in
+                enterprise
                 software, backend development, and Android app development.
               </p>
             </template>
@@ -474,6 +503,26 @@ useHead({
             </template>
             <template #link>
               <LinkButton to="courses/intro-to-programming" color="purple">Learn more</LinkButton>
+            </template>
+          </CourseCard>
+          <CourseCard new badge-color="purple">
+            <template #icon>
+              <Icon name="tabler:click" class="text-4xl text-purple-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">Fundamentals of UI Design</h3>
+            </template>
+            <template #details>
+              <p class="text-sm text-gray-400 font-body font-medium">Sun. 7:30-8:15pm ET</p>
+            </template>
+            <template #description>
+              <p class="text-sm">Students will learn the fundamentals of UI design & apply what they've learned to
+                design beautiful, user-friendly, and professional-looking websites, apps, and more in industry-standard
+                apps like Figma.
+              </p>
+            </template>
+            <template #link>
+              <LinkButton to="courses/fundamentals-of-ui-design" color="purple">Learn more</LinkButton>
             </template>
           </CourseCard>
         </div>

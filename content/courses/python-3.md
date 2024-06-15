@@ -24,7 +24,7 @@ ages: ages 8 & up
 
 ::course-descrip
 
-**We will not be offering Python 3 in the Winter 2024 session due to limited interest. Please check back this summer for our next session!**
+**We will not be offering Python 3 in the Summer 2024 session due to limited interest. Please check back next session!**
 
 Python 3 provides an in-depth overview of object-oriented programming & data structures, completing our basic Python track. Students will enhance their ability to write concise & well-structured code through classes, list, and dictionary comprehensions, and explore some simple debugging techniques to make their coding journeys smoother. The course will conclude with a final project, allowing students to apply what they have learned by building a project of their choice with guidance from teachers. 
 

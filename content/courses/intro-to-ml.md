@@ -17,7 +17,7 @@ color: emerald
 ---
 time: 2024-03-03T15:00
 duration: 60
-dates: 3/3, 3/10, 3/17, 3/24, 4/7, 4/14
+dates: 7/7, 7/14, 7/21, 7/28, 8/4, 8/11
 level: Advanced
 ages: 10+
 ---
@@ -39,7 +39,4 @@ Each hour long class will contain approximately 20-30m of lecture and then appro
 | 5    | Implementing a basic neural network in PyTorch  (plus some basic model validation and saving/loading weights) |
 | 6    | Introduction to natural language processing using Transformers  (Hugging Face)                                |
 
-::
-
-::certificate-notice
 ::

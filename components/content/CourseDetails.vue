@@ -96,10 +96,9 @@ dates = dates.map((d) => {
     <div>
       <span class="flex items-center">
         <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
+        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates (mm/dd)</span>
       </span>
-      <!-- <p class="text-gray-700 text-xl font-sans">{{ dates }}</p> -->
-      <p class="text-gray-700 text-xl font-sans">—</p>
+      <p class="text-gray-700 text-xl font-sans">{{ dates }}</p>
     </div>
     <div>
       <span class="flex items-center">

@@ -32,12 +32,11 @@
               <LinkButton newTab to="https://forms.gle/gEKdeV6FUZYroRiV8" class="sm:hidden">Enroll</LinkButton>
             </div>
           </div>
-          <!-- <NuxtLink
-            class="font-sans font-semibold text-md text-white bg-brand-600 hover:bg-brand-700 transition-colors px-4 py-1 rounded max-sm:hidden"
-            to="https://docs.google.com/forms/d/e/1FAIpQLScVIzbv6MLP1QS4PsYrjepCMQaHOhfr8F8W6S_QYBJKDtwwQA/viewform">
-            Updates
-          </NuxtLink> -->
-          <LinkButton newTab ghost class="max-sm:hidden" to="https://forms.gle/p769hWPxMrw8hDrU6">Get updates</LinkButton>
+          <LinkButton newTab class="max-sm:hidden" to="https://forms.gle/Pv621KyFzYq1hKN9A">
+            Enroll
+          </LinkButton>
+          <!-- <LinkButton newTab ghost class="max-sm:hidden" to="https://forms.gle/Pv621KyFzYq1hKN9A">Get updates
+          </LinkButton> -->
         </div>
       </div>
     </nav>

@@ -16,9 +16,9 @@ useHead({
             <p class="text-gray-500 text-sm">We're a group of student volunteers passionate about coding. <br>Join us to
                 learn for free!
             </p>
-            <!-- <div class="flex gap-2 mt-2">
-                <LinkButton to="https://forms.gle/5Y4uYof4SmQaSqKt9" color="brand" >Enroll</LinkButton>
-            </div> -->
+            <div class="flex gap-2 mt-2">
+                <LinkButton to="https://forms.gle/Pv621KyFzYq1hKN9A" color="brand">Enroll</LinkButton>
+            </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
 
@@ -53,7 +53,7 @@ useHead({
             <div class="text-center">
                 <h1
                     class="  px-2 py-1 rounded-md bg-emerald-50  border-2 border-emerald-200 inline-block font-serif font-bold text-emerald-500 text-4xl">
-                    13
+                    14
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     courses
@@ -146,7 +146,8 @@ useHead({
                 </div>
             </div>
 
-            <div class="mt-6 md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-3xl flex max-sm:flex-col items-center gap-16 p-6">
+            <div
+                class="mt-6 md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-3xl flex max-sm:flex-col items-center gap-16 p-6">
                 <div class="text-left">
                     <h2 class="text-3xl text-gray-700 font-semibold font-serif">Explore all courses</h2>
                     <p class="mt-2 mb-4"><span class="font-medium">View our full course listings
@@ -286,10 +287,10 @@ useHead({
                     <div class="z-10">
                         <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
                         <h1 class="text-4xl font-serif font-semibold">Summer 2024</h1>
-                        <p class="text-sm md:w-2/3 block mt-1">Registration opening soon - sign up for our email list to get
-                            updates!</p>
+                        <p class="text-sm md:w-3/4 block mt-1">Registration is now open. Sign up & take any of our 14
+                            courses for free!</p>
 
-                        <LinkButton class="mt-4" to="https://forms.gle/p769hWPxMrw8hDrU6" color="sky">Get updates
+                        <LinkButton class="mt-4" to="https://forms.gle/Pv621KyFzYq1hKN9A" color="sky" newTab>Enroll
                         </LinkButton>
                     </div>
                     <div class="z-10 grid grid-rows-2 gap-4 rounded-xl">
@@ -298,7 +299,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">-</p>
+                            <p class="text-gray-700 text-xl font-sans">July 6th - August 11th</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -309,7 +310,8 @@ useHead({
                         </div>
                     </div>
                 </div>
-                <div class="text-left py-4 my-4 mx-2 md:mx-6 grid md:grid-cols-2 gap-6 border-t border-b border-gray-200">
+                <div
+                    class="text-left py-4 my-4 mx-2 md:mx-6 grid md:grid-cols-2 gap-6 border-t border-b border-gray-200">
                     <div>
                         <span class="flex items-center mb-1">
                             <Icon name="tabler:language" class="text-md text-blue-700"></Icon>
@@ -322,7 +324,7 @@ useHead({
                             <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
                             <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
                         </span>
-                        <p class="text-gray-700 text-xl font-sans">-</p>
+                        <p class="text-gray-700 text-xl font-sans">July 4th</p>
                     </div>
 
                 </div>
@@ -336,8 +338,8 @@ useHead({
                         View our full class schedule including dates & meeting times.
                     </p>
 
-                    <LinkButton disabled
-                        to="https://docs.google.com/document/d/14NUJ00GCcFt_nCjutOQwPJfqDptpoW36A9W7_N6VmEs/edit?usp=sharing"
+                    <LinkButton newTab
+                        to="https://docs.google.com/document/d/e/2PACX-1vTEOxLdYB49eK2jF-uSSznAAJRYKgWKeZMh-7IeLndB9CCY9iBfrPhYNnv54Ms_BAMSXze00b8gCfWm/pub"
                         color="sky">View</LinkButton>
 
                 </div>
@@ -373,7 +375,7 @@ useHead({
                     expanded to include teachers from across Maryland & the DMV area and developed more than a dozen
                     unique
                     courses featuring
-                    custom curriculum designed specifically for young learners. Over our past 6 sessions, <span
+                    custom curriculum designed specifically for young learners. Over our past few sessions, <span
                         class="font-medium">we've taught
                         nearly 5,000 students from across 40+ U.S. states and 13 countries.</span>
                 </p>

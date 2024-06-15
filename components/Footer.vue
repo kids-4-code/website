@@ -11,15 +11,14 @@
             <li>
               <NuxtLink>Home</NuxtLink>
             </li>
-            <li> <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScVIzbv6MLP1QS4PsYrjepCMQaHOhfr8F8W6S_QYBJKDtwwQA/viewform">Enroll</a>
+            <li> <a href="https://forms.gle/Pv621KyFzYq1hKN9A">Enroll</a>
             </li>
             <li><a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdr9njG4bNeAiwvznxu2-Jy3w4NO8XT5mXpL-3n7NyKcDwIcA/viewform">Apply
                 to teach</a>
             </li>
             <li><a
-                href="https://docs.google.com/document/d/1huzk0H_hHlBQGjwtpUHJW69NEOTLXnGU-IDYiEknbbE/edit?usp=sharing">Class
+                href="https://docs.google.com/document/d/e/2PACX-1vTEOxLdYB49eK2jF-uSSznAAJRYKgWKeZMh-7IeLndB9CCY9iBfrPhYNnv54Ms_BAMSXze00b8gCfWm/pub">Class
                 schedule</a></li>
             <li>
               <NuxtLink to="/faq">FAQ</NuxtLink>
