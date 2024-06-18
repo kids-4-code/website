@@ -13,8 +13,7 @@
             </li>
             <li> <a href="https://forms.gle/Pv621KyFzYq1hKN9A">Enroll</a>
             </li>
-            <li><a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdr9njG4bNeAiwvznxu2-Jy3w4NO8XT5mXpL-3n7NyKcDwIcA/viewform">Apply
+            <li><a href="/apply">Apply
                 to teach</a>
             </li>
             <li><a

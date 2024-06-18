@@ -11,7 +11,8 @@
           <div class="grid grid-cols-2 gap-4">
             <div>
               <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1 mt-4">About us</h3>
-              <p>Kids for Code was founded in 2020 by students in Montgomery County, Maryland. Since then, we've expanded
+              <p>Kids for Code was founded in 2020 by students in Montgomery County, Maryland. Since then, we've
+                expanded
                 to include teachers from across Maryland & the DMV area and developed more than a dozen unique courses
                 featuring custom curriculum designed specifically for young learners. Over our past 6 sessions, we've
                 taught nearly 5,000 students from across 40+ U.S. states and 13 countries. Our mission is to teach and
@@ -20,11 +21,9 @@
 
               </p>
               <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1 mt-4">Application</h3>
-              <p class="mb-4 font-medium">Our application for the Winter 2024 session has closed. Please check back later
-                for our next
-                session!</p>
-              <LinkButton disabled
-                to="https://docs.google.com/document/d/1K8CO0-p6a1Hu-uCH7QhMlVefCTKB_SyOyVhjTMqZl8M/edit?usp=sharing">
+              <p class="mb-4 font-medium">Our application for the Summer 2024 session is now open! Please visit the below link to apply.</p>
+              <LinkButton
+                to="https://docs.google.com/document/d/e/2PACX-1vQ4365k_sucsE_7wyQXi2LeVmooZELivVnPV08hCPSCXTKI2kCr9w7wXyyqgjk4T6gz6pIyhqF64W1M/pub">
                 Application info
               </LinkButton>
               <!-- <p class="mb-2">We appreciate your interest in Kids for Code and look forward to welcoming you to our team!
@@ -53,33 +52,33 @@
                     <Icon name="tabler:calendar-time" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications open</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">—</p>
+                  <p class="text-gray-700 text-xl font-body">Tue, Jun 18</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-check" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications close</span>
                   </span>
                   <p class="text-gray-700 text-xl font-body">
-                    —</p>
+                    Fri, Jun 28th</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-code" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Training and orientation</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">—</p>
+                  <p class="text-gray-700 text-xl font-body">TBD</p>
                 </div>
                 <hr class="border my-2 border-gray-200">
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes start</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">—</p>
+                  <p class="text-gray-700 text-xl font-body">Sat, Jul 6th</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
                     <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes end</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">—</p>
+                  <p class="text-gray-700 text-xl font-body">Sun, Aug 11th</p>
                 </div>
               </div>
             </div>
