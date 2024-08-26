@@ -27,9 +27,6 @@ useHead({
         <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
           <TeacherCard name="Ishaan Samantray" title="President"></TeacherCard>
           <TeacherCard name="Tyler Song" title="Vice President"></TeacherCard>
-          <TeacherCard name="Aanya Kapoor" title="Secretary"></TeacherCard>
-          <TeacherCard name="Ashley Kundi" title="Secretary"></TeacherCard>
-          <TeacherCard name="Zaria Naqvi" title="Team Lead, ITP"></TeacherCard>
           <TeacherCard name="Siddhant Shah" title="Team Lead, Python"></TeacherCard>
           <TeacherCard name="Bryan Yung" title="Team Lead, Python"></TeacherCard>
           <TeacherCard name="Michael James" title="Team Lead, Java"></TeacherCard>
@@ -38,13 +35,8 @@ useHead({
           <TeacherCard name="Lavanya Ravi" title="Team Lead, Web"></TeacherCard>
           <TeacherCard name="Harish Chandran" title="Team Lead, C++"></TeacherCard>
           <TeacherCard name="Andy Xiong" title="Curriculum Developer"></TeacherCard>
-          <TeacherCard name="Ved Roychowdhury" title="Outreach Director"></TeacherCard>
           <TeacherCard name="Jonathan Cai" title="Instructor"></TeacherCard>
           <TeacherCard name="Ahana Samantray" title="Instructor"></TeacherCard>
-          <TeacherCard name="Albert Gao" title="Instructor"></TeacherCard>
-          <TeacherCard name="Kevin Xue" title="Instructor"></TeacherCard>
-          <TeacherCard name="Michael James" title="Instructor"></TeacherCard>
-          <TeacherCard name="Zaria Naqvi" title="Instructor"></TeacherCard>
           <TeacherCard name="Luke Mehta" title="Instructor"></TeacherCard>
           <TeacherCard name="Aayan Shehzad" title="Instructor"></TeacherCard>
           <TeacherCard name="Rushil Gaddam" title="Instructor"></TeacherCard>
