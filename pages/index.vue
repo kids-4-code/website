@@ -35,7 +35,7 @@ useHead({
             <div class="text-center">
                 <h1
                     class="px-2 py-1 rounded-md bg-brand-50 border-2 border-brand-200 inline-block font-serif font-bold text-brand-600 text-4xl">
-                    5000+
+                    7000+
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     students taught
