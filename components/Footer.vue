@@ -52,7 +52,7 @@
           <h4 class="font-sans font-medium text-lg text-gray-600">Socials & other links</h4>
 
           <div class="flex gap-2 text-2xl text-gray-600">
-            <a href="https://www.youtube.com/@kidsforcode9529">
+            <a href="https://www.youtube.com/@kidsforcode">
               <Icon name="tabler:brand-youtube"></Icon>
             </a>
             <a href="https://github.com/kids-4-code">
