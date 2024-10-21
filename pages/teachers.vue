@@ -40,6 +40,14 @@ useHead({
           <TeacherCard name="Andy Xiong" title="Curriculum Developer"></TeacherCard>
           <TeacherCard name="Jonathan Cai" title="Instructor"></TeacherCard>
           <TeacherCard name="Ahana Samantray" title="Instructor"></TeacherCard>
+<<<<<<< Updated upstream
+=======
+          <TeacherCard name="Albert Gao" title="Instructor"></TeacherCard>
+          <TeacherCard name="Kevin Xue" title="Instructor"></TeacherCard>
+          <TeacherCard name="Michael James" title="Instructor"></TeacherCard>
+          <TeacherCard name="Zaria Naqvi" title="Instructor"></TeacherCard>
+          <TeacherCard name="Temur Nurimov" title="Instructor"></TeacherCard>
+>>>>>>> Stashed changes
           <TeacherCard name="Luke Mehta" title="Instructor"></TeacherCard>
           <TeacherCard name="Andrew Dai" title="Instructor"></TeacherCard>
           <TeacherCard name="Naman Sarup Lohchab" title="Instructor"></TeacherCard>
