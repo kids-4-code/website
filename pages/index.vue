@@ -16,13 +16,13 @@ useHead({
             <p class="text-gray-500 text-sm">We're a group of student volunteers passionate about coding. <br>Join us to
                 learn for free!
             </p>
-            <div class="flex gap-2 mt-2">
+            <!-- <div class="flex gap-2 mt-2">
                 <LinkButton to="https://forms.gle/Pv621KyFzYq1hKN9A" color="brand">Enroll</LinkButton>
-            </div>
+            </div> -->
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
 
-            <!-- <NuxtLink to="apply"
+            <!-- <NuxtLink
                 class=" hover:bg-brand-50 border-brand-400 transition-colors border-2 py-1.5 px-4 rounded-full mt-10 flex text-sm items-center">
                 <p class="font-sans text-brand-600 font-medium">
                     Closing soon - apply for leadership positions and more!
@@ -287,10 +287,10 @@ useHead({
                     <div class="z-10">
                         <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
                         <h1 class="text-4xl font-serif font-semibold">Winter 2025</h1>
-                        <p class="text-sm md:w-3/4 block mt-1">Registration is now open. Sign up & take any of our 14
-                            courses for free!</p>
+                        <p class="text-sm md:w-3/4 block mt-1">Please check back later for updates!</p>
 
-                        <LinkButton class="mt-4" to="https://forms.gle/Pv621KyFzYq1hKN9A" color="sky" newTab>Enroll
+                        <LinkButton disabled class="mt-4" to="https://forms.gle/Pv621KyFzYq1hKN9A" color="sky" newTab>
+                            Enroll
                         </LinkButton>
                     </div>
                     <div class="z-10 grid grid-rows-2 gap-4 rounded-xl">
@@ -357,7 +357,7 @@ useHead({
         </div>
 
         <!--About-->
-        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 w-6xl pb-32 xl:pb-64">
+        <div class="relative overflow-hidden flex flex-col items-center text-center gap-2 w-6xl pb-24 xl:pb-36">
             <div class="max-md:hidden absolute width-0 height-0">
                 <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[8vw]"></div>
                 <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[14vw]"></div>
