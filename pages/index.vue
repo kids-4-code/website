@@ -289,7 +289,7 @@ useHead({
                         <h1 class="text-4xl font-serif font-semibold">Winter 2025</h1>
                         <p class="text-sm md:w-3/4 block mt-1">Please check back later for updates!</p>
 
-                        <LinkButton disabled class="mt-4" to="https://forms.gle/Pv621KyFzYq1hKN9A" color="sky" newTab>
+                        <LinkButton disabled class="mt-4" to="https://forms.gle/QKULJNSy4Cc9ogf99" color="sky" newTab>
                             Enroll
                         </LinkButton>
                     </div>
@@ -299,7 +299,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">January (Dates TBD)</p>
+                            <p class="text-gray-700 text-xl font-sans">January February 1st - March 8th</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -324,7 +324,7 @@ useHead({
                             <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
                             <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
                         </span>
-                        <p class="text-gray-700 text-xl font-sans">--</p>
+                        <p class="text-gray-700 text-xl font-sans">January 28th</p>
                     </div>
 
                 </div>
