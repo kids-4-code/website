@@ -32,11 +32,11 @@
               <LinkButton newTab to="https://forms.gle/gEKdeV6FUZYroRiV8" class="sm:hidden">Enroll</LinkButton>
             </div>
           </div>
-          <!-- <LinkButton newTab class="max-sm:hidden" to="https://forms.gle/Pv621KyFzYq1hKN9A">
+          <LinkButton newTab class="max-sm:hidden" to="https://bit.ly/k4c-winter25-enroll">
             Enroll
-          </LinkButton> -->
-          <LinkButton newTab ghost class="max-sm:hidden" to="https://forms.gle/9zKbZDBRqU54Pw5v7">Get updates
           </LinkButton>
+          <!-- <LinkButton newTab ghost class="max-sm:hidden" to="https://forms.gle/9zKbZDBRqU54Pw5v7">Get updates
+          </LinkButton> -->
         </div>
       </div>
     </nav>

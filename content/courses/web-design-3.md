@@ -17,7 +17,7 @@ color: amber
 ---
 time: 2024-07-06T15:00
 duration: 60
-dates: 7/6, 7/13, 7/20, 7/27, 8/3, 8/10
+dates: 2/1, 2/8, 2/15, 2/22, 3/1, 3/8
 level: Advanced
 ages: ages 10 & up
 ---

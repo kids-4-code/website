@@ -16,7 +16,7 @@ color: emerald
 ---
 time: 2024-03-03T13:00
 duration: 45
-dates: 7/7, 7/14, 7/21, 7/28, 8/4, 8/11
+dates: 2/2, 2/9, 2/16, 2/23, 3/2, 3/9
 level: Intermediate
 ages: ages 8 & up
 ---

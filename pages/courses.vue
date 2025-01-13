@@ -29,9 +29,7 @@ useHead({
             <p class="text-sm">See class dates & times.</p>
           </div>
           <div class="mt-4">
-            <LinkButton
-              to="https://docs.google.com/document/d/1if4xn8q2ovgEe8nlzlRK_qfgmRS3knr0W_80kWRagIg/edit?usp=sharing"
-              color="sky">View schedule
+            <LinkButton to="https://bit.ly/k4c-winter25-schedule" color="sky">View schedule
             </LinkButton>
           </div>
 
@@ -41,7 +39,7 @@ useHead({
             <Icon name="tabler:calendar-time" class="text-4xl text-brand-500"></Icon>
             <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Session info</h3>
             <p class="text-sm">Our Winter 2025 session will run for 6 weeks, with a class every week. It will start on
-              February 1st and end on March 8th.</p>
+              February 1st and end on March 9th.</p>
           </div>
         </div>
         <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
@@ -505,7 +503,7 @@ useHead({
               <LinkButton to="courses/intro-to-programming" color="purple">Learn more</LinkButton>
             </template>
           </CourseCard>
-          
+
         </div>
       </div>
     </div>

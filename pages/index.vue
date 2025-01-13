@@ -16,9 +16,9 @@ useHead({
             <p class="text-gray-500 text-sm">We're a group of student volunteers passionate about coding. <br>Join us to
                 learn for free!
             </p>
-            <!-- <div class="flex gap-2 mt-2">
-                <LinkButton to="https://forms.gle/Pv621KyFzYq1hKN9A" color="brand">Enroll</LinkButton>
-            </div> -->
+            <div class="flex gap-2 mt-2">
+                <LinkButton to="https://bit.ly/k4c-winter25-enroll" color="brand">Enroll</LinkButton>
+            </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
 
@@ -53,7 +53,7 @@ useHead({
             <div class="text-center">
                 <h1
                     class="  px-2 py-1 rounded-md bg-emerald-50  border-2 border-emerald-200 inline-block font-serif font-bold text-emerald-500 text-4xl">
-                    14
+                    1
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     courses
@@ -287,7 +287,7 @@ useHead({
                     <div class="z-10">
                         <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
                         <h1 class="text-4xl font-serif font-semibold">Winter 2025</h1>
-                        <p class="text-sm md:w-3/4 block mt-1">Please check back later for updates!</p>
+                        <p class="text-sm md:w-3/4 block mt-1">Registration is now open!</p>
 
                         <LinkButton disabled class="mt-4" to="https://forms.gle/QKULJNSy4Cc9ogf99" color="sky" newTab>
                             Enroll
@@ -299,7 +299,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">January February 1st - March 8th</p>
+                            <p class="text-gray-700 text-xl font-sans">February 1st — March 9th</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -338,9 +338,7 @@ useHead({
                         View our full class schedule including dates & meeting times.
                     </p>
 
-                    <LinkButton newTab
-                        to="https://docs.google.com/document/d/e/2PACX-1vTEOxLdYB49eK2jF-uSSznAAJRYKgWKeZMh-7IeLndB9CCY9iBfrPhYNnv54Ms_BAMSXze00b8gCfWm/pub"
-                        color="sky">View</LinkButton>
+                    <LinkButton newTab to="https://bit.ly/k4c-winter25-schedule" color="sky">View</LinkButton>
 
                 </div>
                 <div class="text-left">
@@ -351,7 +349,7 @@ useHead({
                         all ages.
                     </p>
 
-                    <LinkButton color="sky" to="/apply">Learn more</LinkButton>
+                    <LinkButton disabled color="sky" to="/apply">Learn more</LinkButton>
                 </div>
             </div>
         </div>

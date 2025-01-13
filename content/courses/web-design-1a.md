@@ -16,7 +16,7 @@ color: amber
 ---
 time: 2024-03-02T12:00
 duration: 45
-dates: 7/6, 7/13, 7/20, 7/27, 8/3, 8/10
+dates: 2/1, 2/8, 2/15, 2/22, 3/1, 3/8
 level: Beginner
 ages: ages 6 & up
 ---
