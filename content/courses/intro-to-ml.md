@@ -24,6 +24,8 @@ ages: 10+
 ::
 
 ::course-descrip
+Due to limited interest we will not be offering this course Summer 2025.
+
 An introductory practical machine learning course with a strong application focus. Students will be expected to come into the course with a strong basic foundation in Python. We will use scikit-learn throughout the beginning half of the course and transition to PyTorch, a widely used open-source machine learning framework in the 2nd half.
 
 Each hour long class will contain approximately 20-30m of lecture and then approx. 30m of hands-on lab time where students will code along with the instructor(s). The class will cover elements of both unsupervised and supervised learning.
