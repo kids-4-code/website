@@ -24,6 +24,8 @@ ages: ages 6 & up
 ::
 
 ::course-descrip
+Due to limited interest we will not be offering this course Summer 2025.
+
 Game Programming with Python is our new, engaging, & interactive course designed to introduce young students to the fundamentals of programming through the exciting world of game development. 
 
 We’ll be using the "Exploring Programming with Python" curriculum from Carnegie Mellon University, to provide a hands-on approach to learning coding concepts through a fun and visually stimulating environment. Students will explore programming basics through text-based coding in Python, focusing on graphics-based problem-solving and game creation. The course covers 4 main units: Drawing with Shapes, Basic Animations, Giving Programs Options, and Animating Lots of Shapes. At the end of the course, each student will be able to develop their own game using Python.
