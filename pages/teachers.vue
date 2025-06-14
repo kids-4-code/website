@@ -28,7 +28,8 @@ useHead({
           <TeacherCard name="Ahana Samantray" title="President"></TeacherCard>
           <TeacherCard name="Zaria Naqvi" title="Co-President"></TeacherCard>
           <TeacherCard name="Siddhant Shah" title="Vice President"></TeacherCard>
-          <TeacherCard name="Lavanya Ravi" title="Director Of Curriculum"></TeacherCard>
+          <TeacherCard name="Lavanya Ravi" title="Marketing & Advertising Director"></TeacherCard>
+          <TeacherCard name="Temur Nurimov" title="Director Of Curriculum"></TeacherCard>
           <TeacherCard name="Ishaan Samantray" title="Former President"></TeacherCard>
           <TeacherCard name="Tyler Song" title="Former Vice President"></TeacherCard>
           
