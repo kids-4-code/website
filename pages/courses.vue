@@ -487,16 +487,13 @@ useHead({
               <Icon name="tabler:device-imac" class="text-4xl text-purple-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Intro to Programming</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">AP Computer Science Principles</h3>
             </template>
             <template #details>
               <p class="text-sm text-gray-400 font-body font-medium">Sun. 5:00-5:45pm ET</p>
             </template>
             <template #description>
-              <p class="text-sm">Intro to Programming is an new course tailored to kids aged 6 to 12 intended to
-                give a gentle introduction to computer science. Using Scratch, a beginner-friendly visual programming
-                language,
-                children will embark on an exciting journey of creativity and problem-solving.
+              <p class="text-sm">Ap Computer Science Principles is an new prepatory course for the AP Computer Science Principles class offered by college board. It starts with a basic introduction to block coding using code.org.
               </p>
             </template>
             <template #link>
