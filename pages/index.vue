@@ -17,7 +17,7 @@ useHead({
                 learn for free!
             </p>
             <div class="flex gap-2 mt-2">
-                <LinkButton to="https://bit.ly/k4c-winter25-enroll" color="brand">Enroll</LinkButton>
+                <LinkButton to="https://forms.gle/wqkXsZFu47yf6ywy8" color="brand">Enroll</LinkButton>
             </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
