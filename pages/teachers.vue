@@ -26,12 +26,20 @@ useHead({
         </div>
         <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
           <TeacherCard name="Ahana Samantray" title="President"></TeacherCard>
-          <TeacherCard name="Zaria Naqvi" title="Co-President"></TeacherCard>
-          <TeacherCard name="Siddhant Shah" title="Vice President"></TeacherCard>
-          <TeacherCard name="Lavanya Ravi" title="Marketing & Advertising Director"></TeacherCard>
+          <TeacherCard name="Zaria Naqvi" title="Co-Vice President"></TeacherCard>
+          <TeacherCard name="Siddhant Shah" title="Co-Vice President"></TeacherCard>
+          <TeacherCard name="Lavanya Ravi" title="Marketing & Advertising Director/Secretary "></TeacherCard>
+          <TeacherCard name="Sanjana Penugonda" title="Web Design 1AB Teacher"></TeacherCard>
+          <TeacherCard name="Andrew Dai" title="Python Teacher"></TeacherCard>
+          <TeacherCard name="Hyab Mekonnen" title="Java 1 Teacher"></TeacherCard>
+          <TeacherCard name="Aislin Deng" title="Java 2 Teacher"></TeacherCard>
           <TeacherCard name="Temur Nurimov" title="Director Of Curriculum"></TeacherCard>
-          <TeacherCard name="Ishaan Samantray" title="Former President"></TeacherCard>
-          <TeacherCard name="Tyler Song" title="Former Vice President"></TeacherCard>
+          <TeacherCard name="Ishaan Samantray" title="Former President" description="Ishaan Samantray is an incoming freshman at Cornell University majoring in Bioengineering. A graduate of Winston Churchill High School, he has been teaching kids since 9th grade and is passionate about making computer science accessible to younger students.
+
+"></TeacherCard>
+          <TeacherCard name="Tyler Song" title="Former Vice President" description="Tyler Song is an incoming freshman at the University of Maryland majoring in Computer Science. He graduated from Winston Churchill High School and enjoys sharing his knowledge of programming with aspiring young coders.
+
+"></TeacherCard>
           
 
           <!-- <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
