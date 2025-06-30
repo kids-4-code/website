@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Past Officers & Alumni</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f9f9f9;
+    }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .card {
+      background-color: white;
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .name {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .role, .destination {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Past Officers & Alumni</h1>
+
+  <div class="section" id="past-officers">
+    <h2>Past Officers</h2>
+  </div>
+
+  <div class="section" id="alumni">
+    <h2>Where They Are Now</h2>
+  </div>
+
+  <script>
+    const pastOfficers = [
+      { name: "Ishaan Samantray", role: "Former President" },
+      { name: "Tyler Song", role: "Former Vice President" }
+    ];
+
+    const alumni = [
+      { name: "Hongjin", destination: "Cornell – Bioengineering" },
+      { name: "Tyler He", destination: "UMD – CS Honors College" },
+      { name: "Ishaan Samantray", destination: "Cornell – Bioengineering" }
+    ];
+
+    const officerSection = document.getElementById('past-officers');
+    pastOfficers.forEach(officer => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `<div class="name">${officer.name}</div><div class="role">${officer.role}</div>`;
+      officerSection.appendChild(card);
+    });
+
+    const alumniSection = document.getElementById('alumni');
+    alumni.forEach(alum => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `<div class="name">${alum.name}</div><div class="destination">${alum.destination}</div>`;
+      alumniSection.appendChild(card);
+    });
+  </script>
+
+</body>
+</html>
