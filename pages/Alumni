@@ -2,77 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Past Officers & Alumni</title>
+  <title>Teacher Alumni</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
       padding: 2rem;
-      background-color: #f9f9f9;
     }
-    h2 {
-      color: #333;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
-    }
-    .section {
+    h1 {
+      color: #2c3e50;
+      text-align: center;
       margin-bottom: 2rem;
     }
-    .card {
-      background-color: white;
-      padding: 1rem;
-      margin: 0.5rem 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    .alumni-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .alumni-card {
+      background-color: #fff;
+      padding: 1rem 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    .alumni-card:hover {
+      transform: translateY(-2px);
+    }
+    .alumni-text {
+      font-size: 1rem;
+      color: #34495e;
     }
     .name {
       font-weight: bold;
-      font-size: 1.1rem;
-    }
-    .role, .destination {
-      color: #555;
     }
   </style>
 </head>
 <body>
 
-  <h1>Past Officers & Alumni</h1>
-
-  <div class="section" id="past-officers">
-    <h2>Past Officers</h2>
-  </div>
-
-  <div class="section" id="alumni">
-    <h2>Where They Are Now</h2>
-  </div>
+  <h1>Teacher Alumni</h1>
+  <div class="alumni-container" id="alumni-list"></div>
 
   <script>
-    const pastOfficers = [
-      { name: "Ishaan Samantray", role: "Former President" },
-      { name: "Tyler Song", role: "Former Vice President" }
-    ];
-
     const alumni = [
-      { name: "Hongjin", destination: "Cornell – Bioengineering" },
-      { name: "Tyler He", destination: "UMD – CS Honors College" },
-      { name: "Ishaan Samantray", destination: "Cornell – Bioengineering" }
+      {
+        name: "Hongjin Fang",
+        role: "Former President",
+        college: "Cornell University – Bioengineering"
+      },
+      {
+        name: "Ishaan Samantray",
+        role: "Former President",
+        college: "Cornell University – Bioengineering"
+      },
+      {
+        name: "Tyler Song",
+        role: "Former Vice President",
+        college: "University of Maryland Honors – Computer Science"
+      },
+      {
+        name: "Bryan Yung",
+        role: "Former Java Team Leader",
+        college: "Carnegie Mellon University – Computer Science"
+      },
+      {
+        name: "Kevin Xue",
+        role: "Former Web Development Team Leader",
+        college: "University of Pennsylvania – Computer Science"
+      }
     ];
 
-    const officerSection = document.getElementById('past-officers');
-    pastOfficers.forEach(officer => {
-      const card = document.createElement('div');
-      card.className = 'card';
-      card.innerHTML = `<div class="name">${officer.name}</div><div class="role">${officer.role}</div>`;
-      officerSection.appendChild(card);
-    });
+    const container = document.getElementById('alumni-list');
 
-    const alumniSection = document.getElementById('alumni');
-    alumni.forEach(alum => {
+    alumni.forEach(({ name, role, college }) => {
       const card = document.createElement('div');
-      card.className = 'card';
-      card.innerHTML = `<div class="name">${alum.name}</div><div class="destination">${alum.destination}</div>`;
-      alumniSection.appendChild(card);
+      card.className = 'alumni-card';
+
+      const text = document.createElement('div');
+      text.className = 'alumni-text';
+      text.innerHTML = `<span class="name">${name}</span> – ${role} – ${college}`;
+
+      card.appendChild(text);
+      container.appendChild(card);
     });
   </script>
 
 </body>
 </html>
+
