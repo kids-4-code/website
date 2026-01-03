@@ -9,7 +9,7 @@ useHead({
         <!--Hero-->
         <div class="pt-16 flex flex-col items-center text-center gap-2 w-6xl mx-2">
             <div class="mb-2">
-                <h3 class="font-sans font-semibold text-gray-300">Summer 2025 Session</h3>
+                <h3 class="font-sans font-semibold text-gray-300">Winter 2025 Session</h3>
                 <h1 class="font-serif text-4xl md:text-5xl text-gray-700 font-semibold">Online coding classes,</h1>
                 <h1 class="font-serif text-4xl md:text-5xl text-brand-600 font-semibold mb-0">100% free.</h1>
             </div>
@@ -17,7 +17,7 @@ useHead({
                 learn for free!
             </p>
             <div class="flex gap-2 mt-2">
-                <LinkButton to="https://docs.google.com/forms/d/e/1FAIpQLSd1g-sSJHupLhMDCWbI4oi4hRhIoKNBuy2PT-Mj3KHgIaqKIQ/viewform" color="brand">Enroll</LinkButton>
+                <LinkButton to="https://forms.gle/whYD3dfBwRgsFj8g6" color="brand">Enroll</LinkButton>
             </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
@@ -286,7 +286,7 @@ useHead({
                     class="grid grid-cols-1 md:grid-cols-2 bg shadow-sm border-gray-200 gap-8 text-left border p-6 py-8 rounded-xl text-gray-700 z-0">
                     <div class="z-10">
                         <img class="w-16 mb-2 drop-shadow-sm" src="/images/icons/enroll.png">
-                        <h1 class="text-4xl font-serif font-semibold">Summer 2025</h1>
+                        <h1 class="text-4xl font-serif font-semibold">Winter 2025</h1>
                         <p class="text-sm md:w-3/4 block mt-1">Registration is now open!</p>
 
                         <LinkButton disabled class="mt-4" to="https://docs.google.com/forms/d/e/1FAIpQLSd1g-sSJHupLhMDCWbI4oi4hRhIoKNBuy2PT-Mj3KHgIaqKIQ/viewform" color="sky" newTab>
