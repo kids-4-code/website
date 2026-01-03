@@ -412,6 +412,25 @@ useHead({
               <LinkButton to="courses/java-2" color="red">Learn more</LinkButton>
             </template>
           </CourseCard>
+      </CourseCard>
+        </div>
+      </div>
+      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
+        <h3 class="font-serif font-semibold text-4xl text-gray-700">AP Computer Science A (Java)</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+          <CourseCard class="bg-red-50">
+            <template #icon>
+              <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
+            </template>
+            <template #title>
+              <h3 class="text-xl font-semibold font-serif text-gray-700">About</h3>
+            </template>
+            <template #description>
+              <p class="text-sm">
+                AP Computer Science Principles Preparatory is an introductory course designed to prepare students for the College Board’s AP Computer Science Principles exam. The course introduces students to fundamental programming concepts using Java, focusing on problem-solving, logical thinking, and basic coding principles. Students develop a strong foundation in computational thinking to succeed in the full AP Computer Science Principles curriculum.
+              </p>
+            </template>
+          </CourseCard>
           <!-- <CourseCard new badge-color="red">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
