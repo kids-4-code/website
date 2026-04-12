@@ -412,7 +412,6 @@ useHead({
               <LinkButton to="courses/java-2" color="red">Learn more</LinkButton>
             </template>
           </CourseCard>
-      </CourseCard>
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
