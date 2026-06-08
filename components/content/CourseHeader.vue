@@ -40,7 +40,7 @@ const colorVariants = {
     <h1 class="text-4xl font-serif font-semibold">{{ name }}</h1>
     <p class="text-sm md:w-2/3 block mt-1">{{ description }}</p>
 
-    <LinkButton newTab class="mt-4" :color="props.color" to="https://forms.gle/FZiN1KAA726m4Vvh6">Enroll</LinkButton>
+    <LinkButton newTab class="mt-4" :color="props.color" to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform">Enroll</LinkButton>
 
   </div>
 </template>

@@ -14,9 +14,9 @@ color: amber
 
 ::course-details
 ---
-time: 2024-03-02T13:00
-duration: 45
-dates: 2/1, 2/8, 2/15, 2/22, 3/1, 3/8
+time: 2026-07-11T13:00
+duration: 40
+dates: 7/11, 7/18, 7/25, 8/1, 8/8, 8/15
 level: Intermediate
 ages: ages 8 & up
 ---

@@ -15,20 +15,18 @@ color: emerald
 
 ::course-details
 ---
-time: 2024-03-03T15:00
-duration: 60
-dates: 2/2, 2/9, 2/16, 2/23, 3/2, 3/9
+time: 2026-07-11T17:20
+duration: 40
+dates: 7/11, 7/18, 7/25, 8/1, 8/8, 8/15
 level: Advanced
 ages: 10+
 ---
 ::
 
 ::course-descrip
-Due to limited interest we will not be offering this course Summer 2025.
-
 An introductory practical machine learning course with a strong application focus. Students will be expected to come into the course with a strong basic foundation in Python. We will use scikit-learn throughout the beginning half of the course and transition to PyTorch, a widely used open-source machine learning framework in the 2nd half.
 
-Each hour long class will contain approximately 20-30m of lecture and then approx. 30m of hands-on lab time where students will code along with the instructor(s). The class will cover elements of both unsupervised and supervised learning.
+Each class will contain a mix of lecture and hands-on lab time where students will code along with the instructor(s). The class will cover elements of both unsupervised and supervised learning.
 
 
 #syllabus
