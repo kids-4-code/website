@@ -37,6 +37,8 @@ const alumni = [
         <div class="reveal col-span-2 grid grid-cols-2 md:grid-cols-3" v-reveal>
           <TeacherCard name="Ahana Samantray" title="President"></TeacherCard>
           <TeacherCard name="Siddhant Shah" title="Co-Vice President"></TeacherCard>
+          <TeacherCard name="Akshaj Gattu" title="Vice President"></TeacherCard>
+          <TeacherCard name="Logan Zhang" title="Marketing & Advertising Director"></TeacherCard>
           <TeacherCard name="Sanjana Penugonda" title="Web Design 1AB Teacher"></TeacherCard>
           <TeacherCard name="Andrew Dai" title="Python Teacher"></TeacherCard>
           <TeacherCard name="Hyab Mekonnen" title="Java 1 Teacher"></TeacherCard>
