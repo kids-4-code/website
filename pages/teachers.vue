@@ -34,7 +34,7 @@ const alumni = [
             <LinkButton class="mt-4" to="/apply" color="purple">Learn more</LinkButton>
           </div>
         </div>
-        <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
+        <div class="reveal col-span-2 grid grid-cols-2 md:grid-cols-3" v-reveal>
           <TeacherCard name="Ahana Samantray" title="President"></TeacherCard>
           <TeacherCard name="Siddhant Shah" title="Co-Vice President"></TeacherCard>
           <TeacherCard name="Sanjana Penugonda" title="Web Design 1AB Teacher"></TeacherCard>
@@ -72,11 +72,11 @@ const alumni = [
 
       <!--Alumni-->
       <div class="w-11/12 md:w-9/12 lg:w-7/12 mt-16 mb-24">
-        <h2 class="font-serif text-4xl text-gray-700 font-semibold mb-2">Alumni</h2>
-        <p class="text-gray-600 text-sm mb-6">Former leaders & teachers, and where they are now.</p>
+        <h2 class="reveal font-serif text-4xl text-gray-700 font-semibold mb-2" v-reveal>Alumni</h2>
+        <p class="reveal text-gray-600 text-sm mb-6" v-reveal="60">Former leaders & teachers, and where they are now.</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div v-for="person in alumni" :key="person.name"
-            class="p-5 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+          <div v-for="(person, i) in alumni" :key="person.name" v-reveal="i * 60"
+            class="reveal p-5 border border-gray-200 rounded-lg shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md">
             <h3 class="font-serif font-semibold text-lg text-gray-700">{{ person.name }}</h3>
             <p class="text-sm font-medium text-purple-600">{{ person.role }}</p>
             <p class="text-sm text-gray-500 mt-1">{{ person.college }}</p>

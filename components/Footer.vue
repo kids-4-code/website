@@ -7,7 +7,7 @@
         <div class="text-gray-600">
           <h4 class="font-sans font-medium text-lg text-gray-600">Quick links</h4>
 
-          <ul class="list-none text-base lg:text-sm font-body underline text-gray-600">
+          <ul class="list-none text-base lg:text-sm font-body underline decoration-gray-300 text-gray-600 [&_a]:transition-colors [&_a:hover]:text-brand-600 [&_a:hover]:decoration-brand-400">
             <li>
               <NuxtLink>Home</NuxtLink>
             </li>
@@ -27,7 +27,7 @@
         <div>
           <h4 class="font-sans font-medium text-lg text-gray-600">Courses</h4>
 
-          <ul class="list-none text-base lg:text-sm font-body underline text-gray-600">
+          <ul class="list-none text-base lg:text-sm font-body underline decoration-gray-300 text-gray-600 [&_a]:transition-colors [&_a:hover]:text-brand-600 [&_a:hover]:decoration-brand-400">
             <li>
               <NuxtLink to="/courses">All courses</NuxtLink>
             </li>
@@ -51,14 +51,15 @@
         <div>
           <h4 class="font-sans font-medium text-lg text-gray-600">Socials & other links</h4>
 
-          <div class="flex gap-2 text-2xl text-gray-600">
-            <a href="https://www.youtube.com/@kidsforcode">
+          <div
+            class="flex gap-3 text-2xl text-gray-600 [&_a]:inline-block [&_a]:transition-all [&_a:hover]:-translate-y-0.5 [&_a:hover]:scale-110 [&_a:hover]:text-brand-600">
+            <a href="https://www.youtube.com/@kidsforcode" aria-label="YouTube">
               <Icon name="tabler:brand-youtube"></Icon>
             </a>
-            <a href="https://github.com/kids-4-code">
+            <a href="https://github.com/kids-4-code" aria-label="GitHub">
               <Icon name="tabler:brand-github"></Icon>
             </a>
-            <a href="https://www.instagram.com/kidsforcode">
+            <a href="https://www.instagram.com/kidsforcode" aria-label="Instagram">
               <Icon name="tabler:brand-instagram"></Icon>
             </a>
           </div>

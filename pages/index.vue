@@ -1,26 +1,33 @@
 <script setup lang="ts">
+import { useConfetti } from "~/composables/useConfetti"
+
 useHead({
     title: "Home",
 })
+
+const { fire } = useConfetti()
 </script>
 
 <template>
     <NuxtLayout>
         <!--Hero-->
-        <div class="pt-16 flex flex-col items-center text-center gap-2 w-6xl mx-2">
+        <div class="relative pt-16 flex flex-col items-center text-center gap-2 w-6xl mx-2">
+            <StarField />
             <div class="mb-2">
-                <h3 class="font-sans font-semibold text-gray-300">Summer 2026 Session</h3>
-                <h1 class="font-serif text-4xl md:text-5xl text-gray-700 font-semibold">Online coding classes,</h1>
-                <h1 class="font-serif text-4xl md:text-5xl text-brand-600 font-semibold mb-0">100% free.</h1>
+                <h3 class="reveal font-sans font-semibold text-gray-300" v-reveal>Summer 2026 Session</h3>
+                <h1 class="reveal font-serif text-4xl md:text-5xl text-gray-700 font-semibold" v-reveal="80">Online coding classes,</h1>
+                <h1 class="reveal font-serif text-4xl md:text-5xl k4c-gradient-text font-semibold mb-0" v-reveal="160">100% free.</h1>
             </div>
-            <p class="text-gray-500 text-sm">We're a group of student volunteers passionate about coding. <br>Join us to
+            <p class="reveal text-gray-500 text-sm" v-reveal="240">We're a group of student volunteers passionate about coding. <br>Join us to
                 learn for free!
             </p>
-            <div class="flex gap-2 mt-2">
-                <LinkButton newTab to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform" color="brand">Enroll</LinkButton>
+            <div class="reveal flex gap-2 mt-2" v-reveal="320">
+                <LinkButton newTab @click="fire" to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform" color="brand">Enroll</LinkButton>
             </div>
 
-            <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
+            <TypedTerminal class="reveal mt-10" v-reveal="120" />
+
+            <img src="/images/hero-slides.png" class="k4c-float z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
         </div>
 
         <!-- CodeQuest Challenge Banner -->
@@ -45,11 +52,12 @@ useHead({
         </div>
 
         <div
-            class="py-6 lg:px-48 xl:px-72 mt-16 w-full border-y-2 border-y-gray-200 grid-flow-col grid auto-cols-fr gap-y-8 max-sm:grid-rows-2">
+            class="reveal py-6 lg:px-48 xl:px-72 mt-16 w-full border-y-2 border-y-gray-200 grid-flow-col grid auto-cols-fr gap-y-8 max-sm:grid-rows-2"
+            v-reveal>
             <div class="text-center">
                 <h1
                     class="px-2 py-1 rounded-md bg-brand-50 border-2 border-brand-200 inline-block font-serif font-bold text-brand-600 text-4xl">
-                    7000+
+                    <StatCounter :to="7000" suffix="+" />
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     students taught
@@ -58,7 +66,7 @@ useHead({
             <div class="text-center">
                 <h1
                     class=" px-2 py-1 rounded-md bg-accent-50 inline-block border-2 border-amber-200 font-serif font-bold text-accent-500 text-4xl">
-                    100+
+                    <StatCounter :to="100" suffix="+" />
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     teachers
@@ -67,7 +75,7 @@ useHead({
             <div class="text-center">
                 <h1
                     class="  px-2 py-1 rounded-md bg-emerald-50  border-2 border-emerald-200 inline-block font-serif font-bold text-emerald-500 text-4xl">
-                    1
+                    <StatCounter :to="12" suffix="+" />
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     courses
@@ -76,7 +84,7 @@ useHead({
             <div class="text-center">
                 <h1
                     class=" px-2 py-1 rounded-md bg-sky-50 border-2 border-sky-200 inline-block font-serif font-bold text-sky-600 text-4xl">
-                    9.5/10
+                    <StatCounter :to="9.5" :decimals="1" suffix="/10" />
                 </h1>
                 <p class="font-body font-medium text-gray-400">
                     avg. rating
@@ -91,10 +99,10 @@ useHead({
                 <div class="relative rotate-[10deg] -z-20 w-[256rem] h-[30vh] bg-[#F4FCF8] top-[24vw]"></div>
             </div>
             <!--Icon-->
-            <div class="flex items-center bg-emerald-50 rounded-xl p-2 drop-shadow-light">
+            <div class="reveal flex items-center bg-emerald-50 rounded-xl p-2 drop-shadow-light" v-reveal>
                 <img src="/images/icons/book.png" class="w-20">
             </div>
-            <h1 class="font-serif text-5xl text-gray-700 font-semibold my-4">Courses</h1>
+            <h1 class="reveal font-serif text-5xl text-gray-700 font-semibold my-4" v-reveal="80">Courses</h1>
 
             <div class="z-10 mt-4 py-4 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl">
                 <div
@@ -185,10 +193,10 @@ useHead({
             </div>
 
             <!--Icon-->
-            <div class="flex items-center bg-brand-100 rounded-xl p-2 drop-shadow-light">
+            <div class="reveal flex items-center bg-brand-100 rounded-xl p-2 drop-shadow-light" v-reveal>
                 <img src="/images/icons/classroom.png" class="w-20">
             </div>
-            <h1 class="font-serif text-5xl text-gray-700 font-semibold my-4 mb-8">In the classroom</h1>
+            <h1 class="reveal font-serif text-5xl text-gray-700 font-semibold my-4 mb-8" v-reveal="80">In the classroom</h1>
             <div
                 class="z-10 flex flex-col md:flex-row  md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl items-center gap-12">
                 <img src="/images/graphics/zoom.png" class="w-3/4 md:w-1/2">
@@ -221,63 +229,7 @@ useHead({
             <div class="mt-4 md:py-12 w-11/12 md:w-10/12 lg:w-9/12 max-w-4xl">
                 <h2 class="font-serif text-3xl text-gray-700 font-semibold mb-8">Hear from our students</h2>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div class="text-left flex gap-2 items-center">
-                        <Icon name="tabler:quote" class=" text-brand-600 text-5xl"></Icon>
-                        <div class="w-11/12">
-                            <p class="font-medium mb-2">
-                                I liked how they provided us with <span
-                                    class="underline decoration-brand-400 decoration-2">lots of
-                                    resources and reviews</span> to help aid us
-                                with the
-                                homework and understanding the material.
-                            </p>
-                            <p>- Java & Python student</p>
-                        </div>
-                    </div>
-                    <div class="text-left flex items-center gap-2">
-                        <Icon name="tabler:quote" class=" text-brand-600 text-5xl"></Icon>
-
-                        <div class="w-11/12">
-                            <p class="font-medium mb-2">
-                                The classes are <span class="underline decoration-brand-400 decoration-2">interesting
-                                    and
-                                    challenging.</span> The teachers are also very attentive. The
-                                amount of content is <span class="underline decoration-brand-400 decoration-2">just
-                                    right
-                                    for me to digest</span> in the class.
-                            </p>
-                            <p>- Web, Java, and Python student</p>
-                        </div>
-                    </div>
-                    <div class="text-left flex items-center gap-2">
-                        <Icon name="tabler:quote" class=" text-brand-600 text-5xl"></Icon>
-
-                        <div class="w-11/12">
-                            <p class="font-medium mb-2">
-                                It <span class="underline decoration-brand-400 decoration-2">taught me a lot and it gave
-                                    me
-                                    more knowledge</span>. I like how you guys didn't put too much
-                                information in one topic so it didn't overload us.
-                            </p>
-                            <p>- Python student</p>
-                        </div>
-                    </div>
-                    <div class="text-left flex items-center gap-2">
-                        <Icon name="tabler:quote" class=" text-brand-600 text-5xl"></Icon>
-
-                        <div class="w-11/12">
-                            <p class="font-medium mb-2">
-                                All of you are super nice and patient! Your classes were <span
-                                    class="underline decoration-brand-400 decoration-2">clear to understand</span> and
-                                the
-                                homework was fun! Thank you!
-                            </p>
-                            <p>- Web & Python student</p>
-                        </div>
-                    </div>
-
-                </div>
+                <Testimonials class="reveal" v-reveal />
             </div>
         </div>
 
@@ -371,10 +323,10 @@ useHead({
                 <div class="relative rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[8vw]"></div>
                 <div class="relative -rotate-[10deg] -z-10 w-[256rem] h-[30vh] bg-[#FEFCEE] top-[14vw]"></div>
             </div>
-            <div class="flex items-center bg-accent-100 rounded-xl p-2 drop-shadow-light">
+            <div class="reveal flex items-center bg-accent-100 rounded-xl p-2 drop-shadow-light" v-reveal>
                 <img src="/images/icons/about.png" class="w-20">
             </div>
-            <h1 class="font-serif text-5xl text-gray-700 font-semibold my-4 mb-8">About us</h1>
+            <h1 class="reveal font-serif text-5xl text-gray-700 font-semibold my-4 mb-8" v-reveal="80">About us</h1>
             <div class="z-10 md:columns-2 gap-6 md:py-12 w-10/12 md:w-9/12 lg:w-8/12 max-w-4xl text-left">
                 <p class="mb-2"><span class="font-medium">Kids for Code was founded during in 2020 by students in
                         Montgomery County,

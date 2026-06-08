@@ -6,3 +6,121 @@ p {
 	@apply font-body;
 	@apply text-gray-700;
 }
+
+/* ============================================================
+   Motion system — polished & subtle. Keeps images & style.
+   All effects use transform/opacity only (GPU compositor).
+   ============================================================ */
+
+/* Scroll-reveal. Hidden ONLY when JS is active (.reveal-ready on <html>,
+   set by an inline head script before first paint) so no-JS users and
+   crawlers always see content, and there's no flash-of-hidden. */
+.reveal {
+	transition: opacity 0.6s ease, transform 0.6s ease;
+	transition-delay: var(--reveal-delay, 0ms);
+}
+.reveal-ready .reveal {
+	opacity: 0;
+	transform: translateY(16px);
+	will-change: opacity, transform;
+}
+.reveal-ready .reveal.in-view {
+	opacity: 1;
+	transform: none;
+}
+
+/* Nuxt page transition (name="page") */
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.page-enter-from {
+	opacity: 0;
+	transform: translateY(8px);
+}
+.page-leave-to {
+	opacity: 0;
+	transform: translateY(-8px);
+}
+
+/* Gentle float loop (hero image) */
+@keyframes k4c-float {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-8px);
+	}
+}
+.k4c-float {
+	animation: k4c-float 6s ease-in-out infinite;
+}
+
+/* Animated gradient sweep for accent headline text */
+@keyframes k4c-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 200% 50%;
+	}
+}
+.k4c-gradient-text {
+	background-image: linear-gradient(
+		90deg,
+		hsl(332, 55%, 55%),
+		hsl(48, 88%, 53%),
+		hsl(332, 55%, 55%)
+	);
+	background-size: 200% auto;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	animation: k4c-gradient 6s linear infinite;
+}
+
+/* Slow horizontal marquee (testimonials), pauses on hover */
+@keyframes k4c-marquee {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-50%);
+	}
+}
+.k4c-marquee {
+	animation: k4c-marquee 45s linear infinite;
+}
+.k4c-marquee-group:hover .k4c-marquee {
+	animation-play-state: paused;
+}
+
+/* Footer link underline-grow */
+.k4c-underline {
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 1.5px;
+	transition: background-size 0.25s ease;
+}
+.k4c-underline:hover {
+	background-size: 100% 1.5px;
+}
+
+/* Reduced-motion kill switch — disables all non-essential motion */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.001ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.001ms !important;
+		scroll-behavior: auto !important;
+	}
+	.reveal {
+		opacity: 1 !important;
+		transform: none !important;
+	}
+}

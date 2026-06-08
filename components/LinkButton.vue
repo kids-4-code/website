@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink class="font-sans font-semibold text-md transition-colors px-4 py-1.5 rounded"
+    <NuxtLink class="inline-block font-sans font-semibold text-md transition-all duration-200 px-4 py-1.5 rounded"
       :to="disabled ? undefined : to" :class="[...colors, ...extraStyles]" :target="newTab ? '_blank' : '_self'">
       <slot></slot>
     </NuxtLink>
@@ -68,6 +68,9 @@ const extraStyles = computed(() => {
   }
   if (!(props.ghost || props.disabled)) {
     s.push("text-white")
+  }
+  if (!props.disabled) {
+    s.push("hover:-translate-y-0.5", "hover:shadow-md", "active:translate-y-0")
   }
   return s
 })
