@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as a,a as s,r as l}from"./entry.2c5e9f60.js";const r={},c={class:"grid xl:grid-cols-2 mx-2 md:mx-6 gap-6"},n=s("h2",{class:"text-xl mb-2"},"Syllabus",-1);function d(e,i){return t(),a("div",c,[s("div",null,[l(e.$slots,"default")]),s("div",null,[n,l(e.$slots,"syllabus")])])}const u=o(r,[["render",d]]);export{u as default};
