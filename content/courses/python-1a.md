@@ -15,9 +15,9 @@ color: emerald
 
 ::course-details
 ---
-time: 2024-03-03T11:00
-duration: 45
-dates: 2/2, 2/9, 2/16, 2/23, 3/2, 3/9
+time: 2026-07-12T11:00
+duration: 40
+dates: 7/12, 7/19, 7/26, 8/2, 8/9, 8/16
 level: Beginner
 ages: ages 6 & up
 ---

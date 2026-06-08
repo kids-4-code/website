@@ -2,6 +2,16 @@
 useHead({
   title: "Members",
 })
+
+const alumni = [
+  { name: "Ishaan Samantray", role: "Former President", college: "Biomedical Engineering & CS @ Cornell University" },
+  { name: "Tyler Song", role: "Former Vice President", college: "CS @ University of Maryland" },
+  { name: "Zaria Naqvi", role: "Former Vice President", college: "CS & Economics @ Harvard University" },
+  { name: "Lavanya Ravi", role: "Former Marketing & Advertising Director/Secretary", college: "Wharton @ University of Pennsylvania" },
+  { name: "Hongjin Fang", role: "Former President", college: "Bioengineering @ Cornell University" },
+  { name: "Bryan Yung", role: "Former Java Team Leader", college: "CS @ Carnegie Mellon University" },
+  { name: "Kevin Xue", role: "Former Web Development Team Leader", college: "CS @ University of Pennsylvania" },
+]
 </script>
 
 <template>
@@ -26,21 +36,12 @@ useHead({
         </div>
         <div class="col-span-2 grid grid-cols-2 md:grid-cols-3">
           <TeacherCard name="Ahana Samantray" title="President"></TeacherCard>
-          <TeacherCard name="Zaria Naqvi" title="Co-Vice President"></TeacherCard>
           <TeacherCard name="Siddhant Shah" title="Co-Vice President"></TeacherCard>
-          <TeacherCard name="Lavanya Ravi" title="Marketing & Advertising Director/Secretary "></TeacherCard>
           <TeacherCard name="Sanjana Penugonda" title="Web Design 1AB Teacher"></TeacherCard>
           <TeacherCard name="Andrew Dai" title="Python Teacher"></TeacherCard>
           <TeacherCard name="Hyab Mekonnen" title="Java 1 Teacher"></TeacherCard>
           <TeacherCard name="Aislin Deng" title="Java 2 Teacher"></TeacherCard>
           <TeacherCard name="Temur Nurimov" title="Director Of Curriculum"></TeacherCard>
-          <TeacherCard name="Ishaan Samantray" title="Former President" description="Ishaan Samantray is an incoming freshman at Cornell University majoring in Bioengineering. A graduate of Winston Churchill High School, he has been teaching kids since 9th grade and is passionate about making computer science accessible to younger students.
-
-"></TeacherCard>
-          <TeacherCard name="Tyler Song" title="Former Vice President" description="Tyler Song is an incoming freshman at the University of Maryland majoring in Computer Science. He graduated from Winston Churchill High School and enjoys sharing his knowledge of programming with aspiring young coders.
-
-"></TeacherCard>
-          
 
           <!-- <div class="p-6 border border-gray-200 rounded-lg shadow-sm">
             <Icon name="tabler:alert-triangle" class=" text-4xl text-purple-600 mb-2"></Icon>
@@ -67,6 +68,20 @@ useHead({
             </thead>
           </table>
         </div> -->
+      </div>
+
+      <!--Alumni-->
+      <div class="w-11/12 md:w-9/12 lg:w-7/12 mt-16 mb-24">
+        <h2 class="font-serif text-4xl text-gray-700 font-semibold mb-2">Alumni</h2>
+        <p class="text-gray-600 text-sm mb-6">Former leaders & teachers, and where they are now.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div v-for="person in alumni" :key="person.name"
+            class="p-5 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <h3 class="font-serif font-semibold text-lg text-gray-700">{{ person.name }}</h3>
+            <p class="text-sm font-medium text-purple-600">{{ person.role }}</p>
+            <p class="text-sm text-gray-500 mt-1">{{ person.college }}</p>
+          </div>
+        </div>
       </div>
 
     </div>

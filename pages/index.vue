@@ -17,7 +17,7 @@ useHead({
                 learn for free!
             </p>
             <div class="flex gap-2 mt-2">
-                <LinkButton to="https://forms.gle/whYD3dfBwRgsFj8g6" color="brand">Enroll</LinkButton>
+                <LinkButton newTab to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform" color="brand">Enroll</LinkButton>
             </div>
 
             <img src="/images/hero-slides.png" class="z-30 mt-12  w-9/12 md:w-7/12 lg:w-5/12">
@@ -300,7 +300,7 @@ useHead({
                         <h1 class="text-4xl font-serif font-semibold">Summer 2026</h1>
                         <p class="text-sm md:w-3/4 block mt-1">Registration is now open!</p>
 
-                        <LinkButton disabled class="mt-4" to="https://docs.google.com/forms/d/e/1FAIpQLSd1g-sSJHupLhMDCWbI4oi4hRhIoKNBuy2PT-Mj3KHgIaqKIQ/viewform" color="sky" newTab>
+                        <LinkButton class="mt-4" to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform" color="sky" newTab>
                             Enroll
                         </LinkButton>
                     </div>
@@ -310,7 +310,7 @@ useHead({
                                 <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
                                 <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates</span>
                             </span>
-                            <p class="text-gray-700 text-xl font-sans">Dates TBD:</p>
+                            <p class="text-gray-700 text-xl font-sans">Jul 11 – Aug 16, 2026</p>
                         </div>
                         <div class="p-4 border border-gray-200 bg-white rounded-lg">
                             <span class="flex items-center">
@@ -335,7 +335,7 @@ useHead({
                             <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
                             <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Registration closes</span>
                         </span>
-                        <p class="text-gray-700 text-xl font-sans">TBD</p>
+                        <p class="text-gray-700 text-xl font-sans">Jul 11, 2026</p>
                     </div>
 
                 </div>
@@ -349,7 +349,7 @@ useHead({
                         View our full class schedule including dates & meeting times.
                     </p>
 
-                    <LinkButton newTab to="https://docs.google.com/document/d/1PFyIHG8y5xUmvVa50TAnmezValDJDU6cP1id3V4ypJM/edit?tab=t.0#heading=h.5x0d5h95i329" color="sky">View</LinkButton>
+                    <LinkButton newTab to="https://docs.google.com/document/d/1AucwlnN6lCsjxRLcuJzo_8ErroHlqCdMiWVvEZWzGMQ/view" color="sky">View</LinkButton>
 
                 </div>
                 <div class="text-left">

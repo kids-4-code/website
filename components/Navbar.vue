@@ -2,14 +2,14 @@
   <div>
     <nav>
       <!--Banner-->
-      <!-- <NuxtLink to="https://forms.gle/5Y4uYof4SmQaSqKt9">
+      <NuxtLink to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform" target="_blank">
         <div
           class="w-full border-b border-b-brand-400 bg-brand-50 hover:bg-brand-100 transition-colors flex p-3 place-content-center items-center gap-2 ">
-          <p class="text-brand-600 text-sm font-medium font-sans">Register for our free Winter 2024 session!
+          <p class="text-brand-600 text-sm font-medium font-sans">Our free Summer 2026 session starts July 11th — enroll now!
             <Icon class="text-xl text-brand-600" name="tabler:arrow-right"></Icon>
           </p>
         </div>
-      </NuxtLink> -->
+      </NuxtLink>
 
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center justify-between px-4 py-4">
@@ -29,10 +29,10 @@
               <NuxtLink class="font-sans font-semibold text-gray-700 text-lg" to="/courses">Courses</NuxtLink>
               <NuxtLink class="font-sans font-semibold text-gray-700 text-lg" to="/teachers">Teachers</NuxtLink>
               <NuxtLink class="font-sans font-semibold text-gray-700 text-lg" to="/faq">FAQ</NuxtLink>
-              <LinkButton newTab to="https://forms.gle/gEKdeV6FUZYroRiV8" class="sm:hidden">Enroll</LinkButton>
+              <LinkButton newTab to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform" class="sm:hidden">Enroll</LinkButton>
             </div>
           </div>
-          <LinkButton newTab class="max-sm:hidden" to="https://bit.ly/k4c-winter25-enroll">
+          <LinkButton newTab class="max-sm:hidden" to="https://docs.google.com/forms/d/1Xm21bQsUX_8_dnyfts_yNJKjGdqxUSDrs5STTnHKo-Y/viewform">
             Enroll
           </LinkButton>
           <!-- <LinkButton newTab ghost class="max-sm:hidden" to="https://forms.gle/9zKbZDBRqU54Pw5v7">Get updates
