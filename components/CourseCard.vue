@@ -1,5 +1,6 @@
 <template>
-  <div class="flex flex-col justify-between p-6 border-gray-300 border shadow-md rounded-md text-left">
+  <div
+    class="flex flex-col justify-between p-6 border-gray-300 border shadow-md rounded-md text-left transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg">
     <div>
       <div class="flex gap-2 items-center justify-between">
         <slot name="icon"></slot>

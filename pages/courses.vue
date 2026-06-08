@@ -1,7 +1,54 @@
 <script setup lang="ts">
+import { useIntersectionObserver } from "@vueuse/core"
+
 useHead({
   title: "Courses",
 })
+
+const sections = [
+  { id: "python", label: "Python", icon: "tabler:brand-python", color: "text-emerald-600" },
+  { id: "web", label: "Web dev", icon: "tabler:brand-html5", color: "text-amber-600" },
+  { id: "java", label: "Java", icon: "tabler:coffee", color: "text-rose-600" },
+  { id: "cpp", label: "C++", icon: "tabler:brand-cpp", color: "text-sky-600" },
+  { id: "other-courses", label: "Other", icon: "tabler:device-imac", color: "text-purple-600" },
+]
+const activeId = ref("python")
+
+onMounted(() => {
+  for (const s of sections) {
+    const el = document.getElementById(s.id)
+    if (!el) continue
+    useIntersectionObserver(
+      el,
+      ([entry]) => {
+        if (entry?.isIntersecting) activeId.value = s.id
+      },
+      { rootMargin: "-25% 0px -65% 0px" }
+    )
+  }
+})
+
+// Summer 2026 offered classes — single source for the "at a glance" view.
+const schedule = [
+  {
+    day: "Saturday",
+    classes: [
+      { name: "C++ 1", time: "11:00 – 11:40 AM ET", to: "/courses/cpp-1", dot: "bg-sky-500" },
+      { name: "Web Design 1A", time: "12:00 – 12:40 PM ET", to: "/courses/web-design-1a", dot: "bg-amber-500" },
+      { name: "Web Design 1AB", time: "1:00 – 1:40 PM ET", to: "/courses/web-design-1ab", dot: "bg-amber-500" },
+      { name: "Java 1", time: "4:20 – 5:00 PM ET", to: "/courses/java-1", dot: "bg-red-500" },
+      { name: "Intro to Machine Learning", time: "5:20 – 6:00 PM ET", to: "/courses/intro-to-ml", dot: "bg-emerald-500" },
+    ],
+  },
+  {
+    day: "Sunday",
+    classes: [
+      { name: "Python 1A", time: "11:00 – 11:40 AM ET", to: "/courses/python-1a", dot: "bg-emerald-500" },
+      { name: "Python 1AB", time: "12:00 – 12:40 PM ET", to: "/courses/python-1ab", dot: "bg-emerald-500" },
+      { name: "AP Computer Science A", time: "4:00 – 4:40 PM ET", to: null, dot: "bg-purple-500" },
+    ],
+  },
+]
 </script>
 
 <template>
@@ -56,46 +103,52 @@ useHead({
       </div>
     </div>
 
+    <!-- Weekend at a glance -->
+    <div class="reveal w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl mx-auto mt-16" v-reveal>
+      <h2 class="font-serif font-semibold text-3xl text-gray-700 text-center mb-2">Summer 2026 at a glance</h2>
+      <p class="text-gray-500 text-sm text-center mb-8">Six weekly classes · Jul 11 – Aug 16 · all times Eastern</p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div v-for="block in schedule" :key="block.day"
+          class="border border-gray-200 rounded-xl p-6 shadow-sm transition-all duration-200 hover:shadow-md">
+          <div class="flex items-center gap-2 mb-4">
+            <Icon name="tabler:calendar-week" class="text-2xl text-brand-500"></Icon>
+            <h3 class="font-serif font-semibold text-2xl text-gray-700">{{ block.day }}</h3>
+          </div>
+          <ul class="flex flex-col divide-y divide-gray-100">
+            <li v-for="c in block.classes" :key="c.name">
+              <component :is="c.to ? 'NuxtLink' : 'div'" :to="c.to || undefined"
+                class="flex items-center gap-3 py-3 group">
+                <span class="w-2.5 h-2.5 rounded-full shrink-0" :class="c.dot"></span>
+                <span class="flex-1">
+                  <span class="block font-semibold text-gray-700"
+                    :class="c.to ? 'group-hover:text-brand-600 transition-colors' : ''">{{ c.name }}</span>
+                  <span class="block text-sm text-gray-500">{{ c.time }}</span>
+                </span>
+                <Icon v-if="c.to" name="tabler:arrow-right"
+                  class="text-gray-300 group-hover:text-brand-500 group-hover:translate-x-0.5 transition-all"></Icon>
+              </component>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <!--Courses-->
     <div class="flex flex-col items-center mt-16 gap-16">
-      <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-2">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700 col-span-full">All courses</h3>
-        <hr class="my-2 col-span-full">
-        <NuxtLink to="/courses#python">
-          <div class="flex items-center hover:bg-gray-50 p-4 rounded-lg gap-2">
-            <Icon name="tabler:brand-python" class="text-4xl text-emerald-600"></Icon>
-            <h3 class="text-xl font-semibold text-gray-700 font-serif">Python</h3>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/courses#web">
-          <div class="flex items-center hover:bg-gray-50 p-4 rounded-md gap-2">
-            <Icon name="tabler:brand-html5" class="text-4xl text-amber-600"></Icon>
-            <h3 class="text-xl font-semibold text-gray-700 font-serif">Web dev</h3>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/courses#java">
-          <div class="flex items-center hover:bg-gray-50 p-4 rounded-md gap-2">
-            <Icon name="tabler:coffee" class="text-4xl text-rose-600"></Icon>
-            <h3 class="text-xl font-semibold text-gray-700 font-serif">Java</h3>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/courses#cpp">
-          <div class="flex items-center hover:bg-gray-50 p-4 rounded-md gap-2">
-            <Icon name="tabler:brand-cpp" class="text-4xl text-sky-600"></Icon>
-            <h3 class="text-xl font-semibold text-gray-700 font-serif">C++</h3>
-          </div>
-        </NuxtLink>
-        <NuxtLink to="/courses#other-courses">
-          <div class="flex items-center hover:bg-gray-50 p-4 rounded-md gap-2">
-            <Icon name="tabler:device-imac" class="text-4xl text-purple-600"></Icon>
-            <h3 class="text-xl font-semibold text-gray-700 font-serif">Other courses</h3>
-          </div>
-        </NuxtLink>
-        <hr class="my-2 col-span-full">
+      <!-- Sticky scroll-spy tabs -->
+      <div class="sticky top-[60px] z-30 w-full bg-white/90 backdrop-blur border-y border-gray-200">
+        <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl mx-auto flex gap-1 overflow-x-auto py-2">
+          <NuxtLink v-for="s in sections" :key="s.id" :to="`/courses#${s.id}`"
+            class="flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap transition-colors"
+            :class="activeId === s.id ? 'bg-brand-50 text-brand-700' : 'text-gray-600 hover:bg-gray-50'">
+            <Icon :name="s.icon" class="text-xl" :class="s.color"></Icon>
+            <span class="font-serif font-semibold">{{ s.label }}</span>
+          </NuxtLink>
+        </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="python">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Python</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+        <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard class="bg-emerald-50">
             <template #icon>
               <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
@@ -237,7 +290,7 @@ useHead({
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="web">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Web development</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+        <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard class="bg-amber-50">
             <template #icon>
               <Icon name="tabler:brand-html5" class="text-4xl text-amber-600 mb-2"></Icon>
@@ -349,7 +402,7 @@ useHead({
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Java</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+        <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard class="bg-red-50">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
@@ -416,7 +469,7 @@ useHead({
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">AP Computer Science A (Java)</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+        <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard class="bg-red-50">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
@@ -455,7 +508,7 @@ useHead({
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="cpp">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">C++</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+        <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard class="bg-sky-50">
             <template #icon>
               <Icon name="tabler:brand-cpp" class="text-4xl text-sky-600 mb-2"></Icon>
@@ -499,7 +552,7 @@ useHead({
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="other-courses">
         <h3 class="font-serif font-semibold text-4xl text-gray-700">Other courses</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8">
+        <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard>
             <template #icon>
               <Icon name="tabler:device-imac" class="text-4xl text-purple-600 mb-2"></Icon>
