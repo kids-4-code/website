@@ -7,7 +7,6 @@ export default defineNuxtConfig({
         documentDriven: true,
     },
     app: {
-        pageTransition: { name: "page", mode: "out-in" },
         head: {
             titleTemplate: "%s – Kids for Code",
             script: [
