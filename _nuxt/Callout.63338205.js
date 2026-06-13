@@ -1,0 +1,1 @@
+import{f as l,o as a,c as s,a as t,t as n,r as d}from"./entry.0d81df42.js";const u={class:"bg-gray-50 border-gray-200 border my-4 p-6 rounded-lg"},p=l({__name:"Callout",props:{title:{type:String,required:!0}},setup(r){return(o,e)=>(a(),s("div",u,[t("h3",null,n(r.title),1),e[0]||(e[0]=t("hr",null,null,-1)),d(o.$slots,"default")]))}});export{p as default};
