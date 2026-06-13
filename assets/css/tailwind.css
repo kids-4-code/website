@@ -29,20 +29,6 @@ p {
 	transform: none;
 }
 
-/* Nuxt page transition (name="page") */
-.page-enter-active,
-.page-leave-active {
-	transition: opacity 0.25s ease, transform 0.25s ease;
-}
-.page-enter-from {
-	opacity: 0;
-	transform: translateY(8px);
-}
-.page-leave-to {
-	opacity: 0;
-	transform: translateY(-8px);
-}
-
 /* Gentle float loop (hero image) */
 @keyframes k4c-float {
 	0%,
