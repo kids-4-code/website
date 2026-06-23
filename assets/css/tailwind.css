@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Base paragraph color via a variable so per-element text utilities still win
+   (no specificity fight). Light value is identical to the previous text-gray-700. */
+:root {
+	--p-color: #374151; /* gray-700 — unchanged light appearance */
+}
+.dark {
+	--p-color: #cbc6d4; /* readable light text for dark mode */
+}
 p {
 	@apply font-body;
-	@apply text-gray-700;
+	color: var(--p-color);
+}
+
+/* Dark-mode page surface. Only applies when <html> has .dark (set pre-paint). */
+.dark body {
+	background-color: #18141c; /* night.bg */
+	color: #ece9f1; /* night.text */
 }
 
 /* ============================================================

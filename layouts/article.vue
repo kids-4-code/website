@@ -25,7 +25,7 @@
 .article-container h4,
 .article-container h5,
 .article-container h6 {
-  @apply font-serif font-semibold text-gray-700;
+  @apply font-serif font-semibold text-gray-700 dark:text-night-text;
 }
 
 .article-container h1 {
@@ -52,7 +52,7 @@
 .article-container p,
 strong,
 li {
-  @apply font-body text-gray-600 mb-2;
+  @apply font-body text-gray-600 dark:text-night-muted mb-2;
 }
 
 .article-container strong {
@@ -78,10 +78,10 @@ li {
 .article-container tr,
 .article-container th,
 .article-container td {
-  @apply p-2 font-body border-gray-300 border-y text-gray-600;
+  @apply p-2 font-body border-gray-300 dark:border-night-border border-y text-gray-600 dark:text-night-muted;
 }
 
 .article-container th {
-  @apply bg-gray-50 font-medium font-serif border-gray-300 border-y;
+  @apply bg-gray-50 dark:bg-night-input font-medium font-serif border-gray-300 dark:border-night-border border-y;
 }
 </style>

@@ -74,7 +74,7 @@ function highlightQuestion(q: string) {
   const term = query.value.trim()
   if (!term) return q
   const re = new RegExp(`(${escapeRegExp(term)})`, "ig")
-  return q.replace(re, '<mark class="bg-accent-100 text-gray-700 rounded px-0.5">$1</mark>')
+  return q.replace(re, '<mark class="bg-accent-100 dark:bg-accent-950/40 text-gray-700 dark:text-night-text rounded px-0.5">$1</mark>')
 }
 </script>
 
@@ -82,44 +82,44 @@ function highlightQuestion(q: string) {
   <NuxtLayout>
     <div class="pt-12 p-4 flex flex-col items-center">
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-3xl">
-        <h1 class="reveal font-serif text-4xl font-semibold text-gray-700 mb-2" v-reveal>FAQ</h1>
-        <p class="reveal text-gray-500 text-sm mb-6" v-reveal="60">Search or click a question to see the answer.</p>
+        <h1 class="reveal font-serif text-4xl font-semibold text-gray-700 dark:text-night-text mb-2" v-reveal>FAQ</h1>
+        <p class="reveal text-gray-500 dark:text-night-muted text-sm mb-6" v-reveal="60">Search or click a question to see the answer.</p>
 
         <!-- Search -->
         <div class="reveal relative mb-6" v-reveal="120">
           <Icon name="tabler:search"
-            class="absolute left-3 top-1/2 -translate-y-1/2 text-lg text-gray-400"></Icon>
+            class="absolute left-3 top-1/2 -translate-y-1/2 text-lg text-gray-400 dark:text-night-muted"></Icon>
           <input v-model="query" type="text" placeholder="Search questions…"
-            class="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-lg font-body text-gray-700 focus:outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 transition-colors" />
+            class="w-full pl-10 pr-4 py-3 border border-gray-200 dark:border-night-border rounded-lg font-body text-gray-700 dark:text-night-text focus:outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 transition-colors" />
         </div>
 
         <div class="flex flex-col gap-3">
           <div v-for="item in filtered" :key="item.q"
-            class="border border-gray-200 rounded-lg bg-white overflow-hidden transition-shadow hover:shadow-sm">
+            class="border border-gray-200 dark:border-night-border rounded-lg bg-white dark:bg-night-card overflow-hidden transition-shadow hover:shadow-sm">
             <button type="button" @click="toggle(item.q)"
               class="w-full flex items-center justify-between text-left px-5 py-4 hover:bg-gray-50 transition-colors"
               :aria-expanded="open.includes(item.q)">
-              <span class="font-serif font-semibold text-gray-700" v-html="highlightQuestion(item.q)"></span>
+              <span class="font-serif font-semibold text-gray-700 dark:text-night-text" v-html="highlightQuestion(item.q)"></span>
               <Icon name="tabler:chevron-down"
-                class="text-xl text-gray-400 shrink-0 ml-4 transition-transform duration-300"
+                class="text-xl text-gray-400 dark:text-night-muted shrink-0 ml-4 transition-transform duration-300"
                 :class="{ 'rotate-180': open.includes(item.q) }"></Icon>
             </button>
             <!-- smooth expand via grid-rows 0fr → 1fr -->
             <div class="grid transition-all duration-300 ease-out"
               :class="open.includes(item.q) ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'">
               <div class="overflow-hidden">
-                <p class="px-5 pb-4 font-body text-gray-600" v-html="item.a"></p>
+                <p class="px-5 pb-4 font-body text-gray-600 dark:text-night-muted" v-html="item.a"></p>
               </div>
             </div>
           </div>
 
-          <p v-if="filtered.length === 0" class="text-gray-500 text-sm py-6 text-center">
+          <p v-if="filtered.length === 0" class="text-gray-500 dark:text-night-muted text-sm py-6 text-center">
             No questions match “{{ query }}”. Try a different search, or email us at
             kidsforcodeteam@gmail.com.
           </p>
         </div>
 
-        <p class="text-gray-500 text-sm mt-8 italic">
+        <p class="text-gray-500 dark:text-night-muted text-sm mt-8 italic">
           If you still have any more questions that weren't answered here, feel free to contact us
           at kidsforcodeteam@gmail.com
         </p>

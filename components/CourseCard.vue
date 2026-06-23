@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col justify-between p-6 border-gray-300 border shadow-md rounded-md text-left transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg">
+    class="flex flex-col justify-between p-6 border-gray-300 dark:border-night-border border shadow-md rounded-md text-left transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg">
     <div>
       <div class="flex gap-2 items-center justify-between">
         <slot name="icon"></slot>
@@ -12,7 +12,7 @@
 
       <!-- <slot name="details"></slot> -->
       <hr class="my-2">
-      <slot name="description" class="font-body text-gray-600"></slot>
+      <slot name="description" class="font-body text-gray-600 dark:text-night-muted"></slot>
     </div>
 
     <div class="mt-4">

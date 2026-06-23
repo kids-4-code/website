@@ -70,56 +70,56 @@ dates = dates.map((d) => {
 </script>
 
 <template>
-  <div class="py-4 my-4 mx-2 md:mx-6 grid md:grid-cols-2 gap-6 border-t border-b border-gray-200">
+  <div class="py-4 my-4 mx-2 md:mx-6 grid md:grid-cols-2 gap-6 border-t border-b border-gray-200 dark:border-night-border">
     <div>
       <span class="flex items-center">
         <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Time <span
-            class="text-gray-400 font-normal">(timezone converted to
+        <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Time <span
+            class="text-gray-400 dark:text-night-muted font-normal">(timezone converted to
             {{ start.toLocal().zoneName.replace("_", " ")
             }}) </span></span>
       </span>
       <div>
-        <p class="text-gray-700 text-xl font-sans mb-0">{{ formattedTime }}</p>
+        <p class="text-gray-700 dark:text-night-text text-xl font-sans mb-0">{{ formattedTime }}</p>
       </div>
     </div>
     <!-- <div>
       <span class="flex items-center">
         <Icon name="tabler:clock" class="text-md text-blue-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Time (original)</span>
+        <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Time (original)</span>
       </span>
       <div>
-        <p class="text-gray-700 text-xl font-sans mb-0">{{ time }}</p>
+        <p class="text-gray-700 dark:text-night-text text-xl font-sans mb-0">{{ time }}</p>
       </div>
     </div> -->
 
     <div>
       <span class="flex items-center">
         <Icon name="tabler:calendar-event" class="text-md text-emerald-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Dates (mm/dd)</span>
+        <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Dates (mm/dd)</span>
       </span>
-      <p class="text-gray-700 text-xl font-sans">{{ dates }}</p>
+      <p class="text-gray-700 dark:text-night-text text-xl font-sans">{{ dates }}</p>
     </div>
     <div>
       <span class="flex items-center">
         <Icon name="tabler:chart-bar" class="text-md text-purple-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Difficulty</span>
+        <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Difficulty</span>
       </span>
-      <p class="text-gray-700 text-xl font-sans">{{ level }}</p>
+      <p class="text-gray-700 dark:text-night-text text-xl font-sans">{{ level }}</p>
     </div>
     <div>
       <span class="flex items-center">
         <Icon name="tabler:balloon" class="text-md text-amber-700"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Ages (recommended)</span>
+        <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Ages (recommended)</span>
       </span>
-      <p class="text-gray-700 text-xl font-sans">{{ ages }}</p>
+      <p class="text-gray-700 dark:text-night-text text-xl font-sans">{{ ages }}</p>
     </div>
     <!-- <div>
       <span class="flex items-center">
         <Icon name="tabler:cash" class="text-md text-lime-600"></Icon>
-        <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Cost</span>
+        <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Cost</span>
       </span>
-      <p class="text-gray-700 text-xl font-sans">$0</p>
+      <p class="text-gray-700 dark:text-night-text text-xl font-sans">$0</p>
     </div> -->
 
   </div>

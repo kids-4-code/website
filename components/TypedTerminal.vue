@@ -1,15 +1,15 @@
 <template>
-  <div class="w-full max-w-md text-left rounded-xl border border-gray-200 bg-white shadow-md overflow-hidden">
+  <div class="w-full max-w-md text-left rounded-xl border border-gray-200 dark:border-night-border bg-white dark:bg-night-card shadow-md overflow-hidden">
     <!-- title bar -->
-    <div class="flex items-center gap-1.5 px-4 py-2.5 border-b border-gray-100 bg-gray-50">
+    <div class="flex items-center gap-1.5 px-4 py-2.5 border-b border-gray-100 dark:border-night-border bg-gray-50 dark:bg-night-input">
       <span class="w-3 h-3 rounded-full bg-red-400"></span>
       <span class="w-3 h-3 rounded-full bg-amber-400"></span>
       <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
-      <span class="ml-2 text-xs font-sans font-medium text-gray-400">{{ snippet.lang }}</span>
+      <span class="ml-2 text-xs font-sans font-medium text-gray-400 dark:text-night-muted">{{ snippet.lang }}</span>
     </div>
     <!-- code -->
     <div class="p-4 font-mono text-sm leading-relaxed min-h-[5.5rem]">
-      <p class="text-gray-700 break-all">
+      <p class="text-gray-700 dark:text-night-text break-all">
         <span class="text-brand-500">›</span> {{ typed
         }}<span class="inline-block w-1.5 h-4 bg-brand-500 align-middle ml-0.5 animate-pulse"></span>
       </p>

@@ -1,13 +1,13 @@
 <template>
-  <div class="mt-16 w-full bg-gray-50 border-t border-gray-200 p-4 pb-8">
+  <div class="mt-16 w-full bg-gray-50 dark:bg-night-input border-t border-gray-200 dark:border-night-border p-4 pb-8">
     <div class="lg:w-2/3 mx-auto">
-      <h3 class="font-sans font-semibold text-xl text-gray-600 my-2">Kids for Code</h3>
+      <h3 class="font-sans font-semibold text-xl text-gray-600 dark:text-night-muted my-2">Kids for Code</h3>
       <hr class="my-2 mb-4">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        <div class="text-gray-600">
-          <h4 class="font-sans font-medium text-lg text-gray-600">Quick links</h4>
+        <div class="text-gray-600 dark:text-night-muted">
+          <h4 class="font-sans font-medium text-lg text-gray-600 dark:text-night-muted">Quick links</h4>
 
-          <ul class="list-none text-base lg:text-sm font-body underline decoration-gray-300 text-gray-600 [&_a]:transition-colors [&_a:hover]:text-brand-600 [&_a:hover]:decoration-brand-400">
+          <ul class="list-none text-base lg:text-sm font-body underline decoration-gray-300 text-gray-600 dark:text-night-muted [&_a]:transition-colors [&_a:hover]:text-brand-600 [&_a:hover]:decoration-brand-400">
             <li>
               <NuxtLink>Home</NuxtLink>
             </li>
@@ -25,9 +25,9 @@
           </ul>
         </div>
         <div>
-          <h4 class="font-sans font-medium text-lg text-gray-600">Courses</h4>
+          <h4 class="font-sans font-medium text-lg text-gray-600 dark:text-night-muted">Courses</h4>
 
-          <ul class="list-none text-base lg:text-sm font-body underline decoration-gray-300 text-gray-600 [&_a]:transition-colors [&_a:hover]:text-brand-600 [&_a:hover]:decoration-brand-400">
+          <ul class="list-none text-base lg:text-sm font-body underline decoration-gray-300 text-gray-600 dark:text-night-muted [&_a]:transition-colors [&_a:hover]:text-brand-600 [&_a:hover]:decoration-brand-400">
             <li>
               <NuxtLink to="/courses">All courses</NuxtLink>
             </li>
@@ -49,10 +49,10 @@
           </ul>
         </div>
         <div>
-          <h4 class="font-sans font-medium text-lg text-gray-600">Socials & other links</h4>
+          <h4 class="font-sans font-medium text-lg text-gray-600 dark:text-night-muted">Socials & other links</h4>
 
           <div
-            class="flex gap-3 text-2xl text-gray-600 [&_a]:inline-block [&_a]:transition-all [&_a:hover]:-translate-y-0.5 [&_a:hover]:scale-110 [&_a:hover]:text-brand-600">
+            class="flex gap-3 text-2xl text-gray-600 dark:text-night-muted [&_a]:inline-block [&_a]:transition-all [&_a:hover]:-translate-y-0.5 [&_a:hover]:scale-110 [&_a:hover]:text-brand-600">
             <a href="https://www.youtube.com/@kidsforcode" aria-label="YouTube">
               <Icon name="tabler:brand-youtube"></Icon>
             </a>
@@ -63,7 +63,7 @@
               <Icon name="tabler:brand-instagram"></Icon>
             </a>
           </div>
-          <h4 class="font-sans font-medium text-lg text-gray-600 mt-4">Contact</h4>
+          <h4 class="font-sans font-medium text-lg text-gray-600 dark:text-night-muted mt-4">Contact</h4>
 
           <p class="text-base lg:text-sm">kidsforcodeteam@gmail.com</p>
         </div>

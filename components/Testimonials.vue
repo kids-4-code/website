@@ -4,18 +4,18 @@
       <div
         v-for="(t, i) in doubled"
         :key="i"
-        class="w-80 shrink-0 text-left flex gap-2 items-start p-5 bg-white border border-gray-200 rounded-xl shadow-sm"
+        class="w-80 shrink-0 text-left flex gap-2 items-start p-5 bg-white dark:bg-night-card border border-gray-200 dark:border-night-border rounded-xl shadow-sm"
       >
         <Icon name="tabler:quote" class="text-brand-600 text-4xl shrink-0"></Icon>
         <div>
-          <p class="font-medium mb-2 text-gray-600">{{ t.quote }}</p>
-          <p class="text-sm text-gray-500">— {{ t.who }}</p>
+          <p class="font-medium mb-2 text-gray-600 dark:text-night-muted">{{ t.quote }}</p>
+          <p class="text-sm text-gray-500 dark:text-night-muted">— {{ t.who }}</p>
         </div>
       </div>
     </div>
     <!-- edge fades -->
-    <div class="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white to-transparent"></div>
-    <div class="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white to-transparent"></div>
+    <div class="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white dark:from-night-bg to-transparent"></div>
+    <div class="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white dark:from-night-bg to-transparent"></div>
   </div>
 </template>
 
