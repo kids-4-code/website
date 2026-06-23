@@ -35,7 +35,7 @@ const colorVariants = {
 </script>
 
 <template>
-  <div class="bg border-gray-200  border p-6 py-8 mb-4 rounded-xl text-gray-700">
+  <div class="bg border-gray-200 dark:border-night-border  border p-6 py-8 mb-4 rounded-xl text-gray-700 dark:text-night-text">
     <img :src="icon" class="w-16 mb-2 drop-shadow-sm">
     <h1 class="text-4xl font-serif font-semibold">{{ name }}</h1>
     <p class="text-sm md:w-2/3 block mt-1">{{ description }}</p>

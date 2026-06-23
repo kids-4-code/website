@@ -11,10 +11,13 @@ export default defineNuxtConfig({
             titleTemplate: "%s – Kids for Code",
             script: [
                 {
-                    // Mark JS as active before first paint so scroll-reveal can
-                    // hide elements without a flash; no-JS users keep content visible.
+                    // Runs before first paint:
+                    // 1. Mark JS active so scroll-reveal can hide elements without a
+                    //    flash (no-JS users keep content visible).
+                    // 2. Apply the saved/OS color theme before paint to avoid a
+                    //    flash-of-wrong-theme on this statically-generated site.
                     innerHTML:
-                        "document.documentElement.classList.add('reveal-ready')",
+                        "document.documentElement.classList.add('reveal-ready');(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark')}}catch(e){}})()",
                     tagPosition: "head",
                 },
             ],

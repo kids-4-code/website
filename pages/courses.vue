@@ -58,8 +58,8 @@ const schedule = [
     <div class="flex flex-col items-center">
       <div class="flex flex-col items-center gap-24 py-6 md:py-12 w-11/12 md:w-10/12 lg:w-9/12 mx-auto">
         <div class="flex flex-col items-center">
-          <h1 class="text-5xl font-serif font-semibold text-gray-700">Courses</h1>
-          <p class="text-lg text-gray-600 text-center">
+          <h1 class="text-5xl font-serif font-semibold text-gray-700 dark:text-night-text">Courses</h1>
+          <p class="text-lg text-gray-600 dark:text-night-muted text-center">
             Discover our course offerings & sign up for classes.
           </p>
         </div>
@@ -69,10 +69,10 @@ const schedule = [
       <!--Additional info-->
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl gap-6 mt-8 md:mt-16 ">
-        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
+        <div class="flex flex-col justify-between text-left border border-gray-300 dark:border-night-border shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:clock-hour-4" class="text-4xl text-sky-500"></Icon>
-            <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Class schedule</h3>
+            <h3 class="font-semibold font-serif text-gray-700 dark:text-night-text text-lg mt-2">Class schedule</h3>
             <p class="text-sm">See class dates & times.</p>
           </div>
           <div class="mt-4">
@@ -81,18 +81,18 @@ const schedule = [
           </div>
 
         </div>
-        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
+        <div class="flex flex-col justify-between text-left border border-gray-300 dark:border-night-border shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:calendar-time" class="text-4xl text-brand-500"></Icon>
-            <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">Session info</h3>
+            <h3 class="font-semibold font-serif text-gray-700 dark:text-night-text text-lg mt-2">Session info</h3>
             <p class="text-sm">Our Summer 2026 session will run for 6 weeks, with a class every week. It will start on
               July 11th and end on August 16th.</p>
           </div>
         </div>
-        <div class="flex flex-col justify-between text-left border border-gray-300 shadow-sm rounded-md p-6">
+        <div class="flex flex-col justify-between text-left border border-gray-300 dark:border-night-border shadow-sm rounded-md p-6">
           <div>
             <Icon name="tabler:help-hexagon" class="text-4xl text-rose-500"></Icon>
-            <h3 class="font-semibold font-serif text-gray-700 text-lg mt-2">FAQ</h3>
+            <h3 class="font-semibold font-serif text-gray-700 dark:text-night-text text-lg mt-2">FAQ</h3>
             <p class="text-sm">Get answers to frequently asked questions about our classes & more!</p>
           </div>
           <div class="mt-4">
@@ -105,24 +105,24 @@ const schedule = [
 
     <!-- Weekend at a glance -->
     <div class="reveal w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl mx-auto mt-16" v-reveal>
-      <h2 class="font-serif font-semibold text-3xl text-gray-700 text-center mb-2">Summer 2026 at a glance</h2>
-      <p class="text-gray-500 text-sm text-center mb-8">Six weekly classes · Jul 11 – Aug 16 · all times Eastern</p>
+      <h2 class="font-serif font-semibold text-3xl text-gray-700 dark:text-night-text text-center mb-2">Summer 2026 at a glance</h2>
+      <p class="text-gray-500 dark:text-night-muted text-sm text-center mb-8">Six weekly classes · Jul 11 – Aug 16 · all times Eastern</p>
       <div class="grid md:grid-cols-2 gap-6">
         <div v-for="block in schedule" :key="block.day"
-          class="border border-gray-200 rounded-xl p-6 shadow-sm transition-all duration-200 hover:shadow-md">
+          class="border border-gray-200 dark:border-night-border rounded-xl p-6 shadow-sm transition-all duration-200 hover:shadow-md">
           <div class="flex items-center gap-2 mb-4">
             <Icon name="tabler:calendar-week" class="text-2xl text-brand-500"></Icon>
-            <h3 class="font-serif font-semibold text-2xl text-gray-700">{{ block.day }}</h3>
+            <h3 class="font-serif font-semibold text-2xl text-gray-700 dark:text-night-text">{{ block.day }}</h3>
           </div>
-          <ul class="flex flex-col divide-y divide-gray-100">
+          <ul class="flex flex-col divide-y divide-gray-100 dark:divide-night-border">
             <li v-for="c in block.classes" :key="c.name">
               <component :is="c.to ? 'NuxtLink' : 'div'" :to="c.to || undefined"
                 class="flex items-center gap-3 py-3 group">
                 <span class="w-2.5 h-2.5 rounded-full shrink-0" :class="c.dot"></span>
                 <span class="flex-1">
-                  <span class="block font-semibold text-gray-700"
+                  <span class="block font-semibold text-gray-700 dark:text-night-text"
                     :class="c.to ? 'group-hover:text-brand-600 transition-colors' : ''">{{ c.name }}</span>
-                  <span class="block text-sm text-gray-500">{{ c.time }}</span>
+                  <span class="block text-sm text-gray-500 dark:text-night-muted">{{ c.time }}</span>
                 </span>
                 <Icon v-if="c.to" name="tabler:arrow-right"
                   class="text-gray-300 group-hover:text-brand-500 group-hover:translate-x-0.5 transition-all"></Icon>
@@ -136,25 +136,25 @@ const schedule = [
     <!--Courses-->
     <div class="flex flex-col items-center mt-16 gap-16">
       <!-- Sticky scroll-spy tabs -->
-      <div class="sticky top-[60px] z-30 w-full bg-white/90 backdrop-blur border-y border-gray-200">
+      <div class="sticky top-[60px] z-30 w-full bg-white/90 dark:bg-night-bg/90 backdrop-blur border-y border-gray-200 dark:border-night-border">
         <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl mx-auto flex gap-1 overflow-x-auto py-2">
           <NuxtLink v-for="s in sections" :key="s.id" :to="`/courses#${s.id}`"
             class="flex items-center gap-2 px-4 py-2 rounded-full whitespace-nowrap transition-colors"
-            :class="activeId === s.id ? 'bg-brand-50 text-brand-700' : 'text-gray-600 hover:bg-gray-50'">
+            :class="activeId === s.id ? 'bg-brand-50 dark:bg-brand-950/40 text-brand-700 dark:text-brand-300' : 'text-gray-600 dark:text-night-muted hover:bg-gray-50 dark:hover:bg-night-input'">
             <Icon :name="s.icon" class="text-xl" :class="s.color"></Icon>
             <span class="font-serif font-semibold">{{ s.label }}</span>
           </NuxtLink>
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="python">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700">Python</h3>
+        <h3 class="font-serif font-semibold text-4xl text-gray-700 dark:text-night-text">Python</h3>
         <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
-          <CourseCard class="bg-emerald-50">
+          <CourseCard class="bg-emerald-50 dark:bg-emerald-950/40">
             <template #icon>
               <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">About</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">About</h3>
             </template>
             <template #description>
               <p class="text-sm">Python is a popular, general-purpose programming language that is used in a wide
@@ -175,10 +175,10 @@ const schedule = [
               <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Python 1A</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Python 1A</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 11:00-11:45am ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sun. 11:00-11:45am ET</p>
             </template>
             <template #description>
               <p class="text-sm">A beginner level course aimed at children ages 6 & up. Provides a gentle introduction
@@ -200,10 +200,10 @@ const schedule = [
               <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Python 1AB</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Python 1AB</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 12:00-12:45pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sun. 12:00-12:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm font-medium">Python 1AB is a more advanced, faster-paced version of Python 1A that
@@ -224,10 +224,10 @@ const schedule = [
               <Icon name="tabler:brand-python" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Python 2</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Python 2</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 1:00-1:45pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sun. 1:00-1:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Python 2 builds on the material covered in Python 1A/1AB, taking students on a
@@ -246,11 +246,11 @@ const schedule = [
               <Icon name="tabler:topology-ring" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Intro to Machine Learning
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Intro to Machine Learning
               </h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 3:00-4:00pm ET </p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sun. 3:00-4:00pm ET </p>
             </template>
             <template #description>
               <p class="text-sm">An introductory machine learning course using Python with a strong focus on practical
@@ -270,11 +270,11 @@ const schedule = [
               <Icon name="tabler:device-gamepad-2" class="text-4xl text-emerald-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Game Programming with Python
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Game Programming with Python
               </h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 4:00-4:45pm ET </p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sun. 4:00-4:45pm ET </p>
             </template>
             <template #description>
               <p class="text-sm">An engaging introduction to coding with Python through game development, using the
@@ -289,14 +289,14 @@ const schedule = [
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="web">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700">Web development</h3>
+        <h3 class="font-serif font-semibold text-4xl text-gray-700 dark:text-night-text">Web development</h3>
         <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
-          <CourseCard class="bg-amber-50">
+          <CourseCard class="bg-amber-50 dark:bg-amber-950/30">
             <template #icon>
               <Icon name="tabler:brand-html5" class="text-4xl text-amber-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">About</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">About</h3>
             </template>
             <template #description>
               <p class="text-sm">
@@ -311,10 +311,10 @@ const schedule = [
               <Icon name="tabler:brand-html5" class="text-4xl text-amber-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 1A</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Web Design 1A</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 12:00-12:45pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 12:00-12:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Introduces students to the basic principles of web development. Students will learn how
@@ -333,10 +333,10 @@ const schedule = [
               <Icon name="tabler:brand-html5" class="text-4xl text-amber-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 1AB</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Web Design 1AB</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 1:00-1:45pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 1:00-1:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm font-medium">Web Design 1AB is a more advanced, faster-paced version of Web Design 1A
@@ -357,10 +357,10 @@ const schedule = [
               <Icon name="tabler:brand-javascript" class="text-4xl text-amber-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 2</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Web Design 2</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 2:00-3:00pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 2:00-3:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Web Design 2 is a fast paced, advanced class that introduces JavaScript, a
@@ -381,10 +381,10 @@ const schedule = [
               <Icon name="tabler:text-resize" class="text-4xl text-amber-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Web Design 3</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Web Design 3</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 3:00-4:00pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 3:00-4:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">A project-based course that focuses on creating fully-featured, professional websites
@@ -401,14 +401,14 @@ const schedule = [
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700">Java</h3>
+        <h3 class="font-serif font-semibold text-4xl text-gray-700 dark:text-night-text">Java</h3>
         <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
-          <CourseCard class="bg-red-50">
+          <CourseCard class="bg-red-50 dark:bg-red-950/40">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">About</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">About</h3>
             </template>
             <template #description>
               <p class="text-sm">
@@ -423,10 +423,10 @@ const schedule = [
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Java 1</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Java 1</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 4:15-5:00pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 4:15-5:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Java 1 is an introductory course that teaches the basics of programming in Java, a
@@ -447,10 +447,10 @@ const schedule = [
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Java 2</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Java 2</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 5:15-6:00pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 5:15-6:00pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Java 2 is a more advanced course that expands on the knowledge gained in Java 1 to dive
@@ -468,14 +468,14 @@ const schedule = [
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="java">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700">AP Computer Science A (Java)</h3>
+        <h3 class="font-serif font-semibold text-4xl text-gray-700 dark:text-night-text">AP Computer Science A (Java)</h3>
         <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
-          <CourseCard class="bg-red-50">
+          <CourseCard class="bg-red-50 dark:bg-red-950/40">
             <template #icon>
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">About</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">About</h3>
             </template>
             <template #description>
               <p class="text-sm">
@@ -488,10 +488,10 @@ const schedule = [
               <Icon name="tabler:coffee" class="text-4xl text-red-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">Java 3</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">Java 3</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 7:00-7:45pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 7:00-7:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Our highest-level Java course; intended for interested students that are ready to take
@@ -507,14 +507,14 @@ const schedule = [
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="cpp">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700">C++</h3>
+        <h3 class="font-serif font-semibold text-4xl text-gray-700 dark:text-night-text">C++</h3>
         <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
-          <CourseCard class="bg-sky-50">
+          <CourseCard class="bg-sky-50 dark:bg-sky-950/40">
             <template #icon>
               <Icon name="tabler:brand-cpp" class="text-4xl text-sky-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">About</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">About</h3>
             </template>
             <template #description>
               <p class="text-sm">
@@ -530,10 +530,10 @@ const schedule = [
               <Icon name="tabler:brand-cpp" class="text-4xl text-sky-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">C++ 1</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">C++ 1</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sat. 11:00-11:45am ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sat. 11:00-11:45am ET</p>
             </template>
             <template #description>
               <p class="text-sm">Covers basic programming concepts in C++, a powerful, performant, and widely used
@@ -551,17 +551,17 @@ const schedule = [
         </div>
       </div>
       <div class="w-11/12 md:w-9/12 lg:w-8/12 max-w-5xl" id="other-courses">
-        <h3 class="font-serif font-semibold text-4xl text-gray-700">Other courses</h3>
+        <h3 class="font-serif font-semibold text-4xl text-gray-700 dark:text-night-text">Other courses</h3>
         <div class="reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-8" v-reveal>
           <CourseCard>
             <template #icon>
               <Icon name="tabler:device-imac" class="text-4xl text-purple-600 mb-2"></Icon>
             </template>
             <template #title>
-              <h3 class="text-xl font-semibold font-serif text-gray-700">AP Computer Science Principles</h3>
+              <h3 class="text-xl font-semibold font-serif text-gray-700 dark:text-night-text">AP Computer Science Principles</h3>
             </template>
             <template #details>
-              <p class="text-sm text-gray-400 font-body font-medium">Sun. 5:00-5:45pm ET</p>
+              <p class="text-sm text-gray-400 dark:text-night-muted font-body font-medium">Sun. 5:00-5:45pm ET</p>
             </template>
             <template #description>
               <p class="text-sm">Ap Computer Science Principles is an new prepatory course for the AP Computer Science Principles class offered by college board. It starts with a basic introduction to block coding using code.org.

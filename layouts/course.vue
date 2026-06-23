@@ -18,11 +18,11 @@
 .course-container h4,
 .course-container h5,
 .course-container h6 {
-  @apply font-serif font-semibold text-gray-700;
+  @apply font-serif font-semibold text-gray-700 dark:text-night-text;
 }
 
 .course-container p {
-  @apply font-body text-gray-600 mb-2;
+  @apply font-body text-gray-600 dark:text-night-muted mb-2;
 }
 
 .course-container hr {
@@ -36,10 +36,10 @@
 .course-container tr,
 .course-container th,
 .course-container td {
-  @apply p-2 font-body border-gray-300 border-y text-gray-600;
+  @apply p-2 font-body border-gray-300 dark:border-night-border border-y text-gray-600 dark:text-night-muted;
 }
 
 .course-container th {
-  @apply bg-gray-50 font-medium font-serif border-gray-300 border-y;
+  @apply bg-gray-50 dark:bg-night-input font-medium font-serif border-gray-300 dark:border-night-border border-y;
 }
 </style>

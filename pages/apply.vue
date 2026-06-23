@@ -3,14 +3,14 @@
 
     <div class="flex flex-col items-center text-left gap-2 pt-4 pb-16 lg:pb-32 mx-2">
       <div class="w-10/12 md:w-9/12 lg:w-8/12 max-w-4xl">
-        <div class="bg border-gray-200  border p-6 py-12 mb-8 rounded-xl text-gray-700">
+        <div class="bg border-gray-200 dark:border-night-border  border p-6 py-12 mb-8 rounded-xl text-gray-700 dark:text-night-text">
           <img src="/images/icons/apply.png" class="w-16 mb-2 drop-shadow-sm">
           <h1 class="text-4xl font-serif font-semibold">Join Kids for Code</h1>
         </div>
         <div class="px-6">
           <div class="grid grid-cols-2 gap-4">
             <div>
-              <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1 mt-4">About us</h3>
+              <h3 class="font-serif text-2xl font-semibold text-gray-700 dark:text-night-text mb-1 mt-4">About us</h3>
               <p>Kids for Code was founded in 2020 by students in Montgomery County, Maryland. Since then, we've
                 expanded
                 to include teachers from across Maryland & the DMV area and developed more than a dozen unique courses
@@ -20,7 +20,7 @@
                 science skills often not taught in schools.
 
               </p>
-              <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-1 mt-4">Application</h3>
+              <h3 class="font-serif text-2xl font-semibold text-gray-700 dark:text-night-text mb-1 mt-4">Application</h3>
               <p class="mb-4 font-medium">Our application for the Summer 2024 session is now open! Please visit the below link to apply.</p>
               <LinkButton
                 to="https://docs.google.com/document/d/e/2PACX-1vQ4365k_sucsE_7wyQXi2LeVmooZELivVnPV08hCPSCXTKI2kCr9w7wXyyqgjk4T6gz6pIyhqF64W1M/pub">
@@ -31,7 +31,7 @@
                 you
                 have any questions, please feel free to reach out to us at kidsforcodeteam@gmail.com.</p>
               <hr class="my-4">
-              <h4 class="font-serif text-lg font-semibold text-gray-700">Application deadline:</h4>
+              <h4 class="font-serif text-lg font-semibold text-gray-700 dark:text-night-text">Application deadline:</h4>
               <ul>
                 <li>
                   <span class="font-semibold">Deadline for teachers:</span> Friday, February 16th
@@ -41,100 +41,100 @@
                   Friday, February
                   7th</li>
               </ul>
-              <h4 class="font-serif text-lg font-semibold text-gray-700">Interview and decision</h4>
+              <h4 class="font-serif text-lg font-semibold text-gray-700 dark:text-night-text">Interview and decision</h4>
               <p>If your application is shortlisted, we will contact you for an interview.
                 Decisions will be announced 2-3 days after the application deadline.</p> -->
             </div>
             <div>
-              <div class="p-6 shadow-sm flex flex-col gap-y-2 border border-gray-200 bg-white rounded-lg">
-                <h3 class="font-serif text-xl font-semibold text-gray-700 mb-1">Important dates</h3>
+              <div class="p-6 shadow-sm flex flex-col gap-y-2 border border-gray-200 dark:border-night-border bg-white dark:bg-night-card rounded-lg">
+                <h3 class="font-serif text-xl font-semibold text-gray-700 dark:text-night-text mb-1">Important dates</h3>
                 <div> <span class="flex items-center  ">
                     <Icon name="tabler:calendar-time" class="text-md text-emerald-700"></Icon>
-                    <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications open</span>
+                    <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Applications open</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">Tue, Jun 18</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Tue, Jun 18</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-check" class="text-md text-emerald-700"></Icon>
-                    <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications close</span>
+                    <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Applications close</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">
                     Fri, Jun 28th</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-code" class="text-md text-emerald-700"></Icon>
-                    <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Training and orientation</span>
+                    <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Training and orientation</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">TBD</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">TBD</p>
                 </div>
-                <hr class="border my-2 border-gray-200">
+                <hr class="border my-2 border-gray-200 dark:border-night-border">
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
-                    <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes start</span>
+                    <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Classes start</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">Sat, Jul 6th</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Sat, Jul 6th</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
-                    <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes end</span>
+                    <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Classes end</span>
                   </span>
-                  <p class="text-gray-700 text-xl font-body">Sun, Aug 11th</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Sun, Aug 11th</p>
                 </div>
               </div>
             </div>
           </div>
           <!-- <div>
-            <div class="p-6 shadow-sm flex flex-col gap-y-2 border border-gray-200 bg-white rounded-lg">
-              <h3 class="font-serif text-xl font-semibold text-gray-700 mb-1">Important dates</h3>
+            <div class="p-6 shadow-sm flex flex-col gap-y-2 border border-gray-200 dark:border-night-border bg-white dark:bg-night-card rounded-lg">
+              <h3 class="font-serif text-xl font-semibold text-gray-700 dark:text-night-text mb-1">Important dates</h3>
               <div> <span class="flex items-center  ">
                   <Icon name="tabler:calendar-time" class="text-md text-emerald-700"></Icon>
-                  <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications open</span>
+                  <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Applications open</span>
                 </span>
-                <p class="text-gray-700 text-xl font-body">January 4th, 2024</p>
+                <p class="text-gray-700 dark:text-night-text text-xl font-body">January 4th, 2024</p>
               </div>
               <div> <span class="flex items-center">
                   <Icon name="tabler:calendar-check" class="text-md text-emerald-700"></Icon>
-                  <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Applications close</span>
+                  <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Applications close</span>
                 </span>
-                <p class="text-gray-700 text-xl font-body">
+                <p class="text-gray-700 dark:text-night-text text-xl font-body">
                   February
                   7th,
                   2024</p>
               </div>
               <div> <span class="flex items-center">
                   <Icon name="tabler:calendar-code" class="text-md text-emerald-700"></Icon>
-                  <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Training and orientation</span>
+                  <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Training and orientation</span>
                 </span>
-                <p class="text-gray-700 text-xl font-body">February 26th - March 1st, 2024</p>
+                <p class="text-gray-700 dark:text-night-text text-xl font-body">February 26th - March 1st, 2024</p>
               </div>
-              <hr class="border my-2 border-gray-200">
+              <hr class="border my-2 border-gray-200 dark:border-night-border">
               <div> <span class="flex items-center">
                   <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
-                  <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes start</span>
+                  <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Classes start</span>
                 </span>
-                <p class="text-gray-700 text-xl font-body">March 2nd, 2024</p>
+                <p class="text-gray-700 dark:text-night-text text-xl font-body">March 2nd, 2024</p>
               </div>
               <div> <span class="flex items-center">
                   <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
-                  <span class="text-gray-700 text-sm font-sans font-semibold ml-1">Classes end</span>
+                  <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Classes end</span>
                 </span>
-                <p class="text-gray-700 text-xl font-body">April 14th, 2024</p>
+                <p class="text-gray-700 dark:text-night-text text-xl font-body">April 14th, 2024</p>
               </div>
             </div>
           </div> -->
 
         </div>
         <!-- <hr class="mt-6 mb-4">
-        <h3 class="font-serif text-2xl font-semibold text-gray-700 mb-4">Open positions</h3>
+        <h3 class="font-serif text-2xl font-semibold text-gray-700 dark:text-night-text mb-4">Open positions</h3>
         <div class="grid grid-cols-2 gap-4">
-          <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
-            <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
-              <Icon name="tabler:school" class="text-3xl text-gray-700"></Icon>
-              <h3 class="text-xl font-serif font-semibold text-gray-700">Teacher</h3>
+          <div class="flex flex-col border border-gray-200 dark:border-night-border rounded-lg p-6 gap-y-2">
+            <div class="flex items-center gap-2 border-gray-200 dark:border-night-border rounded-md text-gray-700 dark:text-night-text p-2 pb-0">
+              <Icon name="tabler:school" class="text-3xl text-gray-700 dark:text-night-text"></Icon>
+              <h3 class="text-xl font-serif font-semibold text-gray-700 dark:text-night-text">Teacher</h3>
             </div>
             <hr class="mt-2 mx-2">
             <div class="p-2">
-              <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+              <h4 class="text-lg text-gray-700 dark:text-night-text font-serif font-semibold">Role</h4>
               <ul class="text-sm list-disc list-inside">
                 <li>Have a comprehensive understanding of the programming language of choice.</li>
                 <li>Be able to communicate with students in a professional, but friendly manner.</li>
@@ -150,14 +150,14 @@
 
           </div>
 
-          <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
-            <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
-              <Icon name="tabler:books" class="text-3xl text-gray-700"></Icon>
-              <h3 class="text-xl font-serif font-semibold text-gray-700">Curriculum developer</h3>
+          <div class="flex flex-col border border-gray-200 dark:border-night-border rounded-lg p-6 gap-y-2">
+            <div class="flex items-center gap-2 border-gray-200 dark:border-night-border rounded-md text-gray-700 dark:text-night-text p-2 pb-0">
+              <Icon name="tabler:books" class="text-3xl text-gray-700 dark:text-night-text"></Icon>
+              <h3 class="text-xl font-serif font-semibold text-gray-700 dark:text-night-text">Curriculum developer</h3>
             </div>
             <hr class="mt-2 mx-2">
             <div class="p-2">
-              <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+              <h4 class="text-lg text-gray-700 dark:text-night-text font-serif font-semibold">Role</h4>
               <ul class="text-sm list-disc list-inside">
                 <li>Develop slides &amp; homework assignments for new courses.</li>
                 <li>Our classes are targeted at roughly 8-13-year-olds, so ensuring that concepts are explained in a
@@ -180,14 +180,14 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
-            <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
-              <Icon name="tabler:school" class="text-3xl text-gray-700"></Icon>
-              <h3 class="text-xl font-serif font-semibold text-gray-700">Team Lead</h3>
+          <div class="flex flex-col border border-gray-200 dark:border-night-border rounded-lg p-6 gap-y-2">
+            <div class="flex items-center gap-2 border-gray-200 dark:border-night-border rounded-md text-gray-700 dark:text-night-text p-2 pb-0">
+              <Icon name="tabler:school" class="text-3xl text-gray-700 dark:text-night-text"></Icon>
+              <h3 class="text-xl font-serif font-semibold text-gray-700 dark:text-night-text">Team Lead</h3>
             </div>
             <hr class="mt-2 mx-2">
             <div class="p-2">
-              <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+              <h4 class="text-lg text-gray-700 dark:text-night-text font-serif font-semibold">Role</h4>
               <ul class="text-sm list-disc list-inside">
                 <li>Manages all the teachers in specific subjects. Oversees attendance of teachers within their course.
                 </li>
@@ -218,14 +218,14 @@
 
 
           </div>
-          <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
-            <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
-              <Icon name="tabler:code-circle-2" class="text-3xl text-gray-700"></Icon>
-              <h3 class="text-xl font-serif font-semibold text-gray-700">Web developer</h3>
+          <div class="flex flex-col border border-gray-200 dark:border-night-border rounded-lg p-6 gap-y-2">
+            <div class="flex items-center gap-2 border-gray-200 dark:border-night-border rounded-md text-gray-700 dark:text-night-text p-2 pb-0">
+              <Icon name="tabler:code-circle-2" class="text-3xl text-gray-700 dark:text-night-text"></Icon>
+              <h3 class="text-xl font-serif font-semibold text-gray-700 dark:text-night-text">Web developer</h3>
             </div>
             <hr class="mt-2 mx-2">
             <div class="p-2">
-              <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+              <h4 class="text-lg text-gray-700 dark:text-night-text font-serif font-semibold">Role</h4>
               <ul class="text-sm list-disc list-inside">
                 <li>Helps develop our website, including designing new pages &amp; updating existing ones.</li>
                 <li>Experience in the following areas is prioritized:</li>
@@ -242,14 +242,14 @@
             </div>
 
           </div>
-          <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
-            <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
-              <Icon name="tabler:affiliate" class="text-3xl text-gray-700"></Icon>
-              <h3 class="text-xl font-serif font-semibold text-gray-700">Outreach Director</h3>
+          <div class="flex flex-col border border-gray-200 dark:border-night-border rounded-lg p-6 gap-y-2">
+            <div class="flex items-center gap-2 border-gray-200 dark:border-night-border rounded-md text-gray-700 dark:text-night-text p-2 pb-0">
+              <Icon name="tabler:affiliate" class="text-3xl text-gray-700 dark:text-night-text"></Icon>
+              <h3 class="text-xl font-serif font-semibold text-gray-700 dark:text-night-text">Outreach Director</h3>
             </div>
             <hr class="mt-2 mx-2">
             <div class="p-2">
-              <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+              <h4 class="text-lg text-gray-700 dark:text-night-text font-serif font-semibold">Role</h4>
               <ul class="text-sm list-disc list-inside">
                 <li>Expanding our reach and impact within the community.</li>
                 <li>This role involves developing and implementing strategies to engage with schools, parents, and
@@ -271,14 +271,14 @@
 
           </div>
 
-          <div class="flex flex-col border border-gray-200 rounded-lg p-6 gap-y-2">
-            <div class="flex items-center gap-2 border-gray-200 rounded-md text-gray-700 p-2 pb-0">
-              <Icon name="tabler:pig-money" class="text-3xl text-gray-700"></Icon>
-              <h3 class="text-xl font-serif font-semibold text-gray-700">Finance Director</h3>
+          <div class="flex flex-col border border-gray-200 dark:border-night-border rounded-lg p-6 gap-y-2">
+            <div class="flex items-center gap-2 border-gray-200 dark:border-night-border rounded-md text-gray-700 dark:text-night-text p-2 pb-0">
+              <Icon name="tabler:pig-money" class="text-3xl text-gray-700 dark:text-night-text"></Icon>
+              <h3 class="text-xl font-serif font-semibold text-gray-700 dark:text-night-text">Finance Director</h3>
             </div>
             <hr class="mt-2 mx-2">
             <div class="p-2">
-              <h4 class="text-lg text-gray-700 font-serif font-semibold">Role</h4>
+              <h4 class="text-lg text-gray-700 dark:text-night-text font-serif font-semibold">Role</h4>
               <ul class="text-sm list-disc list-inside">
                 <li>Oversee the finances of the organization.</li>
                 <li>Responsibilities include budgeting, financial planning, and ensuring the efficient use of

@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ["./pages/**/*.vue", "./content/**/*.md"],
+	darkMode: "class",
+	content: [
+		"./pages/**/*.vue",
+		"./components/**/*.vue",
+		"./layouts/**/*.vue",
+		"./content/**/*.md",
+		"./app.vue",
+	],
 	theme: {
 		fontFamily: {
 			sans: ["Clash Grotesk"],
@@ -9,6 +16,20 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Dark-mode palette (warm plum-charcoal so the pink brand still pops).
+				// Used only via dark: variants — light mode is unaffected.
+				night: {
+					bg: "#18141c",
+					card: "#221d28",
+					input: "#2a2431",
+					border: "#383040",
+					text: "#ece9f1",
+					muted: "#a39daf",
+					mint: "#122019",
+					pink: "#221620",
+					sky: "#121d27",
+					cream: "#211e12",
+				},
 				brand: {
 					50: "hsl(327, 60%, 97%)",
 					100: "hsl(325, 63%, 95%)",

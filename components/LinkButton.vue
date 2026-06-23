@@ -47,11 +47,11 @@ const colorVariants = {
     emerald: ["border-emerald-500", "hover:bg-emerald-100", "text-emerald-500"],
     amber: ["border-amber-500", "hover:bg-amber-100", "text-amber-500"],
     brand: ["border-brand-600", " hover:bg-brand-100", "text-brand-600"],
-    gray: ["border-gray-300", "hover:bg-gray-100", "text-gray-500"],
+    gray: ["border-gray-300 dark:border-night-border", "hover:bg-gray-100", "text-gray-500 dark:text-night-muted"],
     accent: ["border-accent-400", "hover:bg-accent-100", "text-accent-400"]
   },
   disabled: [
-    "bg-gray-100 border-gray-200 text-gray-400"
+    "bg-gray-100 dark:bg-night-input border-gray-200 dark:border-night-border text-gray-400 dark:text-night-muted"
   ]
 }
 
