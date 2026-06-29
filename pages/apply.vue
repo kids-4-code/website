@@ -21,9 +21,9 @@
 
               </p>
               <h3 class="font-serif text-2xl font-semibold text-gray-700 dark:text-night-text mb-1 mt-4">Application</h3>
-              <p class="mb-4 font-medium">Our application for the Summer 2024 session is now open! Please visit the below link to apply.</p>
-              <LinkButton
-                to="https://docs.google.com/document/d/e/2PACX-1vQ4365k_sucsE_7wyQXi2LeVmooZELivVnPV08hCPSCXTKI2kCr9w7wXyyqgjk4T6gz6pIyhqF64W1M/pub">
+              <p class="mb-4 font-medium">Our application for the Summer 2026 session is now open! Please visit the below link to apply.</p>
+              <LinkButton newTab
+                to="https://docs.google.com/forms/d/e/1FAIpQLScSO0Two5cxvlrHFPKlEU7qk0FPKQ30GVknzkKtKytI4Q1-3w/viewform">
                 Application info
               </LinkButton>
               <!-- <p class="mb-2">We appreciate your interest in Kids for Code and look forward to welcoming you to our team!
@@ -52,14 +52,14 @@
                     <Icon name="tabler:calendar-time" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Applications open</span>
                   </span>
-                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Tue, Jun 18</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Open now</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-check" class="text-md text-emerald-700"></Icon>
                     <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Applications close</span>
                   </span>
                   <p class="text-gray-700 dark:text-night-text text-xl font-body">
-                    Fri, Jun 28th</p>
+                    Fri, Jul 10th</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:calendar-code" class="text-md text-emerald-700"></Icon>
@@ -72,13 +72,13 @@
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
                     <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Classes start</span>
                   </span>
-                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Sat, Jul 6th</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Sat, Jul 11th</p>
                 </div>
                 <div> <span class="flex items-center">
                     <Icon name="tabler:cash" class="text-md text-brand-700"></Icon>
                     <span class="text-gray-700 dark:text-night-text text-sm font-sans font-semibold ml-1">Classes end</span>
                   </span>
-                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Sun, Aug 11th</p>
+                  <p class="text-gray-700 dark:text-night-text text-xl font-body">Sun, Aug 16th</p>
                 </div>
               </div>
             </div>
